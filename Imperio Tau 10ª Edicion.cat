@@ -1031,16 +1031,11 @@
     </selectionEntry>
     <selectionEntry id="bf40-a584-3980-cc8f" name="🧿 Modulo lanzamisiles" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2d0c-d435-23a0-aabb" name="Modulo lanzamisiles" hidden="false" targetId="d39b-4863-9a83-d6f5" type="profile">
+        <infoLink id="2d0c-d435-23a0-aabb" name="🧿 Modulo lanzamisiles" hidden="false" targetId="d39b-4863-9a83-d6f5" type="profile">
           <modifiers>
             <modifier type="set" field="f87c-17c1-487f-10c9" value="3+">
               <conditions>
                 <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="998a-7486-8677-3c69" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="235b-08ef-340c-91f6" value="Acoplada">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e7f-f904-5b2b-00f7" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1437,26 +1432,26 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="9e65-560d-681a-0866" name="Arma Secundaria" hidden="false" collective="false" import="true" defaultSelectionEntryId="fdcc-b2c8-a5f0-1e1b">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4ec-6fbd-f5ab-c255" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57db-904c-5d6c-2bd5" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4ec-6fbd-f5ab-c255" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57db-904c-5d6c-2bd5" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="cdd2-08a6-f29b-79e3" name="🧿 2x Sistemas de misiles inteligentes " hidden="false" collective="false" import="true" targetId="4a2b-4480-e6c9-4dc9" type="selectionEntry">
+            <entryLink id="cdd2-08a6-f29b-79e3" name="🧿 Sistemas de Misiles Inteligentes" hidden="false" collective="false" import="true" targetId="21e8-212a-fdce-62bb" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8860-0e7b-5613-3b14" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77c7-20c6-f06b-a67b" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77c7-20c6-f06b-a67b" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="fdcc-b2c8-a5f0-1e1b" name="🧿 2x Cañón rotativo acelerado" hidden="false" collective="false" import="true" targetId="9142-cdc6-8ef2-fefc" type="selectionEntry">
+            <entryLink id="fdcc-b2c8-a5f0-1e1b" name="🧿 Cañón rotativo acelerado" hidden="false" collective="false" import="true" targetId="5248-d7f6-f82c-e718" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5e7-2e25-0b5a-a916" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d96-a6c3-0352-5894" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d96-a6c3-0352-5894" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="b0df-cd68-7e6e-e23f" name="🧿 2x Carabina de induccion" hidden="false" collective="false" import="true" targetId="fd6b-7b67-30e4-68fd" type="selectionEntry">
+            <entryLink id="b0df-cd68-7e6e-e23f" name="🧿 Carabina de induccion acoplada" hidden="false" collective="false" import="true" targetId="fd6b-7b67-30e4-68fd" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4150-f475-de19-30bc" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b23f-8339-4897-8eb3" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b23f-8339-4897-8eb3" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1977,7 +1972,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8de6-f4d1-d00a-a2f6" name="💂‍♂️ Equipo Breachers" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8de6-f4d1-d00a-a2f6" name="💂‍♂️ Equipo Breacher" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="ee1f-14b7-c771-1630" name="Habilidades Breachers" hidden="false" targetId="a070-2114-2fbd-4198" type="infoGroup"/>
       </infoLinks>
@@ -2221,28 +2216,28 @@
         <infoLink id="4f50-8f35-652a-d857" name="Habilidades Mont&apos;ka Shas" hidden="false" targetId="e090-076c-9d7f-74ab" type="infoGroup"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d14b-ecde-16cf-0e74" name="Arma Secundaria" hidden="false" collective="false" import="true" defaultSelectionEntryId="157d-4a92-0b95-7ab1">
+        <selectionEntryGroup id="0e82-3d57-d918-545b" name="Arma Secundaria" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87c1-3d37-f0d9-5941" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0513-9580-8204-5b19" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad06-585b-cf78-4f68" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8625-ca2a-3368-e083" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="a5f2-095f-b6a4-0249" name="🧿 2x Sistemas de misiles inteligentes " hidden="false" collective="false" import="true" targetId="4a2b-4480-e6c9-4dc9" type="selectionEntry">
+            <entryLink id="e1bd-6ed8-5385-5165" name="🧿 Sistemas de Misiles Inteligentes" hidden="false" collective="false" import="true" targetId="21e8-212a-fdce-62bb" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8775-8291-2543-38a8" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0188-1efc-d503-aab6" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b452-d117-bbfd-a0a4" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a068-5806-fb46-f8c3" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="157d-4a92-0b95-7ab1" name="🧿 2x Cañón rotativo acelerado" hidden="false" collective="false" import="true" targetId="9142-cdc6-8ef2-fefc" type="selectionEntry">
+            <entryLink id="3c4a-bba2-b011-5b46" name="🧿 Cañón rotativo acelerado" hidden="false" collective="false" import="true" targetId="5248-d7f6-f82c-e718" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0f7-6aa0-f0ca-f929" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82e5-44fb-be1d-e757" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f18-7868-4330-899c" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56c4-984c-5fff-7874" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="316e-7a3e-fafe-5dab" name="🧿 2x Carabina de induccion" hidden="false" collective="false" import="true" targetId="fd6b-7b67-30e4-68fd" type="selectionEntry">
+            <entryLink id="808a-258a-3933-3511" name="🧿 Carabina de induccion acoplada" hidden="false" collective="false" import="true" targetId="fd6b-7b67-30e4-68fd" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e89-6506-e38f-c901" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b9-8877-5d7d-7a2e" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1016-c312-b227-b9eb" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53d6-430a-54a0-4684" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -2285,13 +2280,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4411-e7ef-c163-4ffd" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="40ca-3399-1493-47e0" name="🧿 2x Sistemas de misiles inteligentes " hidden="false" collective="false" import="true" targetId="4a2b-4480-e6c9-4dc9" type="selectionEntry">
+            <entryLink id="40ca-3399-1493-47e0" name="🧿 Sistemas de Misiles Inteligentes" hidden="false" collective="false" import="true" targetId="21e8-212a-fdce-62bb" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6c4-287c-28ea-4172" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c392-9401-00eb-5c69" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="3244-9d4a-a606-5348" name="🧿 2x Carabina de induccion" hidden="false" collective="false" import="true" targetId="fd6b-7b67-30e4-68fd" type="selectionEntry">
+            <entryLink id="3244-9d4a-a606-5348" name="🧿 Carabina de induccion acoplada" hidden="false" collective="false" import="true" targetId="fd6b-7b67-30e4-68fd" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="310b-3443-2e81-d825" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d072-522f-233d-01ee" type="max"/>
@@ -2324,9 +2319,9 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="85.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fd6b-7b67-30e4-68fd" name="🧿 2x Carabina de induccion" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="fd6b-7b67-30e4-68fd" name="🧿 Carabina de induccion acoplada" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="804a-2568-eabe-e3b5" name="Carabina de induccion acoplada" hidden="false" targetId="727b-e3bb-7142-5e2c" type="profile">
+        <infoLink id="804a-2568-eabe-e3b5" name="🧿 Carabina de induccion acoplada" hidden="false" targetId="727b-e3bb-7142-5e2c" type="profile">
           <modifiers>
             <modifier type="set" field="f87c-17c1-487f-10c9" value="5+"/>
           </modifiers>
@@ -2362,21 +2357,31 @@
     </selectionEntry>
     <selectionEntry id="3196-301c-324f-25e4" name="🧿 Rifle ionico" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="508a-8139-ca4b-f7b9" name="Rifle ionico sobrecargado" hidden="false" targetId="ae25-fb0e-fa6b-bb3e" type="profile">
+        <infoLink id="508a-8139-ca4b-f7b9" name="🧿 Rifle ionico sobrecargado" hidden="false" targetId="ae25-fb0e-fa6b-bb3e" type="profile">
           <modifiers>
             <modifier type="set" field="f87c-17c1-487f-10c9" value="4+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e7f-f904-5b2b-00f7" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="187b-1f8d-fe9f-d6c4" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69aa-9c88-7e36-800c" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink id="6239-ee08-6768-c2ad" name="Rifle ionico" hidden="false" targetId="2764-e579-fb3e-a8ac" type="profile">
+        <infoLink id="6239-ee08-6768-c2ad" name="🧿 Rifle ionico" hidden="false" targetId="2764-e579-fb3e-a8ac" type="profile">
           <modifiers>
             <modifier type="set" field="f87c-17c1-487f-10c9" value="4+">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e7f-f904-5b2b-00f7" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="187b-1f8d-fe9f-d6c4" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69aa-9c88-7e36-800c" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </infoLink>
@@ -2748,7 +2753,7 @@
     </selectionEntry>
     <selectionEntry id="a8cb-a215-8f5e-da05" name="🧿 Misiles buscadores" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="4e90-4bad-aa4a-0f1e" name="Misil buscador" hidden="false" targetId="e0ca-ce67-b12e-7e38" type="profile"/>
+        <infoLink id="4e90-4bad-aa4a-0f1e" name="🧿 Misil buscador" hidden="false" targetId="e0ca-ce67-b12e-7e38" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f0f7-3d31-e769-2017" name="Un solo uso" hidden="false" targetId="8a8e-fdb4-bcfc-20be" primary="false"/>
@@ -3419,6 +3424,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="730a-c12d-f5dc-0ce9" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="d6e2-f843-147c-9a30" name="⚔️ Casco blindado" hidden="false" collective="false" import="true" targetId="05eb-6ec9-5bf6-b366" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1ba-b84f-8cbd-a486" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5203-afd1-d22b-7258" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="170.0"/>
@@ -3459,30 +3470,22 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ee8-358f-244a-6e2c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="56af-9e3d-3bba-479d" name="🧿 Modulo lanzamisiles" hidden="false" collective="false" import="true" targetId="bf40-a584-3980-cc8f" type="selectionEntry">
+        <entryLink id="56af-9e3d-3bba-479d" name="🧿 Modulo lanzamisiles acoplado" hidden="false" collective="false" import="true" targetId="d797-f705-eeff-780c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43e1-ea2b-92e8-2981" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b006-9d45-9e65-d120" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43e1-ea2b-92e8-2981" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b006-9d45-9e65-d120" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="22b2-5900-0a76-a7be" name="Habilidades" hidden="false" collective="true" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92c2-c54d-5aff-69b3" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e53-8624-f8f5-a2d1" type="max"/>
-              </constraints>
-              <categoryLinks>
-                <categoryLink id="ba70-5e12-77f1-5b43" name="Acacoplada" hidden="false" targetId="8817-a6a5-3854-ce14" primary="false"/>
-              </categoryLinks>
-              <costs>
-                <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
         </entryLink>
-        <entryLink id="6252-7443-3d14-e40f" name="🧿 2x Rifle ionico" hidden="false" collective="false" import="true" targetId="86f0-245b-7808-da82" type="selectionEntry">
+        <entryLink id="6252-7443-3d14-e40f" name="🧿 Rifle ionico acoplado" hidden="false" collective="false" import="true" targetId="86f0-245b-7808-da82" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcd2-ad35-f2d5-af8e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f642-1f14-0948-7522" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcd2-ad35-f2d5-af8e" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f642-1f14-0948-7522" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a29b-2a2f-8800-fd5f" name="⚔️ Casco blindado" hidden="false" collective="false" import="true" targetId="05eb-6ec9-5bf6-b366" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f451-8850-eea4-4108" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9205-ace9-d4e9-f60c" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -4212,7 +4215,7 @@
     </selectionEntry>
     <selectionEntry id="05eb-6ec9-5bf6-b366" name="⚔️ Casco blindado" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="b254-e64a-bc0d-749f" name="Casco blindado" hidden="false" targetId="a433-06c7-d665-26bf" type="profile"/>
+        <infoLink id="b254-e64a-bc0d-749f" name="⚔️ Casco blindado" hidden="false" targetId="a433-06c7-d665-26bf" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0.0"/>
@@ -4234,22 +4237,16 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="86f0-245b-7808-da82" name="🧿 2x Rifle ionico" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="86f0-245b-7808-da82" name="🧿 Rifle ionico acoplado" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="dc47-904e-1d50-bc33" name="Rifle ionico sobrecargado" hidden="false" targetId="ae25-fb0e-fa6b-bb3e" type="profile">
+        <infoLink id="dc47-904e-1d50-bc33" name="🧿 Rifle ionico sobrecargado" hidden="false" targetId="ae25-fb0e-fa6b-bb3e" type="profile">
           <modifiers>
             <modifier type="set" field="f87c-17c1-487f-10c9" value="4+">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e7f-f904-5b2b-00f7" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="187b-1f8d-fe9f-d6c4" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69aa-9c88-7e36-800c" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e7f-f904-5b2b-00f7" type="instanceOf"/>
+              </conditions>
             </modifier>
-            <modifier type="set" field="235b-08ef-340c-91f6" value="Acoplada, De reisgo.">
+            <modifier type="set" field="235b-08ef-340c-91f6" value="Acoplado, De reisgo.">
               <conditions>
                 <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e7f-f904-5b2b-00f7" type="instanceOf"/>
               </conditions>
@@ -4264,15 +4261,9 @@
               </conditions>
             </modifier>
             <modifier type="set" field="f87c-17c1-487f-10c9" value="4+">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e7f-f904-5b2b-00f7" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="187b-1f8d-fe9f-d6c4" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="69aa-9c88-7e36-800c" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e7f-f904-5b2b-00f7" type="instanceOf"/>
+              </conditions>
             </modifier>
           </modifiers>
         </infoLink>
@@ -5408,20 +5399,20 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="546e-4755-49f7-ce9f" name="Arma secundaria" hidden="false" collective="false" import="true" defaultSelectionEntryId="2fa2-5be7-af00-ebe7">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="413c-08ae-779c-2cb2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f2-a303-71be-1055" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="413c-08ae-779c-2cb2" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f2-a303-71be-1055" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="2fa2-5be7-af00-ebe7" name="🧿 2x Cañón rotativo" hidden="false" collective="false" import="true" targetId="9df4-1b49-6926-a361" type="selectionEntry">
+            <entryLink id="2fa2-5be7-af00-ebe7" name="🧿 Cañón rotativo" hidden="false" collective="false" import="true" targetId="835e-ed16-81e4-9e8a" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77ec-a65d-9609-4061" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0e9-4ddd-29f9-25b4" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0e9-4ddd-29f9-25b4" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="d612-e78c-f99a-32ad" name="🧿 2x Rifle ionico" hidden="false" collective="false" import="true" targetId="86f0-245b-7808-da82" type="selectionEntry">
+            <entryLink id="d612-e78c-f99a-32ad" name="🧿 Rifle ionico" hidden="false" collective="false" import="true" targetId="3196-301c-324f-25e4" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c78-289a-e598-6af8" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="841f-689a-2d87-2209" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="841f-689a-2d87-2209" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -5446,6 +5437,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bbb-bf11-65d3-d355" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="0435-8242-5993-580c" name="⚔️ Casco blindado" hidden="false" collective="false" import="true" targetId="05eb-6ec9-5bf6-b366" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c9c-72a2-29b5-3f4f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1bb-1000-5701-78d8" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="315.0"/>
@@ -5458,55 +5455,46 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="9330-868a-e1c0-8bf7" name="Arma principal" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b1d-4660-6376-8838" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c6e-9fcf-f721-53d5" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b1d-4660-6376-8838" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c6e-9fcf-f721-53d5" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="8e7a-69fe-f673-0c98" name="🧿 Cañón iónico" hidden="false" collective="false" import="true" targetId="3033-616d-d51b-b4e5" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="name" value="🧿 2x Cañón iónico"/>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2057-6a6d-84d4-8cca" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f099-842a-a997-7f94" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f099-842a-a997-7f94" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="71e7-458b-b5b9-4f45" name="🧿 Acelerador lineal rapido" hidden="false" collective="false" import="true" targetId="77a5-cbf7-6eec-5373" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="name" value="🧿 2x Acelerador lineal rapido"/>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6ba-0288-8dfc-b8bb" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="765b-0083-9ad1-7a12" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="765b-0083-9ad1-7a12" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="5f7d-5363-f2d0-a67c" name="🧿 Cañón rotativo rapido" hidden="false" collective="false" import="true" targetId="941c-e348-6f31-8360" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="name" value="🧿 2x Cañón rotativo rapido"/>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb73-20ff-ff63-fcbc" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66fb-57e6-0d63-bcb0" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66fb-57e6-0d63-bcb0" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="c42a-1f0b-6980-e193" name="Arma secundaria" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="937e-8dc1-4a5d-0dac" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9d4-9c6d-9c76-8014" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="937e-8dc1-4a5d-0dac" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9d4-9c6d-9c76-8014" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="a4e3-cf20-06db-f964" name="🧿 2x Cañón rotativo" hidden="false" collective="false" import="true" targetId="9df4-1b49-6926-a361" type="selectionEntry">
+            <entryLink id="a4e3-cf20-06db-f964" name="🧿 Cañón rotativo" hidden="false" collective="false" import="true" targetId="835e-ed16-81e4-9e8a" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49b4-499a-3741-cfc7" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ee4-c900-b896-a130" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ee4-c900-b896-a130" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="5977-4029-951b-0acd" name="🧿 2x Rifle ionico" hidden="false" collective="false" import="true" targetId="86f0-245b-7808-da82" type="selectionEntry">
+            <entryLink id="5977-4029-951b-0acd" name="🧿 Rifle ionico" hidden="false" collective="false" import="true" targetId="3196-301c-324f-25e4" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="accb-714c-9c5c-ba32" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e736-179a-eaa1-aec4" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e736-179a-eaa1-aec4" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -5543,6 +5531,12 @@
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="413f-7379-9a39-1a76" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4da5-5639-8836-af81" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8b30-8891-9ddc-8852" name="⚔️ Casco blindado" hidden="false" collective="false" import="true" targetId="05eb-6ec9-5bf6-b366" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea7b-d65d-63e5-21fc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ec7-3147-894b-ba26" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -6180,7 +6174,7 @@
     </selectionEntry>
     <selectionEntry id="3543-e4b9-5f96-e693" name="🧿 Modulo lanzamisiles" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="fe24-123e-9870-74ca" name="Modulo lanzamisiles" hidden="false" targetId="d39b-4863-9a83-d6f5" type="profile">
+        <infoLink id="fe24-123e-9870-74ca" name="🧿 Modulo lanzamisiles" hidden="false" targetId="d39b-4863-9a83-d6f5" type="profile">
           <modifiers>
             <modifier type="set" field="f87c-17c1-487f-10c9" value="4+">
               <conditionGroups>
@@ -6200,7 +6194,7 @@
                 <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="998a-7486-8677-3c69" type="instanceOf"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="235b-08ef-340c-91f6" value="Acoplada">
+            <modifier type="set" field="235b-08ef-340c-91f6" value="Acoplado">
               <conditions>
                 <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e7f-f904-5b2b-00f7" type="instanceOf"/>
               </conditions>
@@ -6886,8 +6880,32 @@
     </selectionEntry>
     <selectionEntry id="7443-5d76-4563-4cb0" name="⚙️ Bahía de transporte" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="7a2e-1a86-2c1e-36a1" name="⚙️ Bahía de transporte" hidden="false" targetId="1926-d327-fb2f-a4c0" type="profile"/>
+        <infoLink id="7a2e-1a86-2c1e-36a1" name="Bahía de transporte" hidden="false" targetId="1926-d327-fb2f-a4c0" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d797-f705-eeff-780c" name="🧿 Modulo lanzamisiles acoplado" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="735a-4f84-3faa-fd62" name="🧿 Modulo lanzamisiles" hidden="false" targetId="d39b-4863-9a83-d6f5" type="profile">
+          <modifiers>
+            <modifier type="set" field="f87c-17c1-487f-10c9" value="3+">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="998a-7486-8677-3c69" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="235b-08ef-340c-91f6" value="Acoplado">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e7f-f904-5b2b-00f7" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4b74-79ff-c849-cbba" name="Acoplado" hidden="false" targetId="8817-a6a5-3854-ce14" primary="false"/>
+      </categoryLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0.0"/>
       </costs>
@@ -8401,7 +8419,7 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="F" typeId="cdca-f714-9112-1791">7</characteristic>
         <characteristic name="FP" typeId="1ec5-9580-9457-aa9e">-1</characteristic>
         <characteristic name="Daño" typeId="7be3-eefa-4fb2-6767">1</characteristic>
-        <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Pesada.</characteristic>
+        <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6"></characteristic>
       </characteristics>
     </profile>
     <profile id="ae25-fb0e-fa6b-bb3e" name="🧿 Rifle ionico sobrecargado" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
@@ -8419,7 +8437,7 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="F" typeId="cdca-f714-9112-1791">8</characteristic>
         <characteristic name="FP" typeId="1ec5-9580-9457-aa9e">-2</characteristic>
         <characteristic name="Daño" typeId="7be3-eefa-4fb2-6767">2</characteristic>
-        <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">De riesgo, Pesada.</characteristic>
+        <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">De riesgo.</characteristic>
       </characteristics>
     </profile>
     <profile id="e6b1-5580-8513-cfa9" name="🧿 Rifle Kroot" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
@@ -8515,7 +8533,7 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425"/>
       </characteristics>
     </profile>
-    <profile id="697e-efb7-fbe4-efe3" name="Objetivo localiczado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="697e-efb7-fbe4-efe3" name="⚙️ Objetivo localiczado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que un modelo de esta unidad realiza un ataque que tiene como objetivo a su unidad Marcada, mejora la característica Habilidad Balística de ese ataque en 1 y ese ataque tiene la [IGNORA LA COBERTURA].</characteristic>
       </characteristics>
@@ -8628,27 +8646,27 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Acoplada, de riesgo.</characteristic>
       </characteristics>
     </profile>
-    <profile id="de49-44a3-1ea7-8a3d" name="Estabilizadores opticos" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="de49-44a3-1ea7-8a3d" name="⚙️ Estabilizadores opticos" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8"/>
       </characteristics>
     </profile>
-    <profile id="3fff-e6f0-6249-9e0e" name="Faro posicional" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="3fff-e6f0-6249-9e0e" name="⚙️ Faro posicional" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8"/>
       </characteristics>
     </profile>
-    <profile id="2771-1094-849d-712b" name="Generador de escudo" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="2771-1094-849d-712b" name="⚙️ Generador de escudo" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">El portador tiene salvación invulnerable 4+.</characteristic>
       </characteristics>
     </profile>
-    <profile id="cf8f-32ed-8290-7b89" name="Red Tememétrica" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="cf8f-32ed-8290-7b89" name="⚙️ Red Tememétrica" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniaturas IMPERIO T’AU con marcador telemétrico. Esta unidad puede marcar a una unidad enemiga aunque no la vea, pero siempre y cuando sea visible para otra unidad amiga.</characteristic>
       </characteristics>
     </profile>
-    <profile id="de1d-dd5b-3608-0331" name="Irrumpir y limpiar" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="de1d-dd5b-3608-0331" name="⚙️ Irrumpir y limpiar" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que una miniatura en esta unidad realice un ataque a distancia que tome como blancoa una unidad enemiga dentro del alcance de un marcador de objetivo, puedes repetir la tirada para herir.</characteristic>
       </characteristics>
@@ -8666,7 +8684,7 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e"/>
       </characteristics>
     </profile>
-    <profile id="f40b-08b1-329d-9d1e" name="Fuego de supresion" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="f40b-08b1-329d-9d1e" name="⚙️ Fuego de supresion" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">En tu Fase de disparo, despues de que esta miniatura haya disparado, selecciona una unidad INFANERIA impactada por uno o mas de estos ataques. Hasta el principio de tu proximo turno esta unidad enemiga tendra un -1 a impactar para todos sus ataques.</characteristic>
       </characteristics>
@@ -8684,37 +8702,37 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e"/>
       </characteristics>
     </profile>
-    <profile id="1a1e-f1f7-2d99-bbb6" name="Precision de cazador paciente" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="1a1e-f1f7-2d99-bbb6" name="⚙️ Precision de cazador paciente" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniaturas Imperio T’au. Cada vez que el portador realice un ataque a distancia, suma 1 a la tirada para impactar. Desde la tercera ronda de batalla en adelante, suma 1 también a la tirada para herir.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e9df-6413-13c0-6d7b" name="Drone Guardian MV36" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="e9df-6413-13c0-6d7b" name="⚙️ Drone Guardian MV36" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que una miniatura realice un ataque a distancia que tome como blanco a la unidad del portador, resta 1 a la tirada para herir.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b935-18a3-47c2-24c6" name="Ejemplo del Kauyon" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="b935-18a3-47c2-24c6" name="⚙️ Ejemplo del Kauyon" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniaturas Imperio T’au (salvo miniaturas Metamorfo Kroot). Mientras el portador lidere una unidad, la regla de destacamento Cazador Paciente de esta unidad se aplica desde la segunda ronda de batalla en lugar de desde la tercera. </characteristic>
       </characteristics>
     </profile>
-    <profile id="b57e-59c0-44f4-4f22" name="Destruccion mediante el valor" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="b57e-59c0-44f4-4f22" name="⚙️ Destruccion mediante el valor" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniaturas Imperio T’au (salvo miniaturas Metamorfo Kroot). Mientras esta miniatura lidere una unidad, cada vez que esa unidad sea una unidad Observadora, hasta el final de la fase, las armas a distancia con las que estén equipadas las miniaturas de su unidad Guiada tienen la habilidad [IMPACTOS LETALES].</characteristic>
       </characteristics>
     </profile>
-    <profile id="62da-d229-407e-0f8a" name="Chip neuronal mareapura" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="62da-d229-407e-0f8a" name="⚙️ Chip neuronal mareapura" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniaturas Imperio T’au (salvo miniaturas Metamorfo Kroot). Una vez por turno, puedes usar una estratagema en la unidad del portador aunque ya hayas usado esa estratagema en una unidad diferente en esta fase.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4cdc-79b6-0d29-f546" name="Fuego Graneado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="4cdc-79b6-0d29-f546" name="⚙️ Fuego Graneado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Si esta miniatura lidera una unidad, suma 1 al atributo Ataques de las armas a distancia con las que estén equipadas las miniaturas en esa unidad.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7aca-b655-65ce-2b29" name="Tirador excepcional" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="7aca-b655-65ce-2b29" name="⚙️ Tirador excepcional" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que esta miniatura realice un ataque a distancia, con una Herida crítica, ese ataque tiene un atributo Penetración de Armadura de -3. </characteristic>
       </characteristics>
@@ -8732,28 +8750,28 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Líder, Avanzadilla 7&quot;, Infiltración, Sigilo.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7f42-7ebf-f53d-7214" name="Raiz de honor" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="7f42-7ebf-f53d-7214" name="⚙️ Raiz de honor" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Un vez por batalla, al inicio de cualquier fase, puedes elegir una unidad KROOT a,iga que este acobardada y a 12 UM o menos de esta miniatura. Esa unidad ya no esta acobardada.</characteristic>
       </characteristics>
     </profile>
-    <profile id="89c0-1f53-e6b4-5cf8" name="Lider de Guerra" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="89c0-1f53-e6b4-5cf8" name="⚙️ Lider de Guerra" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Una vez por ronda de batalla, una unidad de tu ejercito con esta habilidad puede ser blanco de una estratagema por O PM, incluso aunque otra unidad de tu ejercito ya haya sido blando de esa estratagema en esta fase.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1ca0-e424-8de3-9068" name="Lider Kroot" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="1ca0-e424-8de3-9068" name="⚙️ Lider Kroot" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">■ Carnívoros Kroot ■ Acechantes Kroot</characteristic>
       </characteristics>
     </profile>
-    <profile id="a241-14c7-67c1-2f41" name="Lider Filoardiente" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="a241-14c7-67c1-2f41" name="⚙️ Lider Filoardiente" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">
 ■ Equipo de Irruptores ■ Equipo de Ataque</characteristic>
       </characteristics>
     </profile>
-    <profile id="17cf-df10-b908-1b08" name="Lider Etereo" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="17cf-df10-b908-1b08" name="⚙️ Lider Etereo" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">
 ■ Equipo de Irruptores ■ Equipo de Ataque</characteristic>
@@ -8777,17 +8795,17 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Fuego indirecto, Acoplado.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5de0-f93b-e415-c4ab" name="Comandante Estrella de Hielo" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="5de0-f93b-e415-c4ab" name="⚙️ Comandante Estrella de Hielo" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Si esta miniatura lidera una unidad, las miniaturas en esa unidad tienen un atributo Movimiento de 12&quot; y las armas a distancia con las que estén equipadas tienen la habilidad [ASALTO].</characteristic>
       </characteristics>
     </profile>
-    <profile id="ae9d-5ce2-17eb-b225" name="Sistemas de apoyo para armaduras" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="ae9d-5ce2-17eb-b225" name="⚙️ Sistemas de apoyo para armaduras" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">La unidad del portador es elegible para disparar en un turno en el que retrocedió, pero, en ese caso, solo las miniaturas con este equipo podrán hacer ataques a distancia.</characteristic>
       </characteristics>
     </profile>
-    <profile id="2317-4ac1-8aeb-5c75" name="Sistema de apoyo a armas" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="2317-4ac1-8aeb-5c75" name="⚙️ Sistema de apoyo a armas" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que el portador realice un ataque a distancia, puedes ignorar cualquiera o todos los modificadores a la tirada para impactar.</characteristic>
       </characteristics>
@@ -8823,7 +8841,7 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425"/>
       </characteristics>
     </profile>
-    <profile id="3d1d-f5e8-27e1-e62f" name="Comandante Enforce" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="3d1d-f5e8-27e1-e62f" name="⚙️ Comandante Enforce" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Si esta miniatura lidera una unidad, cada vez que un ataque a distancia tome como blanco a esa unidad, empeora en 1 el atributo Penetración de Armadura de ese ataque.</characteristic>
       </characteristics>
@@ -8841,12 +8859,12 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Despliegue rápido, Líder.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d1c6-3ac8-cb49-73b4" name="Rastreador guiado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="d1c6-3ac8-cb49-73b4" name="⚙️ Rastreador guiado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Una vez por batalla, puedes usar la estratagema Inserción rápida por 0PM. Debes desplegar al blanco a 3&quot; o menos de la unidad del portador y a más de 9&quot; de toda unidad enemiga.</characteristic>
       </characteristics>
     </profile>
-    <profile id="fe3b-c482-7f7f-21e6" name="Observadores de avanzada" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="fe3b-c482-7f7f-21e6" name="⚙️ Observadores de avanzada" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cuando una unidad amiga dispara  sobre una unidad marcada por esta unidad, hasta el final de la fase, repite las tiradas de 1 para impactar y herir.</characteristic>
       </characteristics>
@@ -8877,12 +8895,12 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violento 1D3, Infiltración, Agente Solitario, Sigilo.</characteristic>
       </characteristics>
     </profile>
-    <profile id="57ab-7156-b657-05ef" name="Drones de sigilo" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="57ab-7156-b657-05ef" name="⚙️ Drones de sigilo" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Dos veces por batalla, después de que se asigne un ataque a esta miniatura, puedes cambiar el atributo Daño de ese ataque a 0.</characteristic>
       </characteristics>
     </profile>
-    <profile id="3701-d004-946c-dd2f" name="Sistemas de apoyo para armaduras XV95" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="3701-d004-946c-dd2f" name="⚙️ Sistemas de apoyo para armaduras XV95" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">El portador es elegible para disparar en un turno en el que retrocedió pero entonces pierde la clave Humo.</characteristic>
       </characteristics>
@@ -8985,12 +9003,12 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Despliegue rápido.</characteristic>
       </characteristics>
     </profile>
-    <profile id="2207-fae9-2817-abbc" name="Armadura avanzada" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="2207-fae9-2817-abbc" name="⚙️ Armadura avanzada" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Las miniaturas en esta unidad tienen la habilidad No hay dolor 4+ contra heridas mortales.</characteristic>
       </characteristics>
     </profile>
-    <profile id="c948-60a3-ea71-f6b4" name="Cuchillo Igneo" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="c948-60a3-ea71-f6b4" name="⚙️ Cuchillo Igneo" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que una miniatura en esta unidad haga un ataque a distancia, repite los 1 para impactar. Si la unidad objetivo esta en su fuerza inicial, repite todo para impactar.</characteristic>
       </characteristics>
@@ -9019,12 +9037,12 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violento 1D6.</characteristic>
       </characteristics>
     </profile>
-    <profile id="86ef-fe03-472d-0ff1" name="Carga nova" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="86ef-fe03-472d-0ff1" name="⚙️ Carga nova" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Una vez por batalla, en tu fase de disparo, elige 1 arma a distancia con la que esté equipada esta miniatura. Hasta el final de la fase, esa arma tiene la habilidad [HERIDAS DEVASTADORAS].</characteristic>
       </characteristics>
     </profile>
-    <profile id="b4d6-2249-59e7-63a8" name="Puntería precisa" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="b4d6-2249-59e7-63a8" name="⚙️ Puntería precisa" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cuando esta miniatura haga un ataque sobre una unidad marcada, repite las tiradas para impactar.</characteristic>
       </characteristics>
@@ -9053,12 +9071,12 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425"/>
       </characteristics>
     </profile>
-    <profile id="ed4c-7acc-0ad9-23df" name="Liderazgo coordinado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="ed4c-7acc-0ad9-23df" name="⚙️ Liderazgo coordinado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">En tu fase de mando, tira 1D6: con 4+, recibes 1PM.</characteristic>
       </characteristics>
     </profile>
-    <profile id="70ef-28a6-e8bf-fa21" name="El fracaso no es una opción" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="70ef-28a6-e8bf-fa21" name="⚙️ El fracaso no es una opción" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Si esta miniatura lidera una unidad, las miniaturas de esa unidad tienen la habilidad No hay dolor 5+.</characteristic>
       </characteristics>
@@ -9076,17 +9094,17 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e"/>
       </characteristics>
     </profile>
-    <profile id="2e62-c222-ff3b-3d7a" name="Drone deslizador" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="2e62-c222-ff3b-3d7a" name="⚙️ Drone deslizador" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">El portador puede Volar y tiene un atributo Movimiento de 10&quot;.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b923-ecd4-a733-bcc8" name="Drone telemetrico" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="b923-ecd4-a733-bcc8" name="⚙️ Drone telemetrico" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">La unidad del portador tiene la clave Marcador Telemétrico y puede ser unidad Observadora para otra unidad aunque haya avanzado este turno.</characteristic>
       </characteristics>
     </profile>
-    <profile id="beca-1b42-82f7-ffc6" name="Drone de defensa MV4" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="beca-1b42-82f7-ffc6" name="⚙️ Drone de defensa MV4" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Suma 1 al atributo Heridas del portador .</characteristic>
       </characteristics>
@@ -9158,22 +9176,22 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6"/>
       </characteristics>
     </profile>
-    <profile id="d5d2-fba5-2103-8cbd" name="Combatiente ágil" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="d5d2-fba5-2103-8cbd" name="⚙️ Combatiente ágil" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Esta miniatura es elegible para disparar en un turno en el que retrocedió.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5b96-714d-91e1-c1ce" name="Héroe del Imperio (Aura)" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="5b96-714d-91e1-c1ce" name="⚙️ Héroe del Imperio (Aura)" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Mientras una unidad Imperio T’au amiga esté a 6&quot; o menos de esta miniatura, repite sus tiradas para impactar de 1 cuando ataque a distancia.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e7e7-8738-c466-bdc3" name="Drone Guardián avanzado MV37" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="e7e7-8738-c466-bdc3" name="⚙️ Drone Guardián avanzado MV37" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cuando un ataque a distancia tome como blanco al portador, resta 1 a la tirada para herir del ataque.</characteristic>
       </characteristics>
     </profile>
-    <profile id="3634-ec8e-0ad6-554a" name="Drone de mando MV62 (Aura)" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="3634-ec8e-0ad6-554a" name="⚙️ Drone de mando MV62 (Aura)" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Si una unidad Imperio T’au amiga está a 6&quot; o menos del portador, cuando elijas esa unidad como blanco de una estratagema, tira 1D6. Con 5+ recibes 1PM.</characteristic>
       </characteristics>
@@ -9191,17 +9209,17 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Despliegue rápido, Líder.</characteristic>
       </characteristics>
     </profile>
-    <profile id="57d9-d814-1195-cbf5" name="Ofensiva agresiva" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="57d9-d814-1195-cbf5" name="⚙️ Ofensiva agresiva" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Una vez por batalla, cuando elijas esta miniatura para combatir, puede usar esta habilidad. Si lo hace, hasta el final de la fase, puedes repetir las tiradas para impactar y para herir cuando ataque.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e3d1-78bb-246e-a773" name="Senda de la espada corta" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="e3d1-78bb-246e-a773" name="⚙️ Senda de la espada corta" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Mientras esta miniatura lidere una unidad, cada vez que una miniatura de esa unidad realice un ataque que tome como blanco a una unidad enemiga a 9&quot; o menos, suma 1 a la tirada para herir.</characteristic>
       </characteristics>
     </profile>
-    <profile id="2c89-d0fa-f1f2-7e9e" name="Comandante Crisis" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="2c89-d0fa-f1f2-7e9e" name="⚙️ Comandante Crisis" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Si esta miniatura lidera una unidad, cada vez que una miniatura en esa unidad realice un ataque a distancia, repite las tiradas para impactar de 1.</characteristic>
       </characteristics>
@@ -9232,7 +9250,7 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Avanzadilla 7&quot;, Sigilo.</characteristic>
       </characteristics>
     </profile>
-    <profile id="807a-9f34-377b-dce0" name="Tecnicas de campo" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="807a-9f34-377b-dce0" name="⚙️ Tecnicas de campo" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Técnicas de campo: Al final de tu fase de Mando, si esta unidad está dentro del alcance de un marcador de objetivo que controlas, ese marcador de objetivo permanece bajo tu control, incluso si no tienes modelos dentro de su alcance, hasta que tu adversario lo controle al comienzo o al final de cualquier turno.</characteristic>
       </characteristics>
@@ -9250,7 +9268,7 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Avanzadilla 7&quot;.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8e2a-f655-7277-bf3b" name="Compañeros de manada kroot" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="8e2a-f655-7277-bf3b" name="⚙️ Compañeros de manada kroot" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Compañeros de manada Kroot: Una vez por turno, en la fase de Disparo de tu oponente, cuando una unidad amiga de INFANTERÍA KROOT a 6 UM o menos de esta unidad es seleccionada como objetivo de un ataque, una unidad de tu ejército con esta habilidad puede usarla. Si lo hace, después de que esa unidad enemiga haya terminado de realizar sus ataques, esa unidad con esta habilidad puede disparar como si fuera tu fase de Disparo, pero al resolver esos ataques solo puede seleccionar como objetivo a esa unidad enemiga (y solo si es un objetivo elegible).</characteristic>
       </characteristics>
@@ -9269,7 +9287,7 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Avanzadilla 7&quot;, Sigilo.</characteristic>
       </characteristics>
     </profile>
-    <profile id="586c-bda5-a950-5372" name="Mastines cazadores" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="586c-bda5-a950-5372" name="⚙️ Mastines cazadores" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Al inicio de tu Fase de Mando, si esta unidad esta a 6 UM o menos de una unidad INFANTERIA KROOT amiga, hasta el final del turno, esta unidad puede ser elegida para declarar una carga aunque haya avanzado.</characteristic>
       </characteristics>
@@ -9287,7 +9305,7 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Despliegue rápido.</characteristic>
       </characteristics>
     </profile>
-    <profile id="c312-a6a0-b6fa-583f" name="Agilidad aérea" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="c312-a6a0-b6fa-583f" name="⚙️ Agilidad aérea" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Al final del turno del oponente, si esta unidad no tiene unidades enemigas en su zona de amenaza, puedes retirarla del campo de batalla y colocarla en la reserva estratégica.</characteristic>
       </characteristics>
@@ -9305,17 +9323,17 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violento 1D3.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ccd7-051d-9189-987f" name="Cazablindados" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="ccd7-051d-9189-987f" name="⚙️ Cazablindados" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que esta miniatura realice un ataque que tome como blanco un Monstruo o vehículo, suma 1 a la tirada para impactar.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a7c6-1634-f3c1-c203" name="Sistema de puntería" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="a7c6-1634-f3c1-c203" name="⚙️ Sistema de puntería" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que esta miniatura sea elegida para disparar, puedes repetir una única tirada para impactar o puedes repetir una única tirada para herir al resolver sus ataques.</characteristic>
       </characteristics>
     </profile>
-    <profile id="dc32-2bd5-d7c4-f185" name="Exoarmadura de piloto XV02" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="dc32-2bd5-d7c4-f185" name="⚙️ Exoarmadura de piloto XV02" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">En tu fase de mando, puedes elegir una unidad Tanque Cabezamartillo amiga a 12&quot; o menos. Hasta el inicio de tu próxima de mando, las armas a distancia con las que estén equipadas las miniaturas en esa unidad tiene la habilidad [IMPACTOS LETALES] .</characteristic>
       </characteristics>
@@ -9344,7 +9362,7 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violento 1D3.</characteristic>
       </characteristics>
     </profile>
-    <profile id="563c-17cf-05bd-4a4f" name="Escáneres aéreos" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="563c-17cf-05bd-4a4f" name="⚙️ Escáneres aéreos" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que esta miniatura realice un ataque con a arma a distancia que tome como blanco a una unidad que puede Volar, puedes repetir la tirada para impactar.</characteristic>
       </characteristics>
@@ -9362,7 +9380,7 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violento 1, Avanzadilla 9&quot;.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d738-b328-a9e0-0ca6" name="Tácticas de drones hostigadores" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="d738-b328-a9e0-0ca6" name="⚙️ Tácticas de drones hostigadores" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Al final de tu fase de Movimiento, elige 1 unidad enemiga a 12&quot; o menos de esta unidad; esa unidad enemiga debe hacer un chequeo de acobardamiento.</characteristic>
       </characteristics>
@@ -9391,7 +9409,7 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violento 1D3.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4a2d-ed38-47ad-e707" name="Despliegue rápido" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="4a2d-ed38-47ad-e707" name="⚙️ Despliegue rápido" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Las unidades pueden desembarcar de este Transporte después de que haya avanzado. Las unidades que lo hagan cuentan como que han hecho un movimiento normal en esa fase y no pueden declarar una carga en el mismo turno, pero aparte de ello pueden actuar normalmente durante el resto del turno.</characteristic>
       </characteristics>
@@ -9422,13 +9440,13 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violento 1D3.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6826-b1e0-aad3-9795" name="Caza aire-tierra" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="6826-b1e0-aad3-9795" name="⚙️ Caza aire-tierra" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que esta miniatura realice un ataque a distancia que tome como blanco a una unidad enemiga, si esa unidad no puede Volar, suma 1 a la tirada
 para impactar.</characteristic>
       </characteristics>
     </profile>
-    <profile id="dd7d-7fdf-62b3-43bc" name="Bombas de inducción" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="dd7d-7fdf-62b3-43bc" name="⚙️ Bombas de inducción" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que esta miniatura termine un movimiento normal, puedes elegir una unidad enemiga sobre la que haya movido y tirar 6D6: por cada 3+, esa unidad
 sufre 1 herida mortal.</characteristic>
@@ -9501,7 +9519,7 @@ sufre 1 herida mortal.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violento 1D3.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ffd1-4991-1b79-610d" name="Caza agil" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="ffd1-4991-1b79-610d" name="⚙️ Caza agil" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Resta 1 para impactar para cualquier ataque.</characteristic>
       </characteristics>
@@ -9519,12 +9537,12 @@ sufre 1 herida mortal.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Líder.</characteristic>
       </characteristics>
     </profile>
-    <profile id="68bb-28ca-457c-f90c" name="Figura inspiradora" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="68bb-28ca-457c-f90c" name="⚙️ Figura inspiradora" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Si esta miniatura lidera una unidad, suma 1 al atributo Control de Objetivo de las miniaturas en esa unidad.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8989-e434-ebdf-0e76" name="Guerrero marcial" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="8989-e434-ebdf-0e76" name="⚙️ Guerrero marcial" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que esta miniatura sea elegida para combatir, elige una de las siguientes habilidades, la cual estará activa mientras se resuelven esos ataques:
 ■ Ataque directo: Fidelidad tiene la habilidad [PRECISIÓN] .
@@ -9574,12 +9592,12 @@ sufre 1 herida mortal.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Infiltración, Líder, Avanzadilla 7&quot;.</characteristic>
       </characteristics>
     </profile>
-    <profile id="91a7-fdec-8b3f-63c1" name="Disruptor de señal" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="91a7-fdec-8b3f-63c1" name="⚙️ Disruptor de señal" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Las unidades enemigas que se desplieguen en el campo de batalla desde las reservas no pueden desplegarse a 12&quot; o menos de esta miniatura.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8f99-1c19-15cb-ce1e" name="Analizador estructural" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="8f99-1c19-15cb-ce1e" name="⚙️ Analizador estructural" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Si esta miniatura lidera una unidad, cada vez que una miniatura en esa unidad realice un ataque a
 distancia, suma 1 a la tirada para herir.</characteristic>
@@ -9598,17 +9616,17 @@ distancia, suma 1 a la tirada para herir.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Avanzadilla 7&quot;.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9011-96ec-48e1-29e7" name="Escudo de dualidad" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="9011-96ec-48e1-29e7" name="⚙️ Escudo de dualidad" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Una vez por batalla, cuando esta unidad sea elegida como blanco de un ataque, puede usar esta habilidad. Si lo hace, hasta el final de la fase, las miniaturas en esta unidad tienen salvación invulnerable 2+.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7f1b-0b07-b706-f13a" name="Paradoja de dualidad" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="7f1b-0b07-b706-f13a" name="⚙️ Paradoja de dualidad" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que un ataque tome como blanco a esta unidad, resta 1 a la tirada para impactar y resta 1 a la tirada para herir.</characteristic>
       </characteristics>
     </profile>
-    <profile id="972b-e3af-5222-d2e8" name="Lealtad suprema (Aura)" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="972b-e3af-5222-d2e8" name="⚙️ Lealtad suprema (Aura)" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Mientras una unidad Imperio T’au amiga esté a 6&quot; o menos de esta unidad, cada vez que esa unidad haga un chequeo de acobardamiento o liderazgo, suma 1 a ese chequeo.</characteristic>
       </characteristics>
@@ -9801,7 +9819,7 @@ distancia, suma 1 a la tirada para herir.</characteristic>
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Acoplado.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ead9-d7cc-9c01-83d4" name="Retirada aérea" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="ead9-d7cc-9c01-83d4" name="⚙️ Retirada aérea" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Una vez por turno, cuando una unidad enemiga finaliza un movimiento normal, de avance o de retroceso a 9&quot; de esta unidad, si esta unidad no está dentro de la zona de mamenaza de una o más unidades enemigas, puede realizar un movimiento Normal de hasta 6&quot;.</characteristic>
       </characteristics>
@@ -9856,7 +9874,7 @@ distancia, suma 1 a la tirada para herir.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violento 1D6.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e130-97ed-06b5-87a8" name="Escudo nova" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="e130-97ed-06b5-87a8" name="⚙️ Escudo nova" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Una vez por batalla, cuando esta unidad sea seleccionada como objetivo de un ataque a distancia, ella puede usar esta habilidad, cada vez que un ataque tome como objetivo a esta unidad, si la Fuerza del ataque es mayo que la Resitencia de esta miniatura, resta uno para herir.</characteristic>
       </characteristics>
@@ -9879,7 +9897,7 @@ distancia, suma 1 a la tirada para herir.</characteristic>
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Area.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e30e-04af-f9e7-3b96" name="Avance nova" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="e30e-04af-f9e7-3b96" name="⚙️ Avance nova" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Una vez por batalla, antes de que esta unidad haga un movimiento Normal, avance o Retirada, ella puede usar esta abilidad. Hasta el final de la fase, su movimento sera de 18 UM.</characteristic>
       </characteristics>
@@ -9969,12 +9987,12 @@ distancia, suma 1 a la tirada para herir.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violento 1D6+2.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1243-2a90-e005-cbb9" name="Bípode pesado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="1243-2a90-e005-cbb9" name="⚙️ Bípode pesado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que esta miniatura haga un movimiento normal, de carga, o  avance, puede mover sobre otras miniaturas (salvo miniaturas Titánica) y elementos de terreno que tengan una altura de 4&quot; o menos como si no estuviesen allí.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9916-8261-7661-7555" name="Matatitanes" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="9916-8261-7661-7555" name="⚙️ Matatitanes" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que esta miniatura realice un ataque a distancia que tome como blanco a una unidad Titánica o Gigantesca, puedes repetir la tirada para impactar.</characteristic>
       </characteristics>
@@ -9992,12 +10010,12 @@ distancia, suma 1 a la tirada para herir.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Despliegue rápido.</characteristic>
       </characteristics>
     </profile>
-    <profile id="bd28-2b77-30c9-a0f4" name="Cazadores de recompensas" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="bd28-2b77-30c9-a0f4" name="⚙️ Cazadores de recompensas" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Al inicio de la batalla, elige 1 unidad del ejército de tu oponente. Cada vez que una miniatura en esta unidad realice un ataque que tome como blanco a esa unidad, ese ataque tiene las habilidades [IMPACTOS LETALES] y [PRECISIÓN].</characteristic>
       </characteristics>
     </profile>
-    <profile id="7230-db29-d33a-b9a5" name="Pech’ra" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="7230-db29-d33a-b9a5" name="⚙️ Pech’ra" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Las armas a distancia con las que esté equipada la unidad del portador tienen la habilidad [IGNORA COBERTURA] .</characteristic>
       </characteristics>
@@ -10087,17 +10105,17 @@ distancia, suma 1 a la tirada para herir.</characteristic>
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Antivehiculo 4+, Heridas devastadoras, Pesada.</characteristic>
       </characteristics>
     </profile>
-    <profile id="caef-d370-0a8d-dccf" name="Drone antigravedad" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="caef-d370-0a8d-dccf" name="⚙️ Drone antigravedad" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Resta 2 a las tiradas de carga de toda unidad enemiga que declare una carga contra la unidad del portador (no se acumula a otras reducciones a esa tirada de carga).</characteristic>
       </characteristics>
     </profile>
-    <profile id="3749-5300-cd61-1647" name="Drone acelerador de inducción" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="3749-5300-cd61-1647" name="⚙️ Drone acelerador de inducción" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Suma 6&quot; al atributo Alcance de las carabinas de inducción con las que están equipadas las miniaturas en la unidad del portador.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ace4-9d0c-f978-c4bc" name="Drone de reconocimiento" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="ace4-9d0c-f978-c4bc" name="⚙️ Drone de reconocimiento" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">El portador está equipado con 1 Dron con cañón rotativo y la unidad del portador tiene la habilidad Infiltración.</characteristic>
       </characteristics>
@@ -10152,23 +10170,23 @@ distancia, suma 1 a la tirada para herir.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violento 1D3, Cubierta de disparo 11.</characteristic>
       </characteristics>
     </profile>
-    <profile id="2c5c-b56c-7097-2922" name="Cobertura Rompeolas" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="2c5c-b56c-7097-2922" name="⚙️ Cobertura Rompeolas" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cuando se asigne un ataque a distancia a una miniatura, si esa miniatura no es totalmente visible para toda miniatura en la unidad atacante debido a esta Fortificación, esa miniatura se beneficia de cobertura contra ese ataque.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7730-3ee4-1f0d-ad90" name="Plataforma de defensa Rompeolas" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="7730-3ee4-1f0d-ad90" name="⚙️ Plataforma de defensa Rompeolas" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Si se equipa con una Plataforma de defensa Rompeolas, el atributo Heridas de esta
 Fortificación es 15.</characteristic>
       </characteristics>
     </profile>
-    <profile id="84cd-31fc-fb63-e586" name="Transporte" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="84cd-31fc-fb63-e586" name="⚙️ Transporte" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Esta miniatura tiene una capacidad de transporte de 11 miniaturas Infantería Imperio T’au. No puede transportar miniaturas Exoarmadura, Kroot o Aguijones Alados Vespid. Si esta miniatura está equipada con una Plataforma de defensa Rompeolas, tiene una capacidad de transporte de 22 miniaturas Infantería T’au en su lugar.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e2d6-5515-ccf9-b444" name="Fortificacion" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="e2d6-5515-ccf9-b444" name="⚙️ Fortificacion" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Mientras una unidad enemiga esté únicamente en la zona de amenaza de una o más Fortificaciones de tu ejército:
 ■ Esa unidad aún puede ser elegida como blanco de ataques a distancia, pero,    cada vez que se haga dicho ataque, si no se hace con una Pistola, resta 1 a la tirada para impactar.
@@ -10343,7 +10361,7 @@ Fortificación es 15.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violenteo 1d6+3.</characteristic>
       </characteristics>
     </profile>
-    <profile id="35d9-48d8-33b6-6618" name="Ataque coordinado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="35d9-48d8-33b6-6618" name="⚙️ Ataque coordinado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Mientras esta unidad sea una unidad Guiada, cada vez que haga un ataque sobre su unidad marcada, repite los 1 para impactar.</characteristic>
       </characteristics>
@@ -10361,37 +10379,37 @@ Fortificación es 15.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violento 1, Infiltración.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5692-3df8-37b9-fda3" name="Marcador de alta intensidad" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="5692-3df8-37b9-fda3" name="⚙️ Marcador de alta intensidad" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que esta unidad es una unidad Observadora, hasta el final de la fase, cada vez que su uniad guiada dispara a su uniad marcada, puedes repetir las tiradas para impactar.</characteristic>
       </characteristics>
     </profile>
-    <profile id="79aa-7850-d0ff-1bd8" name="Ejemplo del Mont&apos;ka" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="79aa-7850-d0ff-1bd8" name="⚙️ Ejemplo del Mont&apos;ka" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniaturas Imperio T’au (salvo miniaturas Metamorfo Kroot). Mientras el portador lidere una unidad, la regla de destacamento Golpe Letal de esta unidad seguira activa en el turno 4.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ffef-f58e-f1e9-2b63" name="Forja Solar" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="ffef-f58e-f1e9-2b63" name="⚙️ Forja Solar" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que una miniatura en esta unidad haga un ataque a distancia contra una unidad VEHICULO o MONSTRUO, puedes repetir las tiradas para Herir y de Daño.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7572-0eb7-a473-0237" name="Siegaestrellas" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="7572-0eb7-a473-0237" name="⚙️ Siegaestrellas" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que una miniatura en esta unidad haga un ataque a distancia contra uniadades que no sean VEHICULO o MONSTRUO, tienen +1 al FP.</characteristic>
       </characteristics>
     </profile>
-    <profile id="caa8-cd87-9c64-dfc9" name="Buscador de la perfeccion" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="caa8-cd87-9c64-dfc9" name="⚙️ Buscador de la perfeccion" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniaturas IMPERIO T’AU. Cada vez que el portador realice un ataque a distancia, mejora el atributo de Factor de penetración de este ataque en 1.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f178-ed5c-6c3c-92af" name="Sistema de empuje vectorizado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="f178-ed5c-6c3c-92af" name="⚙️ Sistema de empuje vectorizado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniaturas COLDSTAR IMPERIO T’AU. Mientras esta miniatura lidere la unidad. Al final del turno del oponente y una vez por batalla, si esta unidad no está en zona de amenaza puede colocarse en la reserva estratégica.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5805-e42b-42df-0a26" name="Comandante O&apos;Tora&apos;ka" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="5805-e42b-42df-0a26" name="⚙️ Comandante O&apos;Tora&apos;ka" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Una vez por ronda esta unidad puede ser objeto de una estratagema, si lo hace reduce el coste en PM en -1.</characteristic>
       </characteristics>
@@ -10463,22 +10481,22 @@ Fortificación es 15.</characteristic>
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Ignora cobertura, Rafaga, Area.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f715-4349-330c-7e84" name="Escudo Reflector" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="f715-4349-330c-7e84" name="⚙️ Escudo Reflector" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Este escudo protege al portador y su unidad de las impactos y heridas críticas que se realicen a distancia.</characteristic>
       </characteristics>
     </profile>
-    <profile id="2967-04bd-d5a4-1a2e" name="Drone Tecnico" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="2967-04bd-d5a4-1a2e" name="⚙️ Drone Tecnico" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Al inicio de tu Fase de Mando la unidad recupera una Herida.</characteristic>
       </characteristics>
     </profile>
-    <profile id="cb90-0160-f036-0084" name="Generador de energia auxiliar" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="cb90-0160-f036-0084" name="⚙️ Generador de energia auxiliar" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniaturas IMPERIO T’AU. Esta mejora afecta a un arma del portador, mejora el atributo de Ataques en 2 y gana las reglas Heridas devastadoras y Acoplado cuando dispara a un objetivo marcado.</characteristic>
       </characteristics>
     </profile>
-    <profile id="fbef-0f2d-d712-e3db" name="Sistema de camuflaje avanzado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="fbef-0f2d-d712-e3db" name="⚙️ Sistema de camuflaje avanzado" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Al inicio de la batalla, pero antes de conocer la iniciativa, selecciona hasta dos unidades Imperio T’au, con la regla SIGILO. Pueden ser redesplegadas o enviadas a las reservas estratégicas. Además mientras este personaje este liderando, si la unidad tiene el beneficio de la cobertura gana SIGILO.</characteristic>
       </characteristics>
@@ -10501,12 +10519,12 @@ Fortificación es 15.</characteristic>
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Asalto.</characteristic>
       </characteristics>
     </profile>
-    <profile id="94bc-dcec-f8ad-f4d7" name="Rastreador Ghoststrike" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="94bc-dcec-f8ad-f4d7" name="⚙️ Rastreador Ghoststrike" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Una vez por Ronda. Mientras esta miniatura esté unida, cuando la unidad que lidera termine de disparar, podrá realizar un Movimiento Normal de hasta 6&quot;. Si lo hace no podrá asaltar.</characteristic>
       </characteristics>
     </profile>
-    <profile id="cae3-281a-a6f0-8824" name="Marcador Telemétrico de Ohr&apos;tu" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="cae3-281a-a6f0-8824" name="⚙️ Marcador Telemétrico de Ohr&apos;tu" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Mientras esta miniatura esté liderando una unidad, cuando esta unidad dispare, repite las tiradas para impactar de todas las armas de la unidad.</characteristic>
       </characteristics>
@@ -10524,7 +10542,7 @@ Fortificación es 15.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Infiltración, Líder, Avanzadilla 7&quot;.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ee83-aeab-eae5-f057" name="Rompelineas Kroot" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="ee83-aeab-eae5-f057" name="⚙️ Rompelineas Kroot" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cuando esta unidad termina un movimiento de carga, elige una unidad enemiga en su zona de amenaza, y tira un D6 por cada miniatura en esta unidad que esté en la zona de amenaza de esa unidad enemiga: por cada 4+, esa unidad enemiga sufre 1D3 heridas mortales. Si alguna miniatura enemiga es eliminada debido a esas heridas mortales, la unidad enemiga debe hacer un chequeo de acobardamiento.</characteristic>
       </characteristics>
@@ -10710,7 +10728,7 @@ Fortificación es 15.</characteristic>
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Area, Pesada.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b221-16a1-736c-1213" name="Manada de caza" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="b221-16a1-736c-1213" name="⚙️ Manada de caza" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Mientras unidad este a 12 UM o menos de una unidad PERSONAJE KROOT amiga, el atributo de Control de Objetivos de las miniaturas en esta unidad es 1.</characteristic>
       </characteristics>
@@ -10755,7 +10773,7 @@ Fortificación es 15.</characteristic>
         <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425"/>
       </characteristics>
     </profile>
-    <profile id="cbbd-fc01-6e62-a1ed" name="Lider Comandante" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="cbbd-fc01-6e62-a1ed" name="⚙️ Lider Comandante" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">■ XV8 Crisis Forja Solar ■ XV8 Crisis Cuchillo Igneo ■ XV8 Crisis Siegaestrellas</characteristic>
       </characteristics>
@@ -10773,12 +10791,12 @@ Fortificación es 15.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Líder, Avanzadilla 7&quot;, Infiltración, Sigilo.</characteristic>
       </characteristics>
     </profile>
-    <profile id="609f-6e09-c55d-1d9b" name="Buscar rastros" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="609f-6e09-c55d-1d9b" name="⚙️ Buscar rastros" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Una vez por turno, cuando una unidad enemiga termina un movimiento normal, de avanzar o de retroceder a 9&quot; o menos de la unidad de esta miniatura, si no hay unidades enemigas en la zona de amenaza de la unidad de esta miniatura, esta puede hacer un movimiento normal de hasta 1D6.</characteristic>
       </characteristics>
     </profile>
-    <profile id="4e3c-1e52-aa34-b0e3" name="Emboscada Kroot" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="4e3c-1e52-aa34-b0e3" name="⚙️ Emboscada Kroot" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Después de que ambos jugadores hayan desplegado sus ejércitos y determinado quién juega el primer turno, puedes redesplegar la unidad de esta miniatura y otra unidad Kroot amiga. Al hacerlo, cualquiera de esas unidades puede colocarse en la reserva estratégica, sin importar cuántas unidades hay ya en la reserva estratégica.</characteristic>
       </characteristics>
@@ -10796,12 +10814,12 @@ Fortificación es 15.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Líder, Avanzadilla 7&quot;, Infiltración, Sigilo.</characteristic>
       </characteristics>
     </profile>
-    <profile id="9285-792f-bd2d-85e0" name="Matanza ritual" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="9285-792f-bd2d-85e0" name="⚙️ Matanza ritual" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Mientras esta miniatura lidere una unidad, las armas de combate con las que están equipadas las miniaturas en esa unidad tienen la habilidad [GOLPES SOSTENIDOS 1].</characteristic>
       </characteristics>
     </profile>
-    <profile id="a720-ff4c-b0d5-eb21" name="Rito del Festín" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="a720-ff4c-b0d5-eb21" name="⚙️ Rito del Festín" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Mientras esta miniatura lidere una unidad, las miniaturas en esa unidad tienen la habilidad No hay dolor 6+. Si esa unidad elimina alguna unidad enemiga en la fase de combate, hasta el final de la batalla, en lugar de eso las miniaturas en esa unidad tienen la habilidad No hay dolor 5+.</characteristic>
       </characteristics>
@@ -10904,12 +10922,12 @@ Fortificación es 15.</characteristic>
         <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425">Lanza.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f6e3-9428-d175-8a24" name="Atacar y desvanecerse" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="f6e3-9428-d175-8a24" name="⚙️ Atacar y desvanecerse" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">En tu fase de disparo, después de que esta miniatura haya disparado, si no hay unidades enemigas en su zona de amenaza, puede efectuar un movimiento normal de hasta 6&quot;. Si lo hace, hasta el final del turno, esta miniatura no puede ser elegida para declarar una carga.</characteristic>
       </characteristics>
     </profile>
-    <profile id="c0ac-e5a7-c955-1141" name="Exploración avanzada" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="c0ac-e5a7-c955-1141" name="⚙️ Exploración avanzada" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cuando esta miniatura ataca a distancia e impactar contra una unidad enemiga, hasta el final del turno, puedes repetir la tirada para impactar en ataques de otras miniaturas Kroot de tu ejército que tomen como blanco a esa unidad enemiga.</characteristic>
       </characteristics>
@@ -10927,7 +10945,7 @@ Fortificación es 15.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Agente solitario, Avanzadilla 7&quot;, Sigilo.</characteristic>
       </characteristics>
     </profile>
-    <profile id="aebb-6a17-9490-43fc" name="Drone de vigilancia" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="aebb-6a17-9490-43fc" name="⚙️ Drone de vigilancia" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Una vez por batalla, cuando la unidad del portador sea elegida para disparar, hasta el final de la fase las armas a distancia equipadas a miniaturas de esta unidad tienen la habilidad [IGNORA COBERTURA] .</characteristic>
       </characteristics>
@@ -10981,12 +10999,12 @@ Fortificación es 15.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violento 1D6+2.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e1ef-6d86-4941-0fa5" name="Cazador de Titanes" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="e1ef-6d86-4941-0fa5" name="⚙️ Cazador de Titanes" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Su Acelerador acoplado y sus misiles buscadores, tienen la Regla Antititanico 3+, cuando dispara a una unidad a la mitad del alcance de estas armas.</characteristic>
       </characteristics>
     </profile>
-    <profile id="74ad-1151-ffe4-b402" name="🧿  Misiles Lanzas del cielo" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
+    <profile id="74ad-1151-ffe4-b402" name="🧿 Misiles Lanzas del cielo" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
       <modifiers>
         <modifier type="increment" field="e4ae-0518-0d3b-c353" value="6">
           <conditions>
@@ -11004,7 +11022,7 @@ Fortificación es 15.</characteristic>
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Antiaereo 3+, Area.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1926-d327-fb2f-a4c0" name="Bahía de transporte" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="1926-d327-fb2f-a4c0" name="⚙️ Bahía de transporte" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Gala la clave TRANSPORTE y puede transportar 12 drones tacticos.</characteristic>
       </characteristics>
@@ -11022,7 +11040,7 @@ Fortificación es 15.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Final violento 1D6+2.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d536-1053-a10c-7b19" name="Acribillar" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+    <profile id="d536-1053-a10c-7b19" name="⚙️ Acribillar" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">En tu Fase de disparo, despues de que esta miniatura haya disparado, selecciona una unidad no VOLADORA enemiga impactada por uno más de estos ataques. Esta unidad debe hacer un chequeo de acobardamiento.</characteristic>
       </characteristics>
@@ -11279,7 +11297,7 @@ Fortificación es 15.</characteristic>
     </infoGroup>
     <infoGroup id="865f-85fc-cb4a-ceae" name="Habilidades linea de defensa rompeolas" hidden="false">
       <profiles>
-        <profile id="d962-70a6-5b1d-378e" name="Fortificacion" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="Habilidades">
+        <profile id="d962-70a6-5b1d-378e" name="Fortificacion" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
           <characteristics>
             <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Mientras una unidad enemiga esté únicamente en la zona de amenaza de una o más Fortificaciones de tu ejército:
 ■ Esa unidad aún puede ser elegida como blanco de ataques a distancia, pero,    cada vez que se haga dicho ataque, si no se hace con una Pistola, resta 1 a la tirada para impactar.
