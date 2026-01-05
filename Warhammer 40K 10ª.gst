@@ -39,7 +39,7 @@
         <characteristicType id="fee3-86e3-31ce-d425" name="Tipo"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="3fc2-16e2-c5c9-b68a" name="Habilidades">
+    <profileType id="3fc2-16e2-c5c9-b68a" name="⚙️ Habilidades">
       <characteristicTypes>
         <characteristicType id="9913-944e-33a7-23a8" name="Descripcion"/>
       </characteristicTypes>
