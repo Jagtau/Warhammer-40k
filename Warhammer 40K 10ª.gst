@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="e820-fa69-d550-8b3f" name="Warhammer 40K 10ª por Jose Antonio" revision="7" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="e820-fa69-d550-8b3f" name="Warhammer 40K 10ª por Jose Antonio" revision="10" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" page="github.com/Jagtau/Warhammer-40k">
   <costTypes>
     <costType id="a9a9-2915-69f6-d947" name=" Pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
@@ -72,7 +72,7 @@
         <infoLink id="6371-1543-ea51-bcc6" name="Fuego rapido" hidden="false" targetId="8140-4fc4-068b-577a" type="rule"/>
       </infoLinks>
     </categoryEntry>
-    <categoryEntry id="9ac9-6d13-ce24-9b7f" name="Goles sostenidos" hidden="false">
+    <categoryEntry id="9ac9-6d13-ce24-9b7f" name="Golpes sostenidos" hidden="false">
       <infoLinks>
         <infoLink id="49e6-82dd-fb6b-d35e" name="Golpes sostenidos X" hidden="false" targetId="1d0b-4c2a-64ce-1e1a" type="rule"/>
       </infoLinks>
@@ -268,7 +268,7 @@ también equipado con dichas armas</description>
     <rule id="8140-4fc4-068b-577a" name="Fuego rapido" hidden="false">
       <description>■ [FUEGO RÁPIDO X]: Aumenta en &quot;X&quot; los Ataques al disparar a unidades a la mitad de su alcance o más cerca.</description>
     </rule>
-    <rule id="1d0b-4c2a-64ce-1e1a" name="Golpes sostenidos X" hidden="false">
+    <rule id="1d0b-4c2a-64ce-1e1a" name="Golpes sostenidos" hidden="false">
       <description>■ [GOLPES SOSTENIDOS X]: Cada impacto crítico logra “X” impactos adicionales contra el blanco.</description>
     </rule>
     <rule id="872e-1f24-bcfc-461e" name="Fusion X" hidden="false">
@@ -392,10 +392,6 @@ también equipado con dichas armas.</description>
     </rule>
     <rule id="53fc-81d4-c25a-7458" name="Agente solitario" hidden="false">
       <description>■ A menos que sea parte de una unidad adjunta, esta unidad solo puede ser elegida como blanco de un ataque a distancia si la miniatura atacante está a 12&quot; o menos.</description>
-    </rule>
-    <rule id="d3b8-c10b-4773-3671" name="Despliegue rapido" hidden="false">
-      <description>■ La unidad puede desplegarse en la reserva en lugar de en el campo de batalla.
-■ La unidad puede ser desplegada en tu paso de refuerzos, a más de 9&quot; en horizontal de toda miniatura enemiga.</description>
     </rule>
     <rule id="8933-81ac-e02c-161e" name="Por el Bien Supremo" hidden="false">
       <description>■ Durante tu fase de disparo, por cada unidad observadora de tu ejército que no haya sido seleccionada para disparar en esta fase y que sea apta para disparar (excluyendo las unidades Fortificación y las unidades con acobardadas), selecciona una unidad enemiga que sea visible para marcarla como unidad marcada hasta el final de la fase. Cada unidad enemiga solo puede ser marcada como unidad detectada una vez por fase.
