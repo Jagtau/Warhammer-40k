@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5ff1-c96b-3b4d-8231" name="🇯🇪 Imperio Tau 10ª Edicion" revision="33" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" library="false" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" page="github.com/Jagtau/Warhammer-40k">
+<catalogue id="5ff1-c96b-3b4d-8231" name="🇯🇪 Imperio Tau 10ª Edicion" revision="34" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" library="false" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" page="github.com/Jagtau/Warhammer-40k">
   <readme>Este destacamento se caracteriza por...</readme>
   <categoryEntries>
     <categoryEntry id="ce5f-a8b6-69b9-f84a" name="Por el Bien Supremo" hidden="false">
@@ -6738,7 +6738,7 @@
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3baa-e8f2-9aef-0684" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
       </constraints>
       <infoLinks>
-        <infoLink name="⚙️ Generador de energia auxiliar" id="f180-f653-0f7d-aec3" hidden="false" targetId="cb90-0160-f036-0084" type="profile"/>
+        <infoLink name="⚙️ Conquistador Estrategico" id="f180-f653-0f7d-aec3" hidden="false" targetId="7bb8-b525-1d31-0bd6" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="20"/>
@@ -6761,7 +6761,7 @@
           </modifiers>
         </entryLink>
         <entryLink import="true" name="🛠️ Mejoras Kauyon" hidden="false" id="77c4-9c01-6268-f434" type="selectionEntryGroup" targetId="98da-01a5-7cee-2b78"/>
-        <entryLink import="true" name="🛠️ Mejoras Partida de caza" hidden="false" id="8a96-e347-b25b-eff7" type="selectionEntryGroup" targetId="d727-807a-2df6-f4c2"/>
+        <entryLink import="true" name="🛠️ Cazadores de bestias" hidden="false" id="8a96-e347-b25b-eff7" type="selectionEntryGroup" targetId="d727-807a-2df6-f4c2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="🛠️ Campo Inhibidor de Gravedad " hidden="false" id="9296-6eba-b416-abac" collective="false" sortIndex="7">
@@ -7020,7 +7020,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="🛠️ Cazador nómada" hidden="false" id="e7d3-f442-9d96-417e" collective="false" sortIndex="13">
       <infoLinks>
-        <infoLink name="⚙️ Generador de energia auxiliar" id="191c-5faa-6e8f-a6d2" hidden="false" targetId="cb90-0160-f036-0084" type="profile"/>
+        <infoLink name="⚙️ Cazador nómada" id="191c-5faa-6e8f-a6d2" hidden="false" targetId="5c17-e446-45f7-b2ef" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="20"/>
@@ -7036,7 +7036,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="🛠️ Glándula de Borthrod" hidden="false" id="3c2f-48be-658c-b3ae" collective="false" sortIndex="14">
       <infoLinks>
-        <infoLink name="⚙️ Generador de energia auxiliar" id="5f4a-d8db-0f22-fa59" hidden="false" targetId="cb90-0160-f036-0084" type="profile"/>
+        <infoLink name="⚙️ Glándula de Borthrod" id="5f4a-d8db-0f22-fa59" hidden="false" targetId="0f87-c86b-4cdf-07ae" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="15"/>
@@ -7845,7 +7845,7 @@
             <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Destacamento Cazadores de bestias: Cazadores expertos" id="11c4-75d5-566f-b8d3" hidden="false" targetId="a77d-2b30-36e5-02c8" type="rule"/>
+            <infoLink name="Destacamento Cazadores de bestias: Mata bestias" id="11c4-75d5-566f-b8d3" hidden="false" targetId="a77d-2b30-36e5-02c8" type="rule"/>
           </infoLinks>
           <entryLinks>
             <entryLink import="true" name="🎲 Estratagemas Cazadores de Bestias" hidden="false" id="3c60-6056-25d6-68b7" type="selectionEntry" targetId="c40a-0ce1-11e7-3d81">
@@ -7855,8 +7855,8 @@
               </constraints>
               <infoLinks>
                 <infoLink name="⚙️ Sistema de empuje vectorizado" id="5b9b-a9c4-4548-7f76" hidden="false" type="profile" targetId="f178-ed5c-6c3c-92af"/>
-                <infoLink name="⚙️ Generador de energia auxiliar" id="e51f-fd84-3533-7de9" hidden="false" type="profile" targetId="cb90-0160-f036-0084"/>
-                <infoLink name="⚙️ Red Tememétrica" id="92a1-8a5f-1ee0-430b" hidden="false" type="profile" targetId="cf8f-32ed-8290-7b89"/>
+                <infoLink name="⚙️ Glándula de Borthrod" id="e51f-fd84-3533-7de9" hidden="false" type="profile" targetId="0f87-c86b-4cdf-07ae"/>
+                <infoLink name="⚙️ Cazador nómada" id="92a1-8a5f-1ee0-430b" hidden="false" type="profile" targetId="5c17-e446-45f7-b2ef"/>
                 <infoLink name="⚙️ Sistema de camuflaje avanzado" id="afac-31fc-3ea4-8fc4" hidden="false" type="profile" targetId="fbef-0f2d-d712-e3db"/>
               </infoLinks>
             </entryLink>
@@ -11712,6 +11712,16 @@ Fortificación es 15.</characteristic>
     <profile name="⚙️ Lider Kroot montado" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="71cc-b77c-b404-3a75">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">■ Jinetes Krootox ■ Jinetes Rampagers</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="⚙️ Cazador nómada" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="5c17-e446-45f7-b2ef">
+      <characteristics>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniatura RASTROMORFO KROOT. Mientras el portador lidere una unidad, suma 3&quot; al atributo Movimiento de las miniaturas en esa unidad, y las armas a distancia con las que estén equipadas las miniaturas en esa unidad tienen la habilidad [ASALTO]. También podrán asaltar tras haber avanzado.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="⚙️ Glándula de Borthrod" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="0f87-c86b-4cdf-07ae">
+      <characteristics>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniatura CARNEMORFO Kroot. Mientras el portador lidere una unidad, cuando una miniatura en esa unidad ataque en combate, toda tirada para impactar de 5+ sin modificar logra un impacto crítico.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
