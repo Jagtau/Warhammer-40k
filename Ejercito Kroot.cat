@@ -18,7 +18,7 @@
         <categoryLink targetId="9d48-1013-e052-2c37" id="d801-1f1a-9ae8-8085" primary="true" name="Cuartel General"/>
       </categoryLinks>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="763c-d25f-4986-7ac0" includeChildSelections="false"/>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="763c-d25f-4986-7ac0" includeChildSelections="false"/>
         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c090-cb82-efcf-1bdf" includeChildSelections="false"/>
       </constraints>
     </entryLink>
@@ -63,7 +63,7 @@
         <categoryLink targetId="947d-359d-9d55-e6ee" id="fb95-7a50-9577-2d6c" primary="true" name="Personajes epicos"/>
       </categoryLinks>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d269-2ecf-fd27-72db" includeChildSelections="false"/>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d269-2ecf-fd27-72db" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="00e6-57d8-95cd-a9f9" includeChildSelections="false"/>
       </constraints>
     </entryLink>
@@ -72,7 +72,7 @@
         <categoryLink targetId="9d48-1013-e052-2c37" id="9a0f-b5e8-7792-83c3" primary="true" name="Cuartel General"/>
       </categoryLinks>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="442d-b79d-dd0f-22f9" includeChildSelections="false"/>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="442d-b79d-dd0f-22f9" includeChildSelections="false"/>
         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="63c6-ca13-4ddd-d0d5" includeChildSelections="false"/>
       </constraints>
     </entryLink>
