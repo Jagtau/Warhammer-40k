@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5ff1-c96b-3b4d-8231" name="🇯🇪 Imperio Tau 10ª Edicion" revision="34" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" library="false" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" page="github.com/Jagtau/Warhammer-40k">
+<catalogue id="5ff1-c96b-3b4d-8231" name="🇯🇪 Imperio Tau 10ª Edicion" revision="35" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" library="false" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" page="github.com/Jagtau/Warhammer-40k">
   <readme>Este destacamento se caracteriza por...</readme>
   <categoryEntries>
     <categoryEntry id="ce5f-a8b6-69b9-f84a" name="Por el Bien Supremo" hidden="false">
@@ -31,6 +31,9 @@
         <categoryLink id="aaf6-3985-d36d-4912" name="Avanzadilla" hidden="false" targetId="de61-4131-8bd1-40c4" primary="false"/>
         <categoryLink id="76b6-a4f4-2791-30b4" name="Sigilo" hidden="false" targetId="217a-289f-8499-1ebb" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="💀 Señor de la Guerra" hidden="false" id="7178-50a1-594e-df67" collective="false" targetId="29b5-6069-3130-bdbd" type="selectionEntry" sortIndex="1"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="2f7d-cec4-ae04-c705" name="🤖 Exoarmadura XV104 Cataclismo" hidden="false" collective="false" import="true" targetId="8ad2-3aea-525e-24af" type="selectionEntry" sortIndex="24">
       <constraints>
@@ -612,6 +615,9 @@
         <categoryLink id="5598-5be7-2124-14ab" name="Avanzadilla" hidden="false" targetId="de61-4131-8bd1-40c4" primary="false"/>
         <categoryLink id="85a5-4f15-66f4-a8f3" name="Sigilo" hidden="false" targetId="217a-289f-8499-1ebb" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="💀 Señor de la Guerra" hidden="false" id="2c6b-6f46-ed2c-d9d3" collective="false" targetId="29b5-6069-3130-bdbd" type="selectionEntry"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="a3c4-e36e-fe6f-f8f2" name="🎖️ 🗡️ Lider Rastromorfo Kroot " hidden="false" collective="false" import="true" targetId="40b1-5632-80d4-4957" type="selectionEntry" sortIndex="13">
       <constraints>
@@ -624,6 +630,9 @@
         <categoryLink id="b837-c01f-0ecc-e242" name="Avanzadilla" hidden="false" targetId="de61-4131-8bd1-40c4" primary="false"/>
         <categoryLink id="9573-369b-a465-636e" name="Sigilo" hidden="false" targetId="217a-289f-8499-1ebb" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="💀 Señor de la Guerra" hidden="false" id="c2ff-e793-d032-2c6a" collective="false" targetId="29b5-6069-3130-bdbd" type="selectionEntry" sortIndex="1"/>
+      </entryLinks>
     </entryLink>
     <entryLink id="67a7-2390-a7f4-fdd1" name="🗡️ Auxiliares Rampagers Krootox" hidden="false" collective="false" import="true" targetId="d2b8-c3f2-f88d-4f8a" type="selectionEntry" sortIndex="34">
       <constraints>
@@ -736,7 +745,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1fbc-c32f-231f-2524" name="⚔️ Arma combate" hidden="false" collective="false" import="true" targetId="1ee4-ac6f-54fb-7672" type="selectionEntry" sortIndex="1">
+        <entryLink id="1fbc-c32f-231f-2524" name="⚔️ Arma combate" hidden="false" collective="false" import="true" targetId="1ee4-ac6f-54fb-7672" type="selectionEntry" sortIndex="2">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f418-7a0a-d32c-d70d" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dfd-00f9-e201-04ce" type="max"/>
@@ -754,7 +763,7 @@
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d924-84ff-c07f-f823" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="1aa2-9781-a2d4-7d79" name="💀 Señor de la Guerra" hidden="false" collective="false" import="true" targetId="29b5-6069-3130-bdbd" type="selectionEntry" sortIndex="2"/>
+        <entryLink id="1aa2-9781-a2d4-7d79" name="💀 Señor de la Guerra" hidden="false" collective="false" import="true" targetId="29b5-6069-3130-bdbd" type="selectionEntry" sortIndex="1"/>
         <entryLink import="true" name="🛠️ Mejoras" hidden="false" id="90f5-ff22-4c64-d01a" type="selectionEntry" targetId="419d-76a5-1205-8966" sortIndex="6"/>
       </entryLinks>
       <costs>
@@ -785,7 +794,7 @@
         <infoLink id="72b6-e306-6143-ab73" name="Habilidades Guerramorfo" hidden="false" targetId="e404-5a4e-f5e0-36b4" type="infoGroup"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5215-3aa7-495d-e231" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="0a0e-3f10-ecfb-092c" sortIndex="4">
+        <selectionEntryGroup id="5215-3aa7-495d-e231" name="Armas" hidden="false" collective="false" import="true" defaultSelectionEntryId="0a0e-3f10-ecfb-092c" sortIndex="6">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebd7-3333-4977-9d8b" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51f8-1354-4df7-fbee" type="max"/>
@@ -807,20 +816,21 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="88c1-8827-84ac-afb5" name="Guardia personal kroot" hidden="false" collective="false" import="true" targetId="71c5-91c6-03ce-820d" type="selectionEntryGroup" sortIndex="1"/>
-        <entryLink id="e5a9-47b2-38f6-a8d4" name="🧿 Pistola Kroot" hidden="false" collective="false" import="true" targetId="9380-eeac-4e93-b974" type="selectionEntry" sortIndex="3">
+        <entryLink id="88c1-8827-84ac-afb5" name="Guardia personal kroot" hidden="false" collective="false" import="true" targetId="71c5-91c6-03ce-820d" type="selectionEntryGroup" sortIndex="2"/>
+        <entryLink id="e5a9-47b2-38f6-a8d4" name="🧿 Pistola Kroot" hidden="false" collective="false" import="true" targetId="9380-eeac-4e93-b974" type="selectionEntry" sortIndex="4">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab17-13ef-e723-d788" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce5d-0525-5eec-b6d5" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="617d-a23a-6a79-735a" name="⚔️ Filo de metamorfo" hidden="false" collective="false" import="true" targetId="2ed1-2fdf-2d06-5b4f" type="selectionEntry" sortIndex="2">
+        <entryLink id="617d-a23a-6a79-735a" name="⚔️ Filo de metamorfo" hidden="false" collective="false" import="true" targetId="2ed1-2fdf-2d06-5b4f" type="selectionEntry" sortIndex="3">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd82-aaca-3a81-324f" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97b4-e7e4-1a9e-8d5e" type="max"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="🛠️ Mejoras" hidden="false" id="f66e-0830-0aee-4e27" type="selectionEntry" targetId="419d-76a5-1205-8966" sortIndex="5"/>
+        <entryLink import="true" name="💀 Señor de la Guerra" hidden="false" id="7e12-d936-f412-8b06" type="selectionEntry" targetId="29b5-6069-3130-bdbd" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="50"/>
@@ -3477,8 +3487,8 @@
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e623-4c03-c651-6102" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="2971-79e5-ef79-6c54" name="💀 Señor de la Guerra" hidden="false" collective="false" import="true" targetId="29b5-6069-3130-bdbd" type="selectionEntry" sortIndex="2"/>
-        <entryLink id="f969-8394-a31f-b73b" name="⚔️ Arma cuerpo a cuerpo" hidden="false" collective="false" import="true" targetId="8226-b9ca-0366-7839" type="selectionEntry" sortIndex="1">
+        <entryLink id="2971-79e5-ef79-6c54" name="💀 Señor de la Guerra" hidden="false" collective="false" import="true" targetId="29b5-6069-3130-bdbd" type="selectionEntry" sortIndex="1"/>
+        <entryLink id="f969-8394-a31f-b73b" name="⚔️ Arma cuerpo a cuerpo" hidden="false" collective="false" import="true" targetId="8226-b9ca-0366-7839" type="selectionEntry" sortIndex="2">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40bb-156f-2e60-0484" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5619-b66e-90e3-faef" type="max"/>
@@ -3718,47 +3728,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8226-b9ca-0366-7839" name="⚔️ Arma cuerpo a cuerpo" hidden="false" collective="true" import="true" type="upgrade">
-      <profiles>
-        <profile id="99b5-2449-7252-74f1" name="⚔️ Arma cuerpo a cuerpo" hidden="false" typeId="1bda-9ac8-4f3f-5644" typeName="⚔️ Armas CaC">
-          <modifiers>
-            <modifier type="set" field="dac0-5ded-e8c5-6855" value="4">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="baf3-12e6-dd44-4763" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Alcance" typeId="7f9c-7a9b-11a0-4040">Combate</characteristic>
-            <characteristic name="A" typeId="dac0-5ded-e8c5-6855">1</characteristic>
-            <characteristic name="HA" typeId="669f-d2b6-0fd0-9964">5+</characteristic>
-            <characteristic name="F" typeId="7017-08c2-c604-a2cd">3</characteristic>
-            <characteristic name="FP" typeId="1631-1a54-f8f4-7b6d">0</characteristic>
-            <characteristic name="Daño" typeId="fa75-4365-1282-3357">1</characteristic>
-            <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425"/>
-          </characteristics>
-        </profile>
-      </profiles>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
+      <infoLinks>
+        <infoLink name="⚔️ Arma cuerpo a cuerpo" id="be76-3940-9255-ccaf" hidden="false" type="profile" targetId="c661-3150-409d-d530"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry id="1ee4-ac6f-54fb-7672" name="⚔️ Arma combate" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="2365-2c68-b88b-065d" name="⚔️ Arma combate" hidden="false" typeId="1bda-9ac8-4f3f-5644" typeName="⚔️ Armas CaC">
-          <characteristics>
-            <characteristic name="Alcance" typeId="7f9c-7a9b-11a0-4040">Combate</characteristic>
-            <characteristic name="A" typeId="dac0-5ded-e8c5-6855">3</characteristic>
-            <characteristic name="HA" typeId="669f-d2b6-0fd0-9964">4+</characteristic>
-            <characteristic name="F" typeId="7017-08c2-c604-a2cd">3</characteristic>
-            <characteristic name="FP" typeId="1631-1a54-f8f4-7b6d">0</characteristic>
-            <characteristic name="Daño" typeId="fa75-4365-1282-3357">1</characteristic>
-            <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425"/>
-          </characteristics>
-        </profile>
-      </profiles>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
+      <infoLinks>
+        <infoLink name="⚔️ Arma de combate" id="f0c1-010f-003c-9641" hidden="false" type="profile" targetId="c52b-16c1-7664-bea8"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry id="6ce7-e157-38c3-8b17" name="🧿 Torreta de apoyo DS8" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -5977,7 +5960,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="40b1-5632-80d4-4957" name="🎖️ 🗡️ Lider Rastromorfo Kroot " hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="40b1-5632-80d4-4957" name="🎖️ 🗡️ Lider Rastromorfo Kroot " hidden="false" collective="false" import="true" type="model" sortIndex="1">
       <infoLinks>
         <infoLink id="9666-e5f6-5a63-c589" name="Habilidades Rastromorfo" hidden="false" targetId="185e-f073-6f97-3c42" type="infoGroup"/>
       </infoLinks>
@@ -5996,6 +5979,7 @@
           </constraints>
         </entryLink>
         <entryLink import="true" name="🛠️ Mejoras" hidden="false" id="1720-1f42-914f-0a89" type="selectionEntry" targetId="419d-76a5-1205-8966" sortIndex="4"/>
+        <entryLink import="true" name="💀 Señor de la Guerra" hidden="false" id="fb91-0de2-1970-d29d" type="selectionEntry" targetId="29b5-6069-3130-bdbd"/>
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="55"/>
@@ -6020,6 +6004,7 @@
           </constraints>
         </entryLink>
         <entryLink import="true" name="🛠️ Mejoras" hidden="false" id="f2b9-6bf0-17d3-543e" type="selectionEntry" targetId="419d-76a5-1205-8966" sortIndex="4"/>
+        <entryLink import="true" name="💀 Señor de la Guerra" hidden="false" id="4762-9815-f151-38b0" type="selectionEntry" targetId="29b5-6069-3130-bdbd" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="45"/>
@@ -6109,6 +6094,13 @@
           <costs>
             <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="85"/>
           </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cc22-413a-907f-61cb" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -6495,7 +6487,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e63e-d06d-42e5-206b" name="⚔️ Arma Kroot Cac" hidden="false" collective="false" import="true" targetId="7c0a-4605-f3bd-00e0" type="selectionEntry" sortIndex="1">
+        <entryLink id="e63e-d06d-42e5-206b" name="⚔️ Arma Kroot Cac" hidden="false" collective="false" import="true" targetId="7c0a-4605-f3bd-00e0" type="selectionEntry" sortIndex="2">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7547-0716-53ac-8f30" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b4d-0da1-8024-66ce" type="max"/>
@@ -6527,6 +6519,7 @@
           </categoryLinks>
         </entryLink>
         <entryLink import="true" name="🛠️ Mejoras" hidden="false" id="15b8-5f99-70d2-d105" type="selectionEntry" targetId="419d-76a5-1205-8966" sortIndex="5"/>
+        <entryLink import="true" name="💀 Señor de la Guerra" hidden="false" id="7fa7-9538-ba38-ee52" type="selectionEntry" targetId="29b5-6069-3130-bdbd" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="80"/>
@@ -6744,7 +6737,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="20"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🛠️ Mejoras" hidden="false" id="419d-76a5-1205-8966" sortIndex="16">
+    <selectionEntry type="upgrade" import="true" name="🛠️ Mejoras" hidden="false" id="419d-76a5-1205-8966" sortIndex="17">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9881-f55b-629d-5241" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5b4-3e8c-8c97-c876" includeChildSelections="false"/>
@@ -6762,6 +6755,8 @@
         </entryLink>
         <entryLink import="true" name="🛠️ Mejoras Kauyon" hidden="false" id="77c4-9c01-6268-f434" type="selectionEntryGroup" targetId="98da-01a5-7cee-2b78"/>
         <entryLink import="true" name="🛠️ Cazadores de bestias" hidden="false" id="8a96-e347-b25b-eff7" type="selectionEntryGroup" targetId="d727-807a-2df6-f4c2"/>
+        <entryLink import="true" name="🛠️ Manada de caza Kroot" hidden="false" id="dfd6-2bd4-c3ca-1654" type="selectionEntryGroup" targetId="61ec-daf6-d907-b436"/>
+        <entryLink import="true" name="🛠️ Mejoras Mont&apos;ka" hidden="false" id="d84b-9a9b-63ee-3941" type="selectionEntryGroup" targetId="a241-4e26-3d7f-56b4"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="🛠️ Campo Inhibidor de Gravedad " hidden="false" id="9296-6eba-b416-abac" collective="false" sortIndex="7">
@@ -6951,7 +6946,7 @@
             <categoryLink name="Ataques adicionales" hidden="false" id="4373-c1c1-951e-75f9" targetId="eb58-b5bf-030f-1beb" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="⚔️ Lanza explosiva kroot" hidden="false" id="6240-b522-5fff-59df" collective="false" targetId="5c74-a45d-fa5a-1ba8" type="selectionEntry" sortIndex="2">
+        <entryLink import="true" name="⚔️ Lanza explosiva kroot" hidden="false" id="6240-b522-5fff-59df" collective="false" targetId="5c74-a45d-fa5a-1ba8" type="selectionEntry" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c8e0-c804-1caa-a9d6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efa8-dfce-01ba-8191" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -6974,6 +6969,7 @@
           </constraints>
         </entryLink>
         <entryLink import="true" name="💀 Señor de la Guerra" hidden="false" id="ea93-2c73-3f04-97c9" collective="false" targetId="29b5-6069-3130-bdbd" type="selectionEntry" sortIndex="1"/>
+        <entryLink import="true" name="Guardia personal kroot" hidden="false" id="80b7-d8e2-9528-671c" type="selectionEntryGroup" targetId="71c5-91c6-03ce-820d" sortIndex="2"/>
       </entryLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="95"/>
@@ -7012,37 +7008,58 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="🛠️ Bandada de Krootalcones" hidden="false" id="e6cd-970a-c64f-278c" collective="false" sortIndex="15">
       <infoLinks>
-        <infoLink name="⚙️ Generador de energia auxiliar" id="8e9d-10d2-b315-017b" hidden="false" targetId="cb90-0160-f036-0084" type="profile"/>
+        <infoLink name="⚙️ Bandada de Krootalcones" id="8e9d-10d2-b315-017b" hidden="false" targetId="90a9-e56a-9415-a353" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="10"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🛠️ Cazador nómada" hidden="false" id="e7d3-f442-9d96-417e" collective="false" sortIndex="13">
+    <selectionEntry type="upgrade" import="true" name="🛠️ Cazador nómada" hidden="true" id="e7d3-f442-9d96-417e" collective="false" sortIndex="13">
       <infoLinks>
-        <infoLink name="⚙️ Cazador nómada" id="191c-5faa-6e8f-a6d2" hidden="false" targetId="5c17-e446-45f7-b2ef" type="profile"/>
+        <infoLink name="⚙️ Cazador nómada" id="191c-5faa-6e8f-a6d2" hidden="true" targetId="5c17-e446-45f7-b2ef" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="20"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="40b1-5632-80d4-4957" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🛠️ Armas Raizgrabadas" hidden="false" id="ac95-96cb-7d2c-236d" collective="false" sortIndex="16">
+    <selectionEntry type="upgrade" import="true" name="🛠️ Armas Raizgrabadas" hidden="true" id="ac95-96cb-7d2c-236d" collective="false" sortIndex="16">
       <infoLinks>
-        <infoLink name="⚙️ Generador de energia auxiliar" id="1128-e14f-b927-4afb" hidden="false" targetId="cb90-0160-f036-0084" type="profile"/>
+        <infoLink name="⚙️ Armas Raizgrabadas" id="1128-e14f-b927-4afb" hidden="false" targetId="e72b-6aa3-12d6-4939" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="10"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="parent" childId="bc86-96e8-070c-eb2a" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🛠️ Glándula de Borthrod" hidden="false" id="3c2f-48be-658c-b3ae" collective="false" sortIndex="14">
+    <selectionEntry type="upgrade" import="true" name="🛠️ Glándula de Borthrod" hidden="true" id="3c2f-48be-658c-b3ae" collective="false" sortIndex="14">
       <infoLinks>
         <infoLink name="⚙️ Glándula de Borthrod" id="5f4a-d8db-0f22-fa59" hidden="false" targetId="0f87-c86b-4cdf-07ae" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="15"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4bb8-c71a-b817-a570" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🎲 Estratagemas Partida de Caza Kroot" hidden="false" id="5b3a-ffe6-24ea-797a" collective="false">
+    <selectionEntry type="upgrade" import="true" name="🎲 Estratagemas Manada de Caza Kroot" hidden="false" id="5b3a-ffe6-24ea-797a" collective="false">
       <profiles>
         <profile name="EXIBICIÓN DE AGILIDAD" typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas" hidden="false" id="7d4e-9e91-24b0-7516">
           <characteristics>
@@ -7121,35 +7138,30 @@
           <characteristics>
             <characteristic name="CP" typeId="d6ce-92be-7b44-541d">1</characteristic>
             <characteristic name="Tipo" typeId="d7c0-0526-e25c-f3ab">ESTRATAGEMA MANADA DE CAZA KROOT - ARDID ESTRATÉGICO</characteristic>
-            <characteristic name="Cuando" typeId="50e1-3654-5678-d305">En tu fase de disparo.</characteristic>
-            <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad Imperio T’au EXOARMADURA o VEHÍCULO de tu ejército que no haya sido seleccionada para disparar esta fase.</characteristic>
-            <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Hasta el final de la fase, elige una de las siguientes opciones.
-■ Ordenador de combate: La unidad seleccionada ignora todos los penalizadores al HP y para impactar.
-■ Munición incendiaria: Suma 1 al atributo de Fuerza de las armas de la unidad.
-■ Munición explosiva: Selecciona un arma de la unidad (No EXOARMADURA). Esa arma gana las reglas ÁREA y ACOPLADA, pero reducen su FUERZA, DAÑO y FP a la mitad (redondeando hacia arriba).</characteristic>
-            <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">No se puede combinar con Sistemas de disparo múltiple.</characteristic>
+            <characteristic name="Cuando" typeId="50e1-3654-5678-d305">Fase de movimiento o asalto.</characteristic>
+            <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad KROOTOX de tu ejército.</characteristic>
+            <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Puede moverse ignorando elementos de escenografía como si se tratase de infantería.</characteristic>
+            <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">-</characteristic>
           </characteristics>
         </profile>
         <profile name="TRAMPA BIEN PREPARADA" typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas" hidden="false" id="a142-451e-3e9f-92be">
           <characteristics>
             <characteristic name="CP" typeId="d6ce-92be-7b44-541d">2</characteristic>
             <characteristic name="Tipo" typeId="d7c0-0526-e25c-f3ab">ESTRATAGEMA MANADA DE CAZA KROOT - TÁCTICA DE BATALLA</characteristic>
-            <characteristic name="Cuando" typeId="50e1-3654-5678-d305">Tu fase de disparo.</characteristic>
-            <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad de tu ejército Imperio T&apos;au y hasta dos de sus armas de Fuerza 12 o menos que no hayan sido seleccionadas para disparar en esta fase.</characteristic>
-            <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Aumenta Ataque en 2 y FP en 1 para aquellas armas de Daño 1 y Ataque y FP en 1 para aquellas armas de Daño 2 o más, hasta el final de la fase.</characteristic>
-            <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">No se puede combinar con Armamento Experimental.</characteristic>
+            <characteristic name="Cuando" typeId="50e1-3654-5678-d305">Tu fase de disparo o de combate.</characteristic>
+            <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad KROOT de tu ejército que no haya sido elegida para disparar o combatir en esta fase.</characteristic>
+            <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Después de que tu unidad haya resuelto sus ataques esta fase, elige una unidad enemiga que haya sido impactada por alguno de esos ataques. 
+Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada vez que una miniatura KROOT de tu ejército realice un ataque que tome como blanco esa unidad enemiga, realizará una herida crítica con un resultado de 4+, en otro caso mejora en 1 el atributo Factor de Penetración de ese ataque si la unidad atacante no está acobardada.</characteristic>
+            <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">-</characteristic>
           </characteristics>
         </profile>
         <profile name="CAZADORES OCULTOS" typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas" hidden="false" id="7375-228f-3b93-2cbe">
           <characteristics>
             <characteristic name="CP" typeId="d6ce-92be-7b44-541d">1</characteristic>
             <characteristic name="Tipo" typeId="d7c0-0526-e25c-f3ab">ESTRATAGEMA MANADA DE CAZA KROOT - ARDID ESTRATÉGICO</characteristic>
-            <characteristic name="Cuando" typeId="50e1-3654-5678-d305">En la Fase de carga de tu oponente, justo después de que una unidad enemiga haya seleccionado sus objetivos.</characteristic>
-            <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad del Imperio T&apos;au VEHÍCULO o EXOARMADURA  que fue seleccionada como objetivo de una carga.</characteristic>
-            <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">La unidad enemiga sufre el efecto correspondiente según el número de éxitos obtenidos al tirar 6D6 (cada 4+ cuenta como éxito). Efectos no acumulables.
-● 2 o menos éxitos: La unidad sufre –1HA. 
-● 3 a 4 éxitos: Sufre –1HA y -1F. 
-● 5 o más éxitos: Sufre  –1HA y -2F.</characteristic>
+            <characteristic name="Cuando" typeId="50e1-3654-5678-d305">La fase de disparo de tu oponente, justo después de que una unidad enemiga haya elegido sus blancos.</characteristic>
+            <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad KROOT de tu ejército que fue elegida como blanco de uno o más ataques de la unidad atacante.</characteristic>
+            <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Hasta el final de la fase, tu unidad solo puede ser elegida como blanco de un ataque a distancia si la miniatura atacante está a 12” o menos.</characteristic>
             <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">-</characteristic>
           </characteristics>
         </profile>
@@ -7157,30 +7169,30 @@
           <characteristics>
             <characteristic name="CP" typeId="d6ce-92be-7b44-541d">1</characteristic>
             <characteristic name="Tipo" typeId="d7c0-0526-e25c-f3ab">ESTRATAGEMA MANADA DE CAZA KROOT - ARDID ESTRATÉGICO</characteristic>
-            <characteristic name="Cuando" typeId="50e1-3654-5678-d305">En la fase de disparo de tu oponente, justo después de que una unidad enemiga haya seleccionado sus objetivos.</characteristic>
-            <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad VEHICULO Imperio T’au (no TITÁNICA ni EXOARMADURA) que fue seleccionada como objetivo de uno o más atacantes.</characteristic>
-            <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Hasta el final de la fase esa unidad gana Cobertura y la habilidad SIGILO.</characteristic>
-            <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">No se puede combinar con Amortiguadores de impacto.</characteristic>
+            <characteristic name="Cuando" typeId="50e1-3654-5678-d305">Cuando tu rival declare una carga contra una unidad KROOT.</characteristic>
+            <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad KROOTde tu ejercito.</characteristic>
+            <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Hasta el final de la fase, la unidad KROOTobtiene atacar primero.</characteristic>
+            <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">-</characteristic>
           </characteristics>
         </profile>
         <profile name="SOLDADOS DE GUERRILLA" typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas" hidden="false" id="a5ea-ac52-2efe-e068">
           <characteristics>
             <characteristic name="CP" typeId="d6ce-92be-7b44-541d">1</characteristic>
             <characteristic name="Tipo" typeId="d7c0-0526-e25c-f3ab">ESTRATAGEMA MANADA DE CAZA KROOT - ARDID ESTRATÉGICO</characteristic>
-            <characteristic name="Cuando" typeId="50e1-3654-5678-d305">Fase de Mando.</characteristic>
-            <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad VEHIVULO (No TITÁNICA) Imperio T’au.</characteristic>
-            <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Selecciona una miniatura de tu unidad esa miniatura recupera D3+1 heridas perdidas.</characteristic>
-            <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3"/>
+            <characteristic name="Cuando" typeId="50e1-3654-5678-d305">Tu fase de movimiento, justo después de que una unidad Kroot de tu ejército retroceda o avance.</characteristic>
+            <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Esa unidad KROOT.</characteristic>
+            <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Hasta el final del turno, tu unidad puede ser elegida para disparar y declara una Carga.</characteristic>
+            <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">-</characteristic>
           </characteristics>
         </profile>
         <profile name="UNIRSE A LA CAZA" typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas" hidden="false" id="bb1e-431c-f538-f142">
           <characteristics>
             <characteristic name="CP" typeId="d6ce-92be-7b44-541d">2</characteristic>
             <characteristic name="Tipo" typeId="d7c0-0526-e25c-f3ab">ESTRATAGEMA MANADA DE CAZA KROOT - TÁCTICA DE BATALLA</characteristic>
-            <characteristic name="Cuando" typeId="50e1-3654-5678-d305">En la Fase de disparo o combate de tu enemigo, justo después de que un enemigo haya seleccionado sus objetivos.</characteristic>
-            <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad Imperio T’au VEHÍCULO (No TITÁNICA) que haya sido seleccionada como objetivo de uno o más disparos.</characteristic>
-            <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Hasta el final de la fase, resta 1 a la tirada para herir si la Fuerza del Ataque en mayor que la Resistencia de la unidad objetivo.</characteristic>
-            <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">No se puede combinar con Lanzador de señuelos.</characteristic>
+            <characteristic name="Cuando" typeId="50e1-3654-5678-d305">Cualquier fase.</characteristic>
+            <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad INFANTERÍA KROOT O MASTINES DE GUERRA KROOT de tu ejército que acabe de ser eliminada. Puedes usar esta estratagema en esa unidad aunque haya sido eliminada.</characteristic>
+            <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Añade a tu ejército una nueva unidad idéntica a la unidad eliminada. Colócala en las reservas estratégicas con sus efectivos iniciales.</characteristic>
+            <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">Esta estratagema no puede usarse para devolver unidades PERSONAJE a unidades adjuntas. Solo una vez por batalla.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7591,12 +7603,35 @@
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8624-50ae-71ab-d4d8" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0583-46be-9460-7da3" type="max"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cc22-413a-907f-61cb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
         <entryLink id="df0d-298a-40b3-6512" name="🗡️ Acechantes Kroot" hidden="false" collective="false" import="true" targetId="77d0-1b1d-b305-5118" type="selectionEntry" sortIndex="1">
           <constraints>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56a0-1599-dc9a-6715" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4b2-053d-590d-265b" type="max"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cc22-413a-907f-61cb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="🗡️ Auxiliares Rampagers Krootox" hidden="true" id="9675-2b7c-c3b6-117a" type="selectionEntry" targetId="d2b8-c3f2-f88d-4f8a" sortIndex="3">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cc22-413a-907f-61cb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -7796,8 +7831,22 @@
             <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Destacamento Partida de caza Kroot: Cazadores expertos" id="4f79-8d9f-e456-811e" hidden="false" targetId="133e-6888-4454-c93c" type="rule"/>
+            <infoLink name="Destacamento Manada de caza Kroot: Cazadores expertos" id="4f79-8d9f-e456-811e" hidden="false" targetId="133e-6888-4454-c93c" type="rule"/>
           </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="🎲 Estratagemas Manada de Caza Kroot" hidden="false" id="f514-5ddc-fc04-9414" type="selectionEntry" targetId="5b3a-ffe6-24ea-797a">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b74d-676d-f873-b704" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c8ed-91f3-aee6-c0d5" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="⚙️ Armas Raizgrabadas" id="6df8-1f10-7174-5b78" hidden="false" type="profile" targetId="e72b-6aa3-12d6-4939"/>
+                <infoLink name="⚙️ Glándula de Borthrod" id="3163-60db-8cf4-b19c" hidden="false" type="profile" targetId="0f87-c86b-4cdf-07ae"/>
+                <infoLink name="⚙️ Cazador nómada" id="d999-d4a0-61e1-9460" hidden="false" type="profile" targetId="5c17-e446-45f7-b2ef"/>
+                <infoLink name="⚙️ Bandada de Krootalcones" id="d3d5-e44f-5081-2257" hidden="false" type="profile" targetId="90a9-e56a-9415-a353"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
         <selectionEntry id="a972-9f38-ad0c-666b" name="🦾 Cuadro de Represalia" hidden="false" collective="false" import="true" type="upgrade" sortIndex="5">
           <constraints>
@@ -7854,10 +7903,10 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae67-bcbc-f112-d91a" includeChildSelections="false"/>
               </constraints>
               <infoLinks>
-                <infoLink name="⚙️ Sistema de empuje vectorizado" id="5b9b-a9c4-4548-7f76" hidden="false" type="profile" targetId="f178-ed5c-6c3c-92af"/>
+                <infoLink name="⚙️ Armas Raizgrabadas" id="5b9b-a9c4-4548-7f76" hidden="false" type="profile" targetId="e72b-6aa3-12d6-4939"/>
                 <infoLink name="⚙️ Glándula de Borthrod" id="e51f-fd84-3533-7de9" hidden="false" type="profile" targetId="0f87-c86b-4cdf-07ae"/>
                 <infoLink name="⚙️ Cazador nómada" id="92a1-8a5f-1ee0-430b" hidden="false" type="profile" targetId="5c17-e446-45f7-b2ef"/>
-                <infoLink name="⚙️ Sistema de camuflaje avanzado" id="afac-31fc-3ea4-8fc4" hidden="false" type="profile" targetId="fbef-0f2d-d712-e3db"/>
+                <infoLink name="⚙️ Bandada de Krootalcones" id="afac-31fc-3ea4-8fc4" hidden="false" type="profile" targetId="90a9-e56a-9415-a353"/>
               </infoLinks>
             </entryLink>
           </entryLinks>
@@ -7876,82 +7925,6 @@
         <entryLink import="true" name="🛠️ Camuflaje Adaptativo " hidden="false" id="09ce-6db6-2072-a44d" collective="false" targetId="ff9d-56bf-6c42-6d65" type="selectionEntry" sortIndex="2"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Mejoras" id="c744-2dee-ec20-6679" hidden="false">
-      <selectionEntryGroups>
-        <selectionEntryGroup name="🛠️ Mejoras Bork&apos;an" id="881d-a3b8-69e1-0819" hidden="true" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="c81a-683a-be7c-bc0a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e9b7-593a-ce27-25fc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5122-bb90-beec-308f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <entryLinks>
-            <entryLink import="true" name="🛠️ Sistema de empuje vectorizado" hidden="false" id="abd8-74a7-faec-197f" collective="false" targetId="f8e1-a488-8cb8-c6d3" type="selectionEntry" sortIndex="4">
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="bc86-96e8-070c-eb2a" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink import="true" name="🛠️ Red telemétrica" hidden="false" id="26b8-2836-ae20-6862" collective="false" targetId="938a-d42e-78de-fe40" type="selectionEntry" sortIndex="2">
-              <modifiers>
-                <modifier type="set" value="true" field="hidden">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="10b1-06fb-a20f-5690" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="4bb8-c71a-b817-a570" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                        <condition type="equalTo" value="1" field="selections" scope="parent" childId="40b1-5632-80d4-4957" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink import="true" name="🛠️ Sistema de camuflaje avanzado" hidden="false" id="441f-1ccd-f8f5-e081" collective="false" targetId="dd9a-55fc-8595-ce7e" type="selectionEntry" sortIndex="3"/>
-            <entryLink import="true" name="🛠️ Generador de energia auxiliar" hidden="false" id="342f-50e1-4b82-166f" collective="false" targetId="62fd-4f3d-a042-5b1c" type="selectionEntry" sortIndex="1"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="🛠️ Mejoras Sa&apos;cea" id="8b10-bc60-96cc-8224" hidden="true" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="greaterThan" value="0" field="selections" scope="roster" childId="5b66-1b04-a679-4658" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0a82-85fa-855d-2659" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20ae-df60-89cf-b152" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <entryLinks>
-            <entryLink import="true" name="🛠️ Sistema de empuje vectorizado" hidden="false" id="693f-03b6-eb90-bbbc" collective="false" targetId="f8e1-a488-8cb8-c6d3" type="selectionEntry" sortIndex="4">
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="bc86-96e8-070c-eb2a" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink import="true" name="🛠️ Red telemétrica" hidden="false" id="fbcd-6275-1a61-17da" collective="false" targetId="938a-d42e-78de-fe40" type="selectionEntry" sortIndex="2"/>
-            <entryLink import="true" name="🛠️ Sistema de camuflaje avanzado" hidden="false" id="23a7-51c6-5deb-e6ae" collective="false" targetId="dd9a-55fc-8595-ce7e" type="selectionEntry" sortIndex="3"/>
-            <entryLink import="true" name="🛠️ Conquistador Estratégico " hidden="false" id="007f-a134-f6f1-95a6" collective="false" targetId="49fc-f1ad-b3a5-d081" type="selectionEntry" sortIndex="1"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <constraints>
-        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="57e3-3132-d2af-520e" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4629-0204-7800-f54c" includeChildSelections="false"/>
-      </constraints>
-    </selectionEntryGroup>
     <selectionEntryGroup name="🛠️ Cazadores de bestias" id="d727-807a-2df6-f4c2" hidden="true" collective="false" import="true" sortIndex="6">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -7969,35 +7942,21 @@
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="parent" childId="bc86-96e8-070c-eb2a" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="10b1-06fb-a20f-5690" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </conditions>
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="🛠️ Glándula de Borthrod" hidden="false" id="d426-fc36-4a44-965c" collective="false" targetId="3c2f-48be-658c-b3ae" type="selectionEntry" sortIndex="2">
-          <modifiers>
-            <modifier type="set" value="true" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="10b1-06fb-a20f-5690" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="4bb8-c71a-b817-a570" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="40b1-5632-80d4-4957" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </entryLink>
+        <entryLink import="true" name="🛠️ Glándula de Borthrod" hidden="true" id="d426-fc36-4a44-965c" collective="false" targetId="3c2f-48be-658c-b3ae" type="selectionEntry" sortIndex="2"/>
         <entryLink import="true" name="🛠️ Bandada de Krootalcones" hidden="false" id="e234-1b1c-2608-785e" collective="false" targetId="e6cd-970a-c64f-278c" type="selectionEntry" sortIndex="3"/>
         <entryLink import="true" name="🛠️ Cazador nómada" hidden="false" id="3e08-de1e-89f0-842d" collective="false" targetId="e7d3-f442-9d96-417e" type="selectionEntry" sortIndex="1"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="🛠️ Partida de caza Kroot" id="61ec-daf6-d907-b436" hidden="true" collective="false" import="true" sortIndex="5">
+    <selectionEntryGroup name="🛠️ Manada de caza Kroot" id="61ec-daf6-d907-b436" hidden="true" collective="false" import="true" sortIndex="5">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditions>
-            <condition type="greaterThan" value="0" field="selections" scope="roster" childId="6a6a-aea4-72c9-1e46" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="greaterThan" value="0" field="selections" scope="roster" childId="3161-7589-aaa2-9def" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -8006,15 +7965,7 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a65d-de69-055a-c74a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="🛠️ Armas Raizgrabadas" hidden="false" id="3a77-4753-ce5c-f3a8" collective="false" targetId="ac95-96cb-7d2c-236d" type="selectionEntry" sortIndex="4">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="parent" childId="bc86-96e8-070c-eb2a" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
+        <entryLink import="true" name="🛠️ Armas Raizgrabadas" hidden="false" id="3a77-4753-ce5c-f3a8" collective="false" targetId="ac95-96cb-7d2c-236d" type="selectionEntry" sortIndex="4"/>
         <entryLink import="true" name="🛠️ Glándula de Borthrod" hidden="false" id="ea50-2a02-c9bb-8b85" collective="false" targetId="3c2f-48be-658c-b3ae" type="selectionEntry" sortIndex="2">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -8065,7 +8016,7 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
       <description>■ EXPERTOS EN GRANDES PRESAS: Cada vez que una miniatura Kroot de tu ejército realice un ataque, suma 1 a la tirada para impactar si el blanco de ese ataque está por debajo de sus efectivos iniciales, y suma también 1 a la tirada para herir si el blanco del ataque está por debajo de la mitad de sus efectivos. Además si el ataque se realiza contra una unidad VEHÍCULO o MONSTRUO, esos ataques ganan la regla HERIDAS DEVASTADORAS.
 ■ EXPERTOS EN ESCARAMUZAS: Las miniaturas Kroot de tu ejército tienen una salvación invulnerable de 6+ contra ataques de combate y una salvación invulnerable de 5+ contra ataques a distancia.</description>
     </rule>
-    <rule name="Destacamento Partida de caza Kroot: Cazadores expertos" id="133e-6888-4454-c93c" hidden="false">
+    <rule name="Destacamento Manada de caza Kroot: Cazadores expertos" id="133e-6888-4454-c93c" hidden="false">
       <description>■ EXPERTOS EN GRANDES PRESAS: Cada vez que una miniatura Kroot de tu ejército realice un ataque, suma 1 a la tirada para impactar si el blanco de ese ataque está por debajo de sus efectivos iniciales, y suma también 1 a la tirada para herir si el blanco del ataque está por debajo de la mitad de sus efectivos. 
 ■ EXPERTOS EN ESCARAMUZAS: Las miniaturas Kroot de tu ejército tienen una salvación invulnerable de 6+ contra ataques de combate y una salvación invulnerable de 5+ contra ataques a distancia.</description>
     </rule>
@@ -11151,7 +11102,7 @@ Fortificación es 15.</characteristic>
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6"/>
       </characteristics>
     </profile>
-    <profile id="c52b-16c1-7664-bea8" name="⚔️ Arma combate" hidden="false" typeId="1bda-9ac8-4f3f-5644" typeName="⚔️ Armas CaC">
+    <profile id="c52b-16c1-7664-bea8" name="⚔️ Arma de combate" hidden="false" typeId="1bda-9ac8-4f3f-5644" typeName="⚔️ Armas CaC">
       <characteristics>
         <characteristic name="Alcance" typeId="7f9c-7a9b-11a0-4040">Combate</characteristic>
         <characteristic name="A" typeId="dac0-5ded-e8c5-6855">3</characteristic>
@@ -11721,7 +11672,17 @@ Fortificación es 15.</characteristic>
     </profile>
     <profile name="⚙️ Glándula de Borthrod" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="0f87-c86b-4cdf-07ae">
       <characteristics>
-        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniatura CARNEMORFO Kroot. Mientras el portador lidere una unidad, cuando una miniatura en esa unidad ataque en combate, toda tirada para impactar de 5+ sin modificar logra un impacto crítico.</characteristic>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniatura CARNEMORFO KROOT. Mientras el portador lidere una unidad, cuando una miniatura en esa unidad ataque en combate, toda tirada para impactar de 5+ sin modificar logra un impacto crítico.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="⚙️ Bandada de Krootalcones" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="90a9-e56a-9415-a353">
+      <characteristics>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniatura KROOT. Las armas a distancia con las que estén equipadas las miniaturas en la unidad del portador tiene la habilidad [IGNORA COBERTURA], y las unidades enemigas que se desplieguen en el campo de batalla como refuerzos no se pueden desplegar horizontalmente a 12&quot; o menos del portador.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="⚙️ Armas Raizgrabadas" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="e72b-6aa3-12d6-4939">
+      <characteristics>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniatura GUERRAMORFO KROOT. Todas las armas con las que esté equipado el portador tienen las habilidades [PRECISIÓN] y [HERIDAS DEVASTADORAS].</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

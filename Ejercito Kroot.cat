@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="04ec-96f3-d39d-5913" name="Ejercito Kroot" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="11" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="🇯🇪 Imperio Tau 10ª Edicion" id="1dd9-3eec-87ae-db6e" targetId="5ff1-c96b-3b4d-8231" importRootEntries="false"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="🎖️ 🗡️ Lider Rastromorfo Kroot " hidden="false" id="9cb3-a18b-beda-90e3" type="selectionEntry" targetId="40b1-5632-80d4-4957" sortIndex="5">
+      <categoryLinks>
+        <categoryLink targetId="9d48-1013-e052-2c37" id="6eaf-2a2e-9ca5-480b" primary="true" name="Cuartel General"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0714-01a8-a5ae-0050" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9bc8-336b-9f19-a415" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="🎖️ 🗡️ Lider Carnemorfo Kroot " hidden="false" id="3bdc-e54d-9c7b-341c" type="selectionEntry" targetId="4bb8-c71a-b817-a570" sortIndex="3">
+      <categoryLinks>
+        <categoryLink targetId="9d48-1013-e052-2c37" id="d801-1f1a-9ae8-8085" primary="true" name="Cuartel General"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="763c-d25f-4986-7ac0" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c090-cb82-efcf-1bdf" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="🎖️ 🗡️ Lider Guerramorfo Kroot " hidden="false" id="a813-bae9-ca29-176f" type="selectionEntry" targetId="10b1-06fb-a20f-5690" sortIndex="4">
+      <categoryLinks>
+        <categoryLink targetId="9d48-1013-e052-2c37" id="fe77-302d-897f-840f" primary="true" name="Cuartel General"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0b9f-a6a6-99f6-e1a8" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5055-b12c-a8e9-44cb" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="🗡️ Auxiliares Carnivoros Kroot" hidden="false" id="691f-77dd-909e-f3f8" type="selectionEntry" targetId="d065-76d2-87eb-05af" sortIndex="7">
+      <categoryLinks>
+        <categoryLink targetId="711e-42fc-72b9-adf9" id="8209-5dff-beed-1d3a" primary="true" name="Linea de Batalla"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="136e-6e87-d0e8-9bb7" includeChildSelections="false"/>
+        <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="00e4-a4bb-4b35-3438" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="🗡️ Auxiliares Jinetes Krootox " hidden="false" id="2c46-a06a-8296-9a18" type="selectionEntry" targetId="2045-282c-1819-cf17" sortIndex="8">
+      <categoryLinks>
+        <categoryLink targetId="7a9a-09db-7f17-5528" id="6c82-fc9a-2073-7eff" primary="true" name="Auxiliares"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f8c7-1257-5e62-4059" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="🗡️ Auxiliares Mastines Kroot" hidden="false" id="474b-8516-462e-bc88" type="selectionEntry" targetId="1027-df76-5c62-cf84" sortIndex="10">
+      <categoryLinks>
+        <categoryLink targetId="7a9a-09db-7f17-5528" id="7602-6555-8d4a-15fc" primary="true" name="Auxiliares"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1afb-5be3-5d11-5cac" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1418-73f8-7c4f-7a0b" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="⭐🗡️ Noonien Singh Khan " hidden="false" id="1859-9248-d7bc-b115" type="selectionEntry" targetId="cc22-413a-907f-61cb" sortIndex="1">
+      <categoryLinks>
+        <categoryLink targetId="9d48-1013-e052-2c37" id="bb4c-e9ec-08c8-8c5b" primary="false" name="Cuartel General"/>
+        <categoryLink targetId="947d-359d-9d55-e6ee" id="fb95-7a50-9577-2d6c" primary="true" name="Personajes epicos"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d269-2ecf-fd27-72db" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="00e6-57d8-95cd-a9f9" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="🎖️ 🗡️ Lanza Solitaria Kroot" hidden="false" id="93e5-b862-0849-1494" type="selectionEntry" targetId="0caa-effb-d134-53d7" sortIndex="2">
+      <categoryLinks>
+        <categoryLink targetId="9d48-1013-e052-2c37" id="9a0f-b5e8-7792-83c3" primary="true" name="Cuartel General"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="442d-b79d-dd0f-22f9" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="63c6-ca13-4ddd-d0d5" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="🗡️ Acechantes Kroot" hidden="false" id="3ec3-fc2e-06df-e360" type="selectionEntry" targetId="77d0-1b1d-b305-5118" sortIndex="6">
+      <categoryLinks>
+        <categoryLink targetId="7a9a-09db-7f17-5528" id="336a-ad47-8273-05a6" primary="true" name="Auxiliares"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ada2-2b87-b9fe-60c6" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c827-4d3d-209f-8b72" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="💀 Destacamentos" hidden="false" id="0897-b498-f0d5-37e4" type="selectionEntry" targetId="ecfe-4334-6718-11a2" sortIndex="11">
+      <categoryLinks>
+        <categoryLink targetId="6864-037b-1803-ecac" id="a41b-dad8-c69b-cdb5" primary="true" name="Destacamentos"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="64e2-608e-e19e-244b" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9256-0837-1f81-e603" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="🗡️ Auxiliares Rampagers Krootox" hidden="false" id="db8d-62a4-f860-b658" type="selectionEntry" targetId="d2b8-c3f2-f88d-4f8a" sortIndex="9">
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b859-0fe7-4be3-139a" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e600-a872-e260-0e4d" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="7a9a-09db-7f17-5528" id="bc3f-61af-0d9f-5847" primary="true" name="Auxiliares"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="🔎 Tipo de Juego" hidden="false" id="0374-e89c-06c6-52f0" type="selectionEntry" targetId="a0cc-3abb-940c-a16e" sortIndex="12">
+      <categoryLinks>
+        <categoryLink targetId="584a-6bca-a178-ecdc" id="0de2-c11f-c6bd-1287" primary="true" name="Tipo de juego"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="517b-feef-5845-67c6" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
+  </entryLinks>
+</catalogue>
