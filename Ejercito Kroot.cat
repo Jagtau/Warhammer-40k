@@ -85,15 +85,6 @@
         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c827-4d3d-209f-8b72" includeChildSelections="false"/>
       </constraints>
     </entryLink>
-    <entryLink import="true" name="💀 Destacamentos" hidden="false" id="0897-b498-f0d5-37e4" type="selectionEntry" targetId="ecfe-4334-6718-11a2" sortIndex="11">
-      <categoryLinks>
-        <categoryLink targetId="6864-037b-1803-ecac" id="a41b-dad8-c69b-cdb5" primary="true" name="Destacamentos"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="64e2-608e-e19e-244b" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9256-0837-1f81-e603" includeChildSelections="false"/>
-      </constraints>
-    </entryLink>
     <entryLink import="true" name="🗡️ Auxiliares Rampagers Krootox" hidden="false" id="db8d-62a4-f860-b658" type="selectionEntry" targetId="d2b8-c3f2-f88d-4f8a" sortIndex="9">
       <constraints>
         <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b859-0fe7-4be3-139a" includeChildSelections="false"/>
@@ -111,5 +102,88 @@
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="517b-feef-5845-67c6" includeChildSelections="false"/>
       </constraints>
     </entryLink>
+    <entryLink import="true" name="Destacamentos" hidden="false" id="93e6-c943-0726-71f6" collective="false" targetId="0b7d-b408-c32f-3e66" type="selectionEntryGroup">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="abcc-fa9d-a8ff-05c6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e79-9267-4629-5e55" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Destacamentos" id="052b-ca86-612d-223d" hidden="false" defaultSelectionEntryId="f062-cbf5-7ce5-498e">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="🛸 Manada de caza Kroot" hidden="false" id="11ea-4b7d-74d2-17ef" collective="false">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b37f-8c46-e6ce-a29f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0b2-befb-425d-57cf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <costs>
+            <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Destacamento Manada de caza Kroot: Cazadores expertos" id="742b-39fc-a772-e698" hidden="false" targetId="133e-6888-4454-c93c" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="🎲 Estratagemas Manada de Caza Kroot" hidden="false" id="b1ca-9544-a6cc-f97d" type="selectionEntry" targetId="5b3a-ffe6-24ea-797a">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e83b-1e85-cae5-19dc" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f82f-cd39-e8c0-b72c" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="⚙️ Armas Raizgrabadas" id="57b9-4833-a704-4948" hidden="false" type="profile" targetId="e72b-6aa3-12d6-4939"/>
+                <infoLink name="⚙️ Glándula de Borthrod" id="9732-2e6b-0658-f8d5" hidden="false" type="profile" targetId="0f87-c86b-4cdf-07ae"/>
+                <infoLink name="⚙️ Cazador nómada" id="3902-6e01-d3a3-c670" hidden="false" type="profile" targetId="5c17-e446-45f7-b2ef"/>
+                <infoLink name="⚙️ Bandada de Krootalcones" id="8983-22bb-5b0b-1d0d" hidden="false" type="profile" targetId="90a9-e56a-9415-a353"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="🦕 Cazadores de bestias Kroot" hidden="false" id="f062-cbf5-7ce5-498e" collective="false">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5393-3199-ecf8-03b6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="011f-c54f-7cf2-4deb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <costs>
+            <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Destacamento Cazadores de bestias: Mata bestias" id="63b5-783f-0cbd-ea04" hidden="false" targetId="a77d-2b30-36e5-02c8" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="🎲 Estratagemas Cazadores de Bestias" hidden="false" id="f44d-0a34-501e-0bd1" type="selectionEntry" targetId="c40a-0ce1-11e7-3d81">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6005-ca91-822d-f4f1" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6f1-a64d-d12e-2aa9" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="⚙️ Armas Raizgrabadas" id="8c07-0a22-0cb9-65ee" hidden="false" type="profile" targetId="e72b-6aa3-12d6-4939"/>
+                <infoLink name="⚙️ Glándula de Borthrod" id="12e9-890e-c52e-81b3" hidden="false" type="profile" targetId="0f87-c86b-4cdf-07ae"/>
+                <infoLink name="⚙️ Cazador nómada" id="c711-cd7e-cac4-49a6" hidden="false" type="profile" targetId="5c17-e446-45f7-b2ef"/>
+                <infoLink name="⚙️ Bandada de Krootalcones" id="0e2d-806d-9a1f-dc5b" hidden="false" type="profile" targetId="90a9-e56a-9415-a353"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Destacamentos" hidden="false" id="5c3f-ec0a-ca51-402b" sortIndex="11">
+      <entryLinks>
+        <entryLink import="true" name="Destacamentos" hidden="false" id="e1f0-6b6e-165d-8aae" type="selectionEntryGroup" targetId="052b-ca86-612d-223d">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7749-e566-2b1e-34c1" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a961-5688-ff32-0f38" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="6864-037b-1803-ecac" id="9010-9eb2-28ba-63d7" primary="true" name="Destacamentos"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="83a4-d036-61dc-65ed" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c97-86d3-7974-2fa1" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>

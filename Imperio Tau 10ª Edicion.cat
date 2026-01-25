@@ -6183,17 +6183,17 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ecfe-4334-6718-11a2" name="💀 Destacamentos" hidden="false" collective="false" import="true" type="upgrade">
-      <entryLinks>
-        <entryLink id="cc97-415e-ea87-0da8" name="Destacamentos" hidden="false" collective="false" import="true" targetId="0b7d-b408-c32f-3e66" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e41-512b-bf1d-a8d8" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d147-a7f5-693b-ae5c" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
+      <entryLinks>
+        <entryLink import="true" name="Destacamentos" hidden="false" id="ad0d-7035-9317-2865" type="selectionEntryGroup" targetId="0b7d-b408-c32f-3e66">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ca9f-0dd8-ba36-f655" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f6a-5110-c96e-f8ca" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry id="d7e0-ef92-55b5-df2f" name="⭐ Shas’vre Ohr&apos;tu" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
@@ -7812,6 +7812,10 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
               </infoLinks>
             </entryLink>
           </entryLinks>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="dbfc-6ac8-19ad-c867" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd15-679c-45c3-6f94" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry id="45eb-d3a9-5f83-df3f" name="🔪 Mont&apos;ka" hidden="false" collective="false" import="true" type="upgrade" sortIndex="4">
           <constraints>
@@ -7848,7 +7852,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
             </entryLink>
           </entryLinks>
         </selectionEntry>
-        <selectionEntry id="a972-9f38-ad0c-666b" name="🦾 Cuadro de Represalia" hidden="false" collective="false" import="true" type="upgrade" sortIndex="5">
+        <selectionEntry id="a972-9f38-ad0c-666b" name="🦾 Cuadro de Represalia" hidden="true" collective="false" import="true" type="upgrade" sortIndex="5">
           <constraints>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aabf-90f1-9955-9035" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c5c-dc0a-e1dc-d15e" type="max"/>
@@ -7884,6 +7888,10 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
               </infoLinks>
             </entryLink>
           </entryLinks>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6028-884b-156c-5050" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b97-d47b-54cf-b11d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="🦕 Cazadores de bestias Kroot" hidden="false" id="6a6a-aea4-72c9-1e46" collective="false" sortIndex="7">
           <constraints>
