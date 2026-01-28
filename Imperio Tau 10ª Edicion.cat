@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5ff1-c96b-3b4d-8231" name="🇯🇪 Imperio Tau 10ª Edicion" revision="35" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" library="false" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" page="github.com/Jagtau/Warhammer-40k">
+<catalogue id="5ff1-c96b-3b4d-8231" name="🇯🇪 Imperio Tau 10ª Edicion" revision="50" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" library="false" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" page="github.com/Jagtau/Warhammer-40k">
   <readme>Este destacamento se caracteriza por...</readme>
   <categoryEntries>
     <categoryEntry id="ce5f-a8b6-69b9-f84a" name="Por el Bien Supremo" hidden="false">
       <infoLinks>
-        <infoLink id="03db-549e-8cca-e83a" name="Por el Bien Supremo" hidden="false" targetId="9ab1-7f4f-6b5b-a114" type="rule"/>
+        <infoLink id="03db-549e-8cca-e83a" name="Por el Bien Supremo" hidden="false" targetId="1ebd-119d-b0e4-5c4a" type="rule"/>
       </infoLinks>
     </categoryEntry>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="e77d-d50e-61bf-7d8c" name="🎖️ Filoardiente" hidden="false" collective="false" import="true" targetId="fee5-44ce-9525-a83b" type="selectionEntry" sortIndex="10">
+    <entryLink id="e77d-d50e-61bf-7d8c" name="🎖️ Filoardiente" hidden="false" collective="false" import="false" targetId="fee5-44ce-9525-a83b" type="selectionEntry" sortIndex="10">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="261d-3bb8-eb57-24b7" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0db7-42af-7955-364f" type="max"/>
@@ -20,7 +20,7 @@
         <categoryLink id="a1bf-cf0a-a16e-6c91" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e8ff-e119-87d5-a16d" name="🎖️ 🗡️ Lider Guerramorfo Kroot " hidden="false" collective="false" import="true" targetId="10b1-06fb-a20f-5690" type="selectionEntry" sortIndex="12">
+    <entryLink id="e8ff-e119-87d5-a16d" name="🎖️ 🗡️ Lider Guerramorfo Kroot " hidden="false" collective="false" import="false" targetId="10b1-06fb-a20f-5690" type="selectionEntry" sortIndex="12">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d882-9d67-0fb6-055e" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b672-da49-aa58-f357" type="max"/>
@@ -35,7 +35,7 @@
         <entryLink import="true" name="💀 Señor de la Guerra" hidden="false" id="7178-50a1-594e-df67" collective="false" targetId="29b5-6069-3130-bdbd" type="selectionEntry" sortIndex="1"/>
       </entryLinks>
     </entryLink>
-    <entryLink id="2f7d-cec4-ae04-c705" name="🤖 Exoarmadura XV104 Cataclismo" hidden="false" collective="false" import="true" targetId="8ad2-3aea-525e-24af" type="selectionEntry" sortIndex="24">
+    <entryLink id="2f7d-cec4-ae04-c705" name="🤖 Exoarmadura XV104 Cataclismo" hidden="false" collective="false" import="false" targetId="8ad2-3aea-525e-24af" type="selectionEntry" sortIndex="24">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a985-9213-a713-25d2" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82bc-df68-2f1a-fc39" type="max"/>
@@ -47,7 +47,7 @@
         <categoryLink id="0a27-3549-25b7-2b72" name="Exoarmadura" hidden="false" targetId="bad9-a07f-c0b5-f0c3" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e7c7-f766-46f6-c31b" name="🗡️ Auxiliares Mastines Kroot" hidden="false" collective="false" import="true" targetId="1027-df76-5c62-cf84" type="selectionEntry" sortIndex="35">
+    <entryLink id="e7c7-f766-46f6-c31b" name="🗡️ Auxiliares Mastines Kroot" hidden="false" collective="false" import="false" targetId="1027-df76-5c62-cf84" type="selectionEntry" sortIndex="35">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d650-8b77-bee7-8059" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cb4-fbf8-1b8d-92a1" type="max"/>
@@ -58,7 +58,7 @@
         <categoryLink id="517b-648f-e7a5-4a05" name="Auxiliares" hidden="false" targetId="7a9a-09db-7f17-5528" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0068-39ab-027c-e2c8" name="🗡️ Auxiliares Aguijones alados Vespid" hidden="false" collective="false" import="true" targetId="ªq" type="selectionEntry" sortIndex="36">
+    <entryLink id="0068-39ab-027c-e2c8" name="🗡️ Auxiliares Aguijones alados Vespid" hidden="false" collective="false" import="false" targetId="ªq" type="selectionEntry" sortIndex="36">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d35a-9b09-21b4-4efd" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d328-3d29-a33d-5da0" type="max"/>
@@ -68,7 +68,7 @@
         <categoryLink id="ff35-9b56-2b78-e79c" name="Auxiliares" hidden="false" targetId="7a9a-09db-7f17-5528" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b9ee-0027-5380-0d09" name="☠️ Tanque TX7 Cabezamartillo" hidden="false" collective="false" import="true" targetId="cc12-5218-5a55-3445" type="selectionEntry" sortIndex="37">
+    <entryLink id="b9ee-0027-5380-0d09" name="☠️ Tanque TX7 Cabezamartillo" hidden="false" collective="false" import="false" targetId="cc12-5218-5a55-3445" type="selectionEntry" sortIndex="37">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0149-5768-7454-0130" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68d5-e169-9b62-71ce" type="max"/>
@@ -95,7 +95,7 @@
         </profile>
       </profiles>
     </entryLink>
-    <entryLink id="4a7b-9f78-2833-8d86" name="🗡️ Auxiliares Carnivoros Kroot" hidden="false" collective="false" import="true" targetId="d065-76d2-87eb-05af" type="selectionEntry" sortIndex="32">
+    <entryLink id="4a7b-9f78-2833-8d86" name="🗡️ Auxiliares Carnivoros Kroot" hidden="false" collective="false" import="false" targetId="d065-76d2-87eb-05af" type="selectionEntry" sortIndex="32">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5711-9647-8623-5a20" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="006e-f704-ca84-b5ca" type="max"/>
@@ -106,7 +106,7 @@
         <categoryLink id="d0f5-1ef0-0327-9a12" name="Auxiliares" hidden="false" targetId="7a9a-09db-7f17-5528" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9980-01a2-ea79-ec34" name="🗡️ Auxiliares Jinetes Krootox " hidden="false" collective="false" import="true" targetId="2045-282c-1819-cf17" type="selectionEntry" sortIndex="33">
+    <entryLink id="9980-01a2-ea79-ec34" name="🗡️ Auxiliares Jinetes Krootox " hidden="false" collective="false" import="false" targetId="2045-282c-1819-cf17" type="selectionEntry" sortIndex="33">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8af3-7350-9843-4f63" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a729-c54c-933e-735d" type="max"/>
@@ -116,7 +116,7 @@
         <categoryLink id="2d87-1887-ccad-3a81" name="Auxiliares" hidden="false" targetId="7a9a-09db-7f17-5528" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="122e-8d82-d18d-733d" name="🪖 Equipo Breacher" hidden="false" collective="false" import="true" targetId="8de6-f4d1-d00a-a2f6" type="selectionEntry" sortIndex="16">
+    <entryLink id="122e-8d82-d18d-733d" name="🪖 Equipo Breacher" hidden="false" collective="false" import="false" targetId="8de6-f4d1-d00a-a2f6" type="selectionEntry" sortIndex="16">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="30f2-bf17-f6c5-de6c" type="min"/>
         <constraint field="selections" scope="roster" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7e46-538b-99cd-b9c9" type="max"/>
@@ -126,7 +126,7 @@
         <categoryLink id="fc6e-6893-9e82-2cee" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2b62-e101-5c92-773a" name="🪖 Equipo Strike" hidden="false" collective="false" import="true" targetId="d28e-688f-c8f1-1ebe" type="selectionEntry" sortIndex="17">
+    <entryLink id="2b62-e101-5c92-773a" name="🪖 Equipo Strike" hidden="false" collective="false" import="false" targetId="d28e-688f-c8f1-1ebe" type="selectionEntry" sortIndex="17">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ae6e-19de-c5c0-648b" type="min"/>
         <constraint field="selections" scope="roster" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e984-f723-b2ba-fc2d" type="max"/>
@@ -136,7 +136,7 @@
         <categoryLink id="df70-604b-24ab-7da0" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cecb-8616-194a-1773" name="🤖 Exoarmaduras XV25 Mimeticas" hidden="false" collective="false" import="true" targetId="9b50-ac51-a8dd-30a7" type="selectionEntry" sortIndex="18">
+    <entryLink id="cecb-8616-194a-1773" name="🤖 Exoarmaduras XV25 Mimeticas" hidden="false" collective="false" import="false" targetId="9b50-ac51-a8dd-30a7" type="selectionEntry" sortIndex="18">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4db1-9508-a21a-6a02" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="72fd-3237-8ed5-df22" type="max"/>
@@ -148,7 +148,7 @@
         <categoryLink id="08fb-8834-25e1-0f49" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ed4d-7ebe-5ffd-cef6" name="☠️ Tanque TX78 Mont&apos;ka Shas" hidden="false" collective="false" import="true" targetId="e99b-ef66-3ca6-37cf" type="selectionEntry" sortIndex="38">
+    <entryLink id="ed4d-7ebe-5ffd-cef6" name="☠️ Tanque TX78 Mont&apos;ka Shas" hidden="false" collective="false" import="false" targetId="e99b-ef66-3ca6-37cf" type="selectionEntry" sortIndex="38">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c60-afca-92e1-0cd6" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4be2-895d-dcdb-f04a" type="max"/>
@@ -160,7 +160,7 @@
         <categoryLink id="3ed6-c3c6-ef27-6582" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f468-0abd-702f-62d1" name="🚄 Transporte TY7 Mantarraya" hidden="false" collective="false" import="true" targetId="b1db-a7e8-332c-77f0" type="selectionEntry" sortIndex="44">
+    <entryLink id="f468-0abd-702f-62d1" name="🚄 Transporte TY7 Mantarraya" hidden="false" collective="false" import="false" targetId="b1db-a7e8-332c-77f0" type="selectionEntry" sortIndex="44">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1110-6043-ea7d-2159" type="min"/>
         <constraint field="selections" scope="roster" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="795a-d768-7a8d-d8e8" type="max"/>
@@ -171,7 +171,7 @@
         <categoryLink id="0c81-f7e1-ba92-cc84" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f02c-f964-162b-e9be" name="⚡ Equipo de Exploradores" hidden="false" collective="false" import="true" targetId="65aa-dfe0-84dd-04f4" type="selectionEntry" sortIndex="27">
+    <entryLink id="f02c-f964-162b-e9be" name="⚡ Equipo de Exploradores" hidden="false" collective="false" import="false" targetId="65aa-dfe0-84dd-04f4" type="selectionEntry" sortIndex="27">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2103-39d4-db09-f903" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e20c-1d4b-2510-0aba" type="max"/>
@@ -182,7 +182,7 @@
         <categoryLink id="4ea2-6091-b460-7053" name="Ataque rapido" hidden="false" targetId="3831-ed78-953d-4334" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ffcd-03dc-27bf-e1f7" name="⚡ Escuadron TX4 Pirañas" hidden="false" collective="false" import="true" targetId="e2aa-7d2b-bf14-8a33" type="selectionEntry" sortIndex="28">
+    <entryLink id="ffcd-03dc-27bf-e1f7" name="⚡ Escuadron TX4 Pirañas" hidden="false" collective="false" import="false" targetId="e2aa-7d2b-bf14-8a33" type="selectionEntry" sortIndex="28">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a836-6759-a51d-1002" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca47-c802-6aeb-337c" type="max"/>
@@ -194,7 +194,7 @@
         <categoryLink id="ac25-1adf-db87-19dc" name="Ataque rapido" hidden="false" targetId="3831-ed78-953d-4334" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c771-43ab-560a-5a43" name="⭐ Shas&apos;la T&apos;au Sha&apos;ng" hidden="true" collective="false" import="true" targetId="ff75-0603-abba-00de" type="selectionEntry" sortIndex="5">
+    <entryLink id="c771-43ab-560a-5a43" name="⭐ Shas&apos;la T&apos;au Sha&apos;ng" hidden="true" collective="false" import="false" targetId="ff75-0603-abba-00de" type="selectionEntry" sortIndex="5">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -213,7 +213,7 @@
         <categoryLink id="df77-1b16-7a0d-d94b" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a242-6107-3dd7-11ad" name="🤖 Exoarmadura XV95 Fantasmal" hidden="false" collective="false" import="true" targetId="5194-a395-fff3-e951" type="selectionEntry" sortIndex="23">
+    <entryLink id="a242-6107-3dd7-11ad" name="🤖 Exoarmadura XV95 Fantasmal" hidden="false" collective="false" import="false" targetId="5194-a395-fff3-e951" type="selectionEntry" sortIndex="23">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f5b-e4b2-a6d8-e188" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d37-3bd3-39b5-17c7" type="max"/>
@@ -228,24 +228,7 @@
         <categoryLink id="6739-f3ab-4d1b-4d14" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8f48-b9ac-cf36-fac2" name="⭐ Aun&apos;Va" hidden="true" collective="false" import="true" targetId="59cf-1b1e-ea95-da06" type="selectionEntry" sortIndex="1">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0fdd-d22f-88ba-7e89" type="equalTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b1e-6708-1b48-3781" type="min"/>
-        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22d5-0d7f-383c-1201" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="5676-cc18-f608-f295" name="Personajes epicos" hidden="false" targetId="947d-359d-9d55-e6ee" primary="true"/>
-        <categoryLink id="d927-3d2f-f132-29c9" name="Agente solitario" hidden="false" targetId="fa44-5b69-b015-452e" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="413c-c4c7-df4c-0915" name="⭐ Aun&apos;Shi" hidden="true" collective="false" import="true" targetId="0656-03b4-2f90-5496" type="selectionEntry" sortIndex="2">
+    <entryLink id="413c-c4c7-df4c-0915" name="⭐ Aun&apos;Shi" hidden="true" collective="false" import="false" targetId="0656-03b4-2f90-5496" type="selectionEntry" sortIndex="2">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -262,7 +245,7 @@
         <categoryLink id="83f0-42a0-4512-648f" name="Líder" hidden="false" targetId="23bb-d76b-d74a-d380" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="dc6c-a714-86e4-ba4b" name="🎖️ Etereo" hidden="false" collective="false" import="true" targetId="f414-555c-0f5b-7f43" type="selectionEntry" sortIndex="8">
+    <entryLink id="dc6c-a714-86e4-ba4b" name="🎖️ Etereo" hidden="false" collective="false" import="false" targetId="f414-555c-0f5b-7f43" type="selectionEntry" sortIndex="8">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe07-e5f9-d61d-0135" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60a9-2432-06de-6b24" type="max"/>
@@ -271,7 +254,7 @@
         <categoryLink id="cb29-7708-066f-76f5" name="Cuartel General" hidden="false" targetId="9d48-1013-e052-2c37" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="84a2-6426-eda4-787b" name="🎖️ Comandante T&apos;au" hidden="false" collective="false" import="true" targetId="998a-7486-8677-3c69" type="selectionEntry" sortIndex="9">
+    <entryLink id="84a2-6426-eda4-787b" name="🎖️ Comandante T&apos;au" hidden="false" collective="false" import="false" targetId="998a-7486-8677-3c69" type="selectionEntry" sortIndex="9">
       <modifiers>
         <modifier type="set" field="0cfa-8246-b9fa-8373" value="2">
           <conditions>
@@ -290,7 +273,7 @@
         <categoryLink id="11bb-d9b6-46b7-6e2f" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e344-ba05-f0ec-0c4c" name="⭐ Comandante O&apos;Shaserra" hidden="false" collective="false" import="true" targetId="aaf9-7b9d-173f-1024" type="selectionEntry" sortIndex="3">
+    <entryLink id="e344-ba05-f0ec-0c4c" name="⭐ Comandante O&apos;Shaserra" hidden="false" collective="false" import="false" targetId="aaf9-7b9d-173f-1024" type="selectionEntry" sortIndex="3">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87bb-9084-36f4-b136" type="min"/>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f270-e6a9-b1e0-000e" type="max"/>
@@ -303,7 +286,7 @@
         <categoryLink id="5f46-4538-5323-8343" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b335-07aa-482a-4097" name="🤖 Exoarmadura XV88 Apocalipsis" hidden="false" collective="false" import="true" targetId="562f-2820-3efc-633e" type="selectionEntry" sortIndex="22">
+    <entryLink id="b335-07aa-482a-4097" name="🤖 Exoarmadura XV88 Apocalipsis" hidden="false" collective="false" import="false" targetId="562f-2820-3efc-633e" type="selectionEntry" sortIndex="22">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a8da-1b83-2d44-fb64" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="73e3-2a5e-1fbb-a8d0" type="max"/>
@@ -323,7 +306,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="6358-8e25-d7e8-21ac" name="✈️ Caza AX3 Tiburon Lanza" hidden="false" collective="false" import="true" targetId="17f3-c626-613b-5d0b" type="selectionEntry" sortIndex="40">
+    <entryLink id="6358-8e25-d7e8-21ac" name="✈️ Caza AX3 Tiburon Lanza" hidden="false" collective="false" import="false" targetId="17f3-c626-613b-5d0b" type="selectionEntry" sortIndex="40">
       <constraints>
         <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14e1-b185-3bf7-fbc1" type="min"/>
         <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af99-9c08-a531-1002" type="max"/>
@@ -336,7 +319,7 @@
         <categoryLink id="b856-4ff9-2289-9ae2" name="Dañado" hidden="false" targetId="3d70-75d8-c0a7-34c5" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="80e4-ebca-6859-07e3" name="✈️ Bombardero AX39 Tiburon Solar" hidden="false" collective="false" import="true" targetId="5e7f-f904-5b2b-00f7" type="selectionEntry" sortIndex="39">
+    <entryLink id="80e4-ebca-6859-07e3" name="✈️ Bombardero AX39 Tiburon Solar" hidden="false" collective="false" import="false" targetId="5e7f-f904-5b2b-00f7" type="selectionEntry" sortIndex="39">
       <constraints>
         <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="701a-8091-0c4b-2b1e" type="min"/>
         <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17b0-6832-5845-2c7e" type="max"/>
@@ -349,7 +332,7 @@
         <categoryLink id="33eb-05d2-2da9-0a11" name="Dañado" hidden="false" targetId="3d70-75d8-c0a7-34c5" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1b71-7c2d-e9cc-e92c" name="🎖️ Ojo de fuego" hidden="false" collective="false" import="true" targetId="baf3-12e6-dd44-4763" type="selectionEntry" sortIndex="11">
+    <entryLink id="1b71-7c2d-e9cc-e92c" name="🎖️ Ojo de fuego" hidden="false" collective="false" import="false" targetId="baf3-12e6-dd44-4763" type="selectionEntry" sortIndex="11">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="169c-70b4-6e2a-1b31" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c9e-aac5-b3f3-59b0" type="max"/>
@@ -362,7 +345,7 @@
         <categoryLink id="527a-4564-9232-b945" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2fbe-5f47-0396-cae1" name="⭐ Comandante O&apos;Shovah" hidden="false" collective="false" import="true" targetId="fbf5-a0e6-5cc1-56df" type="selectionEntry" sortIndex="3">
+    <entryLink id="2fbe-5f47-0396-cae1" name="⭐ Comandante O&apos;Shovah" hidden="false" collective="false" import="false" targetId="fbf5-a0e6-5cc1-56df" type="selectionEntry" sortIndex="3">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9352-f8ce-1eaa-279b" type="min"/>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b9e-0772-a59c-af6d" type="max"/>
@@ -374,7 +357,7 @@
         <categoryLink id="ad23-71ae-a0cf-f572" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0923-aa03-a1a6-7c16" name="🤖 Exoarmaduras XV8 Crisis Forja Solar" hidden="false" collective="false" import="true" targetId="6d8c-4d61-84b9-9dc7" type="selectionEntry" sortIndex="21">
+    <entryLink id="0923-aa03-a1a6-7c16" name="🤖 Exoarmaduras XV8 Crisis Forja Solar" hidden="false" collective="false" import="false" targetId="6d8c-4d61-84b9-9dc7" type="selectionEntry" sortIndex="21">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8603-8809-5de6-a12b" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d6e-89a5-a4d4-a6c5" type="max"/>
@@ -385,7 +368,7 @@
         <categoryLink id="1e71-ebbb-2eae-0e71" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="61a2-a9d3-40d9-cc6a" name="⚡ Escuadron TX3 Tetras" hidden="true" collective="false" import="true" targetId="ca4c-af15-6054-1baa" type="selectionEntry" sortIndex="30">
+    <entryLink id="61a2-a9d3-40d9-cc6a" name="⚡ Escuadron TX3 Tetras" hidden="true" collective="false" import="false" targetId="ca4c-af15-6054-1baa" type="selectionEntry" sortIndex="30">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4614-856b-d961-762c" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f916-7118-d619-22df" type="max"/>
@@ -397,7 +380,7 @@
         <categoryLink id="2806-9716-7765-0660" name="Final violento" hidden="false" targetId="8b79-15f1-01dc-4e89" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1dec-1554-13df-4695" name="✈️ Caza AX52 Barracuda" hidden="true" collective="false" import="true" targetId="e813-a50a-2ed7-27a7" type="selectionEntry" sortIndex="42">
+    <entryLink id="1dec-1554-13df-4695" name="✈️ Caza AX52 Barracuda" hidden="true" collective="false" import="false" targetId="e813-a50a-2ed7-27a7" type="selectionEntry" sortIndex="42">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -417,7 +400,7 @@
         <categoryLink id="7edc-c594-99ab-31e0" name="Dañado" hidden="false" targetId="3d70-75d8-c0a7-34c5" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="db51-c0d9-1335-e56b" name="⭐ Shi&apos;vre" hidden="false" collective="false" import="true" targetId="d804-245e-a165-44b5" type="selectionEntry" sortIndex="6">
+    <entryLink id="db51-c0d9-1335-e56b" name="⭐ Shi&apos;vre" hidden="false" collective="false" import="false" targetId="d804-245e-a165-44b5" type="selectionEntry" sortIndex="6">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c27-adfe-1a0a-9aa8" type="min"/>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3ca-13f0-9163-75f0" type="max"/>
@@ -429,7 +412,7 @@
         <categoryLink id="e226-60d3-e89a-ae60" name="Avanzadilla" hidden="false" targetId="de61-4131-8bd1-40c4" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a20c-c92a-e6a2-4a63" name="🏰 KV128 Ciclon " hidden="false" collective="false" import="true" targetId="2547-6bc1-0633-f89d" type="selectionEntry" sortIndex="45">
+    <entryLink id="a20c-c92a-e6a2-4a63" name="🏰 KV128 Ciclon " hidden="false" collective="false" import="false" targetId="2547-6bc1-0633-f89d" type="selectionEntry" sortIndex="45">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a92a-1be6-2244-a846" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdd8-b68a-e8ba-f9d9" type="max"/>
@@ -441,7 +424,7 @@
         <categoryLink id="a289-45c2-cc88-4d2c" name="Dañado" hidden="false" targetId="3d70-75d8-c0a7-34c5" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4237-4939-44ab-eb19" name="⚡ Escuadron de Drones DX6 Remoras" hidden="true" collective="false" import="true" targetId="070c-122c-f32f-6d5a" type="selectionEntry" sortIndex="29">
+    <entryLink id="4237-4939-44ab-eb19" name="⚡ Escuadron de Drones DX6 Remoras" hidden="true" collective="false" import="false" targetId="070c-122c-f32f-6d5a" type="selectionEntry" sortIndex="29">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8ac-b38d-cbed-9f1d" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="527e-e6d1-340b-1555" type="max"/>
@@ -453,7 +436,7 @@
         <categoryLink id="c091-4369-3619-342c" name="Ataque rapido" hidden="false" targetId="3831-ed78-953d-4334" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="17a7-6d62-87a5-6b8f" name="🤖 Exoarmadura XV107 R&apos;Varna" hidden="true" collective="false" import="true" targetId="aa85-cb9b-5e4a-34a3" type="selectionEntry" sortIndex="25">
+    <entryLink id="17a7-6d62-87a5-6b8f" name="🤖 Exoarmadura XV107 R&apos;Varna" hidden="true" collective="false" import="false" targetId="aa85-cb9b-5e4a-34a3" type="selectionEntry" sortIndex="25">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -472,7 +455,7 @@
         <categoryLink id="3b8d-318e-4fa7-3295" name="Exoarmadura" hidden="false" targetId="bad9-a07f-c0b5-f0c3" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="055d-da13-9902-b923" name="🤖 Exoarmadura XV109 Y&apos;Vahra " hidden="true" collective="false" import="true" targetId="3589-6b2d-213c-63f5" type="selectionEntry" sortIndex="26">
+    <entryLink id="055d-da13-9902-b923" name="🤖 Exoarmadura XV109 Y&apos;Vahra " hidden="true" collective="false" import="false" targetId="3589-6b2d-213c-63f5" type="selectionEntry" sortIndex="26">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -491,7 +474,7 @@
         <categoryLink id="5bff-ec25-990e-b8de" name="Exoarmadura" hidden="false" targetId="bad9-a07f-c0b5-f0c3" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2ac2-04e1-4010-3b69" name="🗡️ Acechantes Kroot" hidden="false" collective="false" import="true" targetId="77d0-1b1d-b305-5118" type="selectionEntry" sortIndex="31">
+    <entryLink id="2ac2-04e1-4010-3b69" name="🗡️ Acechantes Kroot" hidden="false" collective="false" import="false" targetId="77d0-1b1d-b305-5118" type="selectionEntry" sortIndex="31">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d71-c369-812a-8fb1" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4bb-2355-f6a3-4043" type="max"/>
@@ -502,7 +485,7 @@
         <categoryLink id="ac70-d2d6-8c03-aab7" name="Auxiliares" hidden="false" targetId="7a9a-09db-7f17-5528" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="87a5-8df8-39ae-7d96" name="🛡️ Linea de defensa rompeolas" hidden="false" collective="false" import="true" targetId="941b-00a4-d64e-11c4" type="selectionEntry" sortIndex="47">
+    <entryLink id="87a5-8df8-39ae-7d96" name="🛡️ Linea de defensa rompeolas" hidden="false" collective="false" import="false" targetId="941b-00a4-d64e-11c4" type="selectionEntry" sortIndex="47">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9342-2369-3ae6-1b0f" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf74-01ea-5f9e-1e5c" type="max"/>
@@ -512,7 +495,7 @@
         <categoryLink id="bf50-f471-85f6-20bd" name="Transporte" hidden="false" targetId="4a85-0b23-4193-0e2d" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5951-d0b6-2935-cfe6" name="🛡️ Torreta rompeolas " hidden="false" collective="false" import="true" targetId="955f-791f-37d5-834a" type="selectionEntry" sortIndex="49">
+    <entryLink id="5951-d0b6-2935-cfe6" name="🛡️ Torreta rompeolas " hidden="false" collective="false" import="false" targetId="955f-791f-37d5-834a" type="selectionEntry" sortIndex="49">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ba0-181c-705f-e87e" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3698-b7ee-7dfb-6b6f" type="max"/>
@@ -522,7 +505,7 @@
         <categoryLink id="6920-bc6d-ca4a-0d54" name="Transporte" hidden="false" targetId="4a85-0b23-4193-0e2d" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ec0c-031a-fb33-f906" name="🛡️ Dronepuerto rompeolas" hidden="false" collective="false" import="true" targetId="c3f3-a433-38ea-d853" type="selectionEntry" sortIndex="48">
+    <entryLink id="ec0c-031a-fb33-f906" name="🛡️ Dronepuerto rompeolas" hidden="false" collective="false" import="false" targetId="c3f3-a433-38ea-d853" type="selectionEntry" sortIndex="48">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7757-67e4-d629-43f2" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcb2-d393-3c2f-5c99" type="max"/>
@@ -532,7 +515,7 @@
         <categoryLink id="bd80-c545-b897-7f60" name="Transporte" hidden="false" targetId="4a85-0b23-4193-0e2d" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ca24-8bea-76b8-5aa3" name="🏰 KX139 Ta&apos;Unar Supremacia" hidden="false" collective="false" import="true" targetId="cb0f-1541-8c2f-eecb" type="selectionEntry" sortIndex="46">
+    <entryLink id="ca24-8bea-76b8-5aa3" name="🏰 KX139 Ta&apos;Unar Supremacia" hidden="false" collective="false" import="false" targetId="cb0f-1541-8c2f-eecb" type="selectionEntry" sortIndex="46">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4114-c13c-fe5b-26a6" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ec8-5b8b-a24a-47e9" type="max"/>
@@ -544,7 +527,7 @@
         <categoryLink id="2e7d-724c-f79e-baf2" name="Dañado" hidden="false" targetId="3d70-75d8-c0a7-34c5" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="108e-29b2-9df1-9ad8" name="✈️ Caza Tiburon Tigre" hidden="false" collective="false" import="true" targetId="187b-1f8d-fe9f-d6c4" type="selectionEntry" sortIndex="43">
+    <entryLink id="108e-29b2-9df1-9ad8" name="✈️ Caza Tiburon Tigre" hidden="false" collective="false" import="false" targetId="187b-1f8d-fe9f-d6c4" type="selectionEntry" sortIndex="43">
       <constraints>
         <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c817-70a3-1705-94e0" type="min"/>
         <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06f3-b622-e2ac-ab92" type="max"/>
@@ -557,7 +540,7 @@
         <categoryLink id="d2b3-c3e1-7151-cf9a" name="Dañado" hidden="false" targetId="3d70-75d8-c0a7-34c5" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e10c-ebe2-bb81-9ce3" name="✈️ Caza AX10 Tiburon Tigre" hidden="false" collective="false" import="true" targetId="69aa-9c88-7e36-800c" type="selectionEntry" sortIndex="41">
+    <entryLink id="e10c-ebe2-bb81-9ce3" name="✈️ Caza AX10 Tiburon Tigre" hidden="false" collective="false" import="false" targetId="69aa-9c88-7e36-800c" type="selectionEntry" sortIndex="41">
       <constraints>
         <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e947-23c4-ec2a-22a1" type="min"/>
         <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5831-ca18-cc8c-7823" type="max"/>
@@ -570,7 +553,7 @@
         <categoryLink id="0986-1c9f-9a29-67af" name="Dañado" hidden="false" targetId="3d70-75d8-c0a7-34c5" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="17ce-4710-0188-875b" name="⭐ Comandante O&apos;Kei&apos;ka" hidden="false" collective="false" import="true" targetId="24f7-a935-9665-799d" type="selectionEntry" sortIndex="4">
+    <entryLink id="17ce-4710-0188-875b" name="⭐ Comandante O&apos;Kei&apos;ka" hidden="false" collective="false" import="false" targetId="24f7-a935-9665-799d" type="selectionEntry" sortIndex="4">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50d1-4683-a6d4-2ac6" type="min"/>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56a2-8dc8-7464-da21" type="max"/>
@@ -582,7 +565,7 @@
         <categoryLink id="0d58-93ca-cb7c-02f3" name="Personajes epicos" hidden="false" targetId="947d-359d-9d55-e6ee" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="00cf-bde6-28fa-82b1" name="🤖 Exoarmaduras XV8 Crisis Cuchillo Igneo" hidden="false" collective="false" import="true" targetId="e384-752b-0b4e-6ebc" type="selectionEntry" sortIndex="19">
+    <entryLink id="00cf-bde6-28fa-82b1" name="🤖 Exoarmaduras XV8 Crisis Cuchillo Igneo" hidden="false" collective="false" import="false" targetId="e384-752b-0b4e-6ebc" type="selectionEntry" sortIndex="19">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4923-ba45-e8bd-81b2" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9879-392f-3a0b-a0ee" type="max"/>
@@ -593,7 +576,7 @@
         <categoryLink id="d526-1d06-2363-8baf" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="77ac-4c3a-a536-98d2" name="🤖 Exoarmaduras XV8 Crisis Siegaestrellas" hidden="false" collective="false" import="true" targetId="c937-229d-51d0-da8d" type="selectionEntry" sortIndex="20">
+    <entryLink id="77ac-4c3a-a536-98d2" name="🤖 Exoarmaduras XV8 Crisis Siegaestrellas" hidden="false" collective="false" import="false" targetId="c937-229d-51d0-da8d" type="selectionEntry" sortIndex="20">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7d10-b9f3-dddc-9e7a" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7d9a-232a-2caf-ff45" type="max"/>
@@ -604,7 +587,7 @@
         <categoryLink id="232a-0b56-33ad-e2d9" name="Por el Bien Supremo" hidden="false" targetId="ce5f-a8b6-69b9-f84a" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6825-4a8e-9a31-f9a7" name="🎖️ 🗡️ Lider Carnemorfo Kroot " hidden="false" collective="false" import="true" targetId="4bb8-c71a-b817-a570" type="selectionEntry" sortIndex="14">
+    <entryLink id="6825-4a8e-9a31-f9a7" name="🎖️ 🗡️ Lider Carnemorfo Kroot " hidden="false" collective="false" import="false" targetId="4bb8-c71a-b817-a570" type="selectionEntry" sortIndex="14">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88a3-eba8-9bb1-9ce4" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6f2-985a-6db4-3228" type="max"/>
@@ -619,7 +602,7 @@
         <entryLink import="true" name="💀 Señor de la Guerra" hidden="false" id="2c6b-6f46-ed2c-d9d3" collective="false" targetId="29b5-6069-3130-bdbd" type="selectionEntry"/>
       </entryLinks>
     </entryLink>
-    <entryLink id="a3c4-e36e-fe6f-f8f2" name="🎖️ 🗡️ Lider Rastromorfo Kroot " hidden="false" collective="false" import="true" targetId="40b1-5632-80d4-4957" type="selectionEntry" sortIndex="13">
+    <entryLink id="a3c4-e36e-fe6f-f8f2" name="🎖️ 🗡️ Lider Rastromorfo Kroot " hidden="false" collective="false" import="false" targetId="bae2-130e-ba61-02a9" type="selectionEntry" sortIndex="13">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b314-8cfb-1ea9-1b17" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dbb-b3fc-dbed-daca" type="max"/>
@@ -634,7 +617,7 @@
         <entryLink import="true" name="💀 Señor de la Guerra" hidden="false" id="c2ff-e793-d032-2c6a" collective="false" targetId="29b5-6069-3130-bdbd" type="selectionEntry" sortIndex="1"/>
       </entryLinks>
     </entryLink>
-    <entryLink id="67a7-2390-a7f4-fdd1" name="🗡️ Auxiliares Rampagers Krootox" hidden="false" collective="false" import="true" targetId="d2b8-c3f2-f88d-4f8a" type="selectionEntry" sortIndex="34">
+    <entryLink id="67a7-2390-a7f4-fdd1" name="🗡️ Auxiliares Rampagers Krootox" hidden="false" collective="false" import="false" targetId="d2b8-c3f2-f88d-4f8a" type="selectionEntry" sortIndex="34">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2f1-260d-48d8-8161" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="640a-e8de-338d-654e" type="max"/>
@@ -658,7 +641,7 @@
         <categoryLink id="ba3e-27c8-2acd-2540" name="Destacamentos" hidden="false" targetId="6864-037b-1803-ecac" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="22c0-1ffe-596f-3581" name="⭐ Shas’vre Ohr&apos;tu" hidden="false" collective="false" import="true" targetId="d7e0-ef92-55b5-df2f" type="selectionEntry" sortIndex="6">
+    <entryLink id="22c0-1ffe-596f-3581" name="⭐ Shas’vre Ohr&apos;tu" hidden="false" collective="false" import="false" targetId="d7e0-ef92-55b5-df2f" type="selectionEntry" sortIndex="6">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dbe-7e71-9b19-9404" type="min"/>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84ca-9317-a981-f057" type="max"/>
@@ -668,9 +651,10 @@
         <categoryLink id="7b00-83ae-5cd4-74b3" name="Líder" hidden="false" targetId="23bb-d76b-d74a-d380" primary="false"/>
         <categoryLink id="7c78-7c86-b585-ed5c" name="Infiltración" hidden="false" targetId="72c0-4f1b-c92d-7b34" primary="false"/>
         <categoryLink id="f8e7-80e1-e3c3-17e3" name="Avanzadilla" hidden="false" targetId="de61-4131-8bd1-40c4" primary="false"/>
+        <categoryLink targetId="9d48-1013-e052-2c37" id="1be5-69c4-1c12-7f6b" primary="false" name="Cuartel General"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5484-2432-baa4-4fc6" name="🎖️ 🗡️ Lanza Solitaria Kroot" hidden="false" collective="false" import="true" targetId="0caa-effb-d134-53d7" type="selectionEntry" sortIndex="15">
+    <entryLink id="5484-2432-baa4-4fc6" name="🎖️ 🗡️ Lanza Solitaria Kroot" hidden="false" collective="false" import="false" targetId="0caa-effb-d134-53d7" type="selectionEntry" sortIndex="15">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb34-8fdf-5001-a1da" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1333-c18f-bf1e-5849" type="max"/>
@@ -682,7 +666,7 @@
         <categoryLink id="546f-1718-dc7f-c3e2" name="Sigilo" hidden="false" targetId="217a-289f-8499-1ebb" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="⭐ Comandante O&apos;Tora&apos;ka " hidden="false" id="6af5-f754-66dc-43ed" collective="false" targetId="7227-0711-3410-fed3" type="selectionEntry" sortIndex="4">
+    <entryLink import="false" name="⭐ Comandante O&apos;Tora&apos;ka " hidden="false" id="6af5-f754-66dc-43ed" collective="false" targetId="7227-0711-3410-fed3" type="selectionEntry" sortIndex="4">
       <constraints>
         <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="895c-1481-41b6-49f6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9267-84ba-85c6-2bf3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -694,7 +678,7 @@
         <categoryLink name="Personajes epicos" hidden="false" id="6174-2aff-8dde-330d" targetId="947d-359d-9d55-e6ee" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="⭐ Shas’vre Vash’an" hidden="false" id="2a79-7e76-78b6-8b98" collective="false" targetId="ac7f-b5c8-71be-a06d" type="selectionEntry" sortIndex="6">
+    <entryLink import="false" name="⭐ Shas’vre Vash’an" hidden="false" id="2a79-7e76-78b6-8b98" collective="false" targetId="ac7f-b5c8-71be-a06d" type="selectionEntry" sortIndex="6">
       <constraints>
         <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="0328-7331-ef86-d320" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f328-ab53-284c-67e4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -702,9 +686,10 @@
       <categoryLinks>
         <categoryLink name="Personajes epicos" hidden="false" id="43b4-734d-82d2-daca" targetId="947d-359d-9d55-e6ee" primary="true"/>
         <categoryLink name="Líder" hidden="false" id="deaa-a204-671d-a660" targetId="23bb-d76b-d74a-d380" primary="false"/>
+        <categoryLink targetId="9d48-1013-e052-2c37" id="9e44-233b-d392-547b" primary="false" name="Cuartel General"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="⭐🗡️ Noonien Singh Khan " hidden="false" id="1e98-f0f4-9cc7-760c" collective="false" targetId="cc22-413a-907f-61cb" type="selectionEntry" sortIndex="15">
+    <entryLink import="false" name="⭐🗡️ Noonien Singh Khan " hidden="false" id="1e98-f0f4-9cc7-760c" collective="false" targetId="cc22-413a-907f-61cb" type="selectionEntry" sortIndex="15">
       <constraints>
         <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="f708-647f-9815-dddc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="84a7-18d5-bd34-a9e4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -714,6 +699,16 @@
         <categoryLink name="Avanzadilla" hidden="false" id="4643-7160-66cd-07e7" targetId="de61-4131-8bd1-40c4" primary="false"/>
         <categoryLink targetId="23bb-d76b-d74a-d380" id="a032-100e-f68d-c5a0" primary="false" name="Líder"/>
         <categoryLink targetId="947d-359d-9d55-e6ee" id="7844-e1a6-7f5b-0ee8" primary="true" name="Personajes epicos"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="⭐ Aun&apos;Va" hidden="true" id="c06f-97c0-21a8-d72b" type="selectionEntry" targetId="59cf-1b1e-ea95-da06" sortIndex="1">
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="16b4-fbb3-8a48-dfca" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b9d7-bb27-d756-01d5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="9d48-1013-e052-2c37" id="88af-d0e1-0b8c-a470" primary="false" name="Cuartel General"/>
+        <categoryLink targetId="947d-359d-9d55-e6ee" id="89cc-33d8-a159-a650" primary="true" name="Personajes epicos"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -3173,7 +3168,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fbf5-a0e6-5cc1-56df" name="⭐ Comandante O&apos;Shovah" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="fbf5-a0e6-5cc1-56df" name="⭐ Comandante O&apos;Shovah" hidden="false" collective="false" import="false" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -5843,7 +5838,7 @@
         <infoLink id="12aa-38e2-45ed-26ef" name="⚙️ Ejemplo del Mont&apos;ka" hidden="false" targetId="79aa-7850-d0ff-1bd8" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="36c3-f96d-3ed3-ce9f" name="🎲 Estratagemas Bork&apos;an" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="36c3-f96d-3ed3-ce9f" name="🎲 Estratagemas Bork&apos;an" hidden="false" collective="false" import="false" type="upgrade">
       <profiles>
         <profile id="62bf-85c1-ec0e-0dee" name="ARMAMENTO/EQUIPO EXPERIMENTAL " hidden="false" typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas">
           <characteristics>
@@ -5958,31 +5953,6 @@
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="40b1-5632-80d4-4957" name="🎖️ 🗡️ Lider Rastromorfo Kroot " hidden="false" collective="false" import="true" type="model" sortIndex="1">
-      <infoLinks>
-        <infoLink id="9666-e5f6-5a63-c589" name="Habilidades Rastromorfo" hidden="false" targetId="185e-f073-6f97-3c42" type="infoGroup"/>
-      </infoLinks>
-      <entryLinks>
-        <entryLink id="2a4f-e55d-2978-712f" name="Guardia personal kroot" hidden="false" collective="false" import="true" targetId="71c5-91c6-03ce-820d" type="selectionEntryGroup" sortIndex="1"/>
-        <entryLink id="4d90-1f55-23bc-0ed4" name="🧿 Rifle Metamorfo Kroot " hidden="false" collective="false" import="true" targetId="2268-1f3f-3c2a-a47d" type="selectionEntry" sortIndex="3">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf29-7c6a-88e4-95fa" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5937-11a0-1822-1503" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="755b-9d56-1e5c-01e6" name="⚔️ Filo de metamorfo" hidden="false" collective="false" import="true" targetId="2ed1-2fdf-2d06-5b4f" type="selectionEntry" sortIndex="2">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f16-38d7-7a20-8e95" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d1c-650b-85af-037a" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="🛠️ Mejoras" hidden="false" id="1720-1f42-914f-0a89" type="selectionEntry" targetId="419d-76a5-1205-8966" sortIndex="4"/>
-        <entryLink import="true" name="💀 Señor de la Guerra" hidden="false" id="fb91-0de2-1970-d29d" type="selectionEntry" targetId="29b5-6069-3130-bdbd"/>
-      </entryLinks>
-      <costs>
-        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="55"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4bb8-c71a-b817-a570" name="🎖️ 🗡️ Lider Carnemorfo Kroot " hidden="false" collective="false" import="true" type="model">
@@ -6245,7 +6215,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d99c-197d-4532-cdc7" name="🎲 Estratagemas Mont&apos;ka" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d99c-197d-4532-cdc7" name="🎲 Estratagemas Mont&apos;ka" hidden="false" collective="false" import="false" type="upgrade">
       <profiles>
         <profile id="8384-7982-f0da-df28" name="INYECTORES ESTIMULANTES" hidden="false" typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas">
           <characteristics>
@@ -6659,7 +6629,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🎲 Estratagemas Sa&apos;cea" hidden="false" id="d119-1ba9-dff2-c848" collective="false">
+    <selectionEntry type="upgrade" import="false" name="🎲 Estratagemas Sa&apos;cea" hidden="false" id="d119-1ba9-dff2-c848" collective="false">
       <profiles>
         <profile name="BLINDAJE REACTIVO" typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas" hidden="false" id="f3bc-6e3e-3a16-8934">
           <characteristics>
@@ -6737,7 +6707,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="20"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🛠️ Mejoras" hidden="false" id="419d-76a5-1205-8966" sortIndex="17">
+    <selectionEntry type="upgrade" name="🛠️ Mejoras" hidden="false" id="419d-76a5-1205-8966" sortIndex="17" import="false">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9881-f55b-629d-5241" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5b4-3e8c-8c97-c876" includeChildSelections="false"/>
@@ -6754,7 +6724,6 @@
           </modifiers>
         </entryLink>
         <entryLink import="true" name="🛠️ Mejoras Kauyon" hidden="false" id="77c4-9c01-6268-f434" type="selectionEntryGroup" targetId="98da-01a5-7cee-2b78"/>
-        <entryLink import="true" name="🛠️ Cazadores de bestias" hidden="false" id="8a96-e347-b25b-eff7" type="selectionEntryGroup" targetId="d727-807a-2df6-f4c2"/>
         <entryLink import="true" name="🛠️ Manada de caza Kroot" hidden="false" id="dfd6-2bd4-c3ca-1654" type="selectionEntryGroup" targetId="61ec-daf6-d907-b436"/>
         <entryLink import="true" name="🛠️ Mejoras Mont&apos;ka" hidden="false" id="d84b-9a9b-63ee-3941" type="selectionEntryGroup" targetId="a241-4e26-3d7f-56b4"/>
       </entryLinks>
@@ -7024,7 +6993,7 @@
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="40b1-5632-80d4-4957" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="bae2-130e-ba61-02a9" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -7059,7 +7028,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🎲 Estratagemas Manada de Caza Kroot" hidden="false" id="5b3a-ffe6-24ea-797a" collective="false">
+    <selectionEntry type="upgrade" import="false" name="🎲 Estratagemas Manada de Caza Kroot" hidden="false" id="5b3a-ffe6-24ea-797a" collective="false">
       <profiles>
         <profile name="EXIBICIÓN DE AGILIDAD" typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas" hidden="false" id="7d4e-9e91-24b0-7516">
           <characteristics>
@@ -7132,7 +7101,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🎲 Estratagemas Cazadores de Bestias" hidden="false" id="c40a-0ce1-11e7-3d81" collective="false">
+    <selectionEntry type="upgrade" import="false" name="🎲 Estratagemas Cazadores de Bestias" hidden="false" id="c40a-0ce1-11e7-3d81" collective="false">
       <profiles>
         <profile name="EXIBICIÓN DE AGILIDAD" typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas" hidden="false" id="02bf-7690-079d-3941">
           <characteristics>
@@ -7200,9 +7169,34 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="🎖️ 🗡️ Lider Rastromorfo Kroot " hidden="false" id="bae2-130e-ba61-02a9" collective="false">
+      <infoLinks>
+        <infoLink name="Habilidades Rastromorfo" id="1bb8-fb1a-9555-99bd" hidden="false" targetId="185e-f073-6f97-3c42" type="infoGroup"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Guardia personal kroot" hidden="false" id="13ab-97a9-4a11-7c2f" collective="false" targetId="71c5-91c6-03ce-820d" type="selectionEntryGroup" sortIndex="2"/>
+        <entryLink import="true" name="🧿 Rifle Metamorfo Kroot " hidden="false" id="32c9-9ba9-d990-3347" collective="false" targetId="2268-1f3f-3c2a-a47d" type="selectionEntry" sortIndex="4">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a01f-0e59-0537-90b4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b54-9fa0-cff9-6310" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="⚔️ Filo de metamorfo" hidden="false" id="2bba-3397-1a81-56fa" collective="false" targetId="2ed1-2fdf-2d06-5b4f" type="selectionEntry" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="943c-46f2-cbe9-4910" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb4a-7fb2-6037-9891" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="🛠️ Mejoras" hidden="false" id="cd61-766a-dc19-eff8" type="selectionEntry" targetId="419d-76a5-1205-8966" sortIndex="5"/>
+        <entryLink import="true" name="💀 Señor de la Guerra" hidden="false" id="375e-0cf2-0014-b845" type="selectionEntry" targetId="29b5-6069-3130-bdbd" sortIndex="1"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="55"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="8abe-1748-2103-be52" name="1er. Anclaje XV88" hidden="false" collective="false" import="true" defaultSelectionEntryId="1e22-c9ac-75f7-ff17">
+    <selectionEntryGroup id="8abe-1748-2103-be52" name="1er. Anclaje XV88" hidden="false" collective="false" import="false" defaultSelectionEntryId="1e22-c9ac-75f7-ff17">
       <entryLinks>
         <entryLink id="d3dd-699f-9bc0-9e34" name="🧿 Modulo lanzamisile alto explosivo" hidden="false" collective="false" import="true" targetId="1668-12bc-3495-ed99" type="selectionEntry" sortIndex="1">
           <constraints>
@@ -7218,7 +7212,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e7a4-8d39-78a2-13e1" name="2on. Anclaje XV88" hidden="false" collective="false" import="true" defaultSelectionEntryId="8cf8-61df-40fb-6983">
+    <selectionEntryGroup id="e7a4-8d39-78a2-13e1" name="2on. Anclaje XV88" hidden="false" collective="false" import="false" defaultSelectionEntryId="8cf8-61df-40fb-6983">
       <selectionEntryGroups>
         <selectionEntryGroup id="8267-20a9-f9ca-a5cd" name="Arma secundaria" hidden="false" collective="false" import="true" defaultSelectionEntryId="9b42-7a73-c04a-6f28" sortIndex="3">
           <constraints>
@@ -7262,7 +7256,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="339e-a643-a787-f5d2" name="Armas Comandante" hidden="false" collective="false" import="true" defaultSelectionEntryId="f302-1df5-919c-be18">
+    <selectionEntryGroup id="339e-a643-a787-f5d2" name="Armas Comandante" hidden="false" collective="false" import="false" defaultSelectionEntryId="f302-1df5-919c-be18">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa5b-7ae6-de29-693f" type="min"/>
         <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea00-7978-4f1c-6fd8" type="max"/>
@@ -7321,7 +7315,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0a0d-fd82-ad85-6cbf" name="Equipo Comandante" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="0a0d-fd82-ad85-6cbf" name="Equipo Comandante" hidden="false" collective="false" import="false">
       <constraints>
         <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbd3-ad1c-9878-c226" type="min"/>
         <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49db-9293-b8b7-ec00" type="max"/>
@@ -7347,7 +7341,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="cfb6-d817-8995-eeae" name="Drones tacticos " hidden="false" collective="false" import="true" defaultSelectionEntryId="3680-78ba-62a1-0f09">
+    <selectionEntryGroup id="cfb6-d817-8995-eeae" name="Drones tacticos " hidden="false" collective="false" import="false" defaultSelectionEntryId="3680-78ba-62a1-0f09">
       <constraints>
         <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="063c-3831-96e9-e46a" type="min"/>
         <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df97-0311-a1ac-f594" type="max"/>
@@ -7426,7 +7420,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8bec-e92d-2ff9-9ca6" name="Drones de apoyo" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="8bec-e92d-2ff9-9ca6" name="Drones de apoyo" hidden="false" collective="false" import="false">
       <entryLinks>
         <entryLink id="2825-2004-0ea6-03e2" name="🥏 Drone de Reconocimento MB3" hidden="false" collective="false" import="true" targetId="1e0c-9c1a-dc75-7594" type="selectionEntry" sortIndex="3">
           <constraints>
@@ -7448,7 +7442,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="98da-01a5-7cee-2b78" name="🛠️ Mejoras Kauyon" hidden="true" collective="false" import="true" sortIndex="3">
+    <selectionEntryGroup id="98da-01a5-7cee-2b78" name="🛠️ Mejoras Kauyon" hidden="true" collective="false" import="false" sortIndex="3">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -7467,7 +7461,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <entryLink id="5a51-60fd-e69a-6a43" name="🛠️ Destruccion mediante el valor" hidden="false" collective="false" import="true" targetId="96e2-186f-5c2f-2997" type="selectionEntry" sortIndex="1"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="a241-4e26-3d7f-56b4" name="🛠️ Mejoras Mont&apos;ka" hidden="true" collective="false" import="true" sortIndex="4">
+    <selectionEntryGroup id="a241-4e26-3d7f-56b4" name="🛠️ Mejoras Mont&apos;ka" hidden="true" collective="false" import="false" sortIndex="4">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -7486,7 +7480,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <entryLink id="548a-b5a3-65ed-d0a6" name="🛠️ Destruccion mediante el valor" hidden="false" collective="false" import="true" targetId="96e2-186f-5c2f-2997" type="selectionEntry" sortIndex="1"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="177b-9623-f4ed-a0af" name="Armas XV8" hidden="false" collective="false" import="true" defaultSelectionEntryId="1265-1ea8-06b0-d278">
+    <selectionEntryGroup id="177b-9623-f4ed-a0af" name="Armas XV8" hidden="false" collective="false" import="false" defaultSelectionEntryId="1265-1ea8-06b0-d278">
       <entryLinks>
         <entryLink id="4a7a-ddbc-eaea-8c4f" name="🧿 Modulo lanzamisiles" hidden="false" collective="false" import="true" targetId="bf40-a584-3980-cc8f" type="selectionEntry" sortIndex="7">
           <constraints>
@@ -7538,7 +7532,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="3a84-2e83-9831-d0ab" name="Equipo XV8" hidden="false" collective="false" import="true" defaultSelectionEntryId="0aee-bfd6-bd87-a650">
+    <selectionEntryGroup id="3a84-2e83-9831-d0ab" name="Equipo XV8" hidden="false" collective="false" import="false" defaultSelectionEntryId="0aee-bfd6-bd87-a650">
       <entryLinks>
         <entryLink id="9745-61df-f9f9-c621" name="⚙️ Generador de escudo" hidden="false" collective="false" import="true" targetId="f0c1-c8db-321f-3db1" type="selectionEntry" sortIndex="1">
           <modifiers>
@@ -7566,7 +7560,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="823f-7233-8e41-eb98" name="Guardia personal" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="823f-7233-8e41-eb98" name="Guardia personal" hidden="false" collective="false" import="false">
       <constraints>
         <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a44b-2901-2244-1727" type="min"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcf7-1246-30fc-0ee7" type="max"/>
@@ -7633,9 +7627,18 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
             </modifier>
           </modifiers>
         </entryLink>
+        <entryLink import="true" name="🗡️ Auxiliares Jinetes Krootox " hidden="true" id="bfb5-e866-beac-1416" type="selectionEntry" targetId="2045-282c-1819-cf17">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cc22-413a-907f-61cb" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8235-3853-e860-521c" name="Drones tacticos XV88" hidden="false" collective="false" import="true" defaultSelectionEntryId="f69a-01ab-ce1d-76c6">
+    <selectionEntryGroup id="8235-3853-e860-521c" name="Drones tacticos XV88" hidden="false" collective="false" import="false" defaultSelectionEntryId="f69a-01ab-ce1d-76c6">
       <constraints>
         <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9117-e412-f35d-4cdb" type="min"/>
         <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b152-c95a-b2b8-2f5d" type="max"/>
@@ -7667,7 +7670,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6023-ddfa-d7a2-a853" name="Exoarmadura" hidden="false" collective="false" import="true" defaultSelectionEntryId="bc86-96e8-070c-eb2a">
+    <selectionEntryGroup id="6023-ddfa-d7a2-a853" name="Exoarmadura" hidden="false" collective="false" import="false" defaultSelectionEntryId="bc86-96e8-070c-eb2a">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2771-b7b4-903f-155b" type="min"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c99a-fd07-031d-26bb" type="max"/>
@@ -7719,7 +7722,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="df6e-0b60-46e3-29e8" name="🛠️ Mejoras Bork&apos;an" hidden="true" collective="false" import="true" sortIndex="1">
+    <selectionEntryGroup id="df6e-0b60-46e3-29e8" name="🛠️ Mejoras Bork&apos;an" hidden="true" collective="false" import="false" sortIndex="1">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditions>
@@ -7749,7 +7752,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
                   <conditions>
                     <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="10b1-06fb-a20f-5690" type="equalTo"/>
                     <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bb8-c71a-b817-a570" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40b1-5632-80d4-4957" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bae2-130e-ba61-02a9" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -7760,7 +7763,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <entryLink id="67b7-aa79-1e0a-1198" name="🛠️ Generador de energia auxiliar" hidden="false" collective="false" import="true" targetId="62fd-4f3d-a042-5b1c" type="selectionEntry" sortIndex="1"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="75b8-f644-75a7-4bf5" name="Drones tacticos XV25" hidden="false" collective="false" import="true" defaultSelectionEntryId="08c9-55cd-5e10-7d1f">
+    <selectionEntryGroup id="75b8-f644-75a7-4bf5" name="Drones tacticos XV25" hidden="false" collective="false" import="false" defaultSelectionEntryId="08c9-55cd-5e10-7d1f">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad9d-9b2b-e9c2-b6b2" type="min"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f5-b5e7-3d87-23ba" type="max"/>
@@ -7780,7 +7783,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="0b7d-b408-c32f-3e66" name="Destacamentos" hidden="false" collective="false" import="true" defaultSelectionEntryId="c81a-683a-be7c-bc0a">
+    <selectionEntryGroup id="0b7d-b408-c32f-3e66" name="Destacamentos" hidden="false" collective="false" import="false" defaultSelectionEntryId="c81a-683a-be7c-bc0a">
       <selectionEntries>
         <selectionEntry id="a8cf-1209-87e4-6975" name="⏳ Kauyon" hidden="false" collective="false" import="true" type="upgrade" sortIndex="1">
           <constraints>
@@ -7893,35 +7896,9 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b97-d47b-54cf-b11d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="🦕 Cazadores de bestias Kroot" hidden="false" id="6a6a-aea4-72c9-1e46" collective="false" sortIndex="7">
-          <constraints>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c02c-65ad-3a14-8f40" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec78-ff86-5b7e-e1a1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <costs>
-            <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Destacamento Cazadores de bestias: Mata bestias" id="11c4-75d5-566f-b8d3" hidden="false" targetId="a77d-2b30-36e5-02c8" type="rule"/>
-          </infoLinks>
-          <entryLinks>
-            <entryLink import="true" name="🎲 Estratagemas Cazadores de Bestias" hidden="false" id="3c60-6056-25d6-68b7" type="selectionEntry" targetId="c40a-0ce1-11e7-3d81">
-              <constraints>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c46d-c115-5f0f-06fb" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae67-bcbc-f112-d91a" includeChildSelections="false"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="⚙️ Armas Raizgrabadas" id="5b9b-a9c4-4548-7f76" hidden="false" type="profile" targetId="e72b-6aa3-12d6-4939"/>
-                <infoLink name="⚙️ Glándula de Borthrod" id="e51f-fd84-3533-7de9" hidden="false" type="profile" targetId="0f87-c86b-4cdf-07ae"/>
-                <infoLink name="⚙️ Cazador nómada" id="92a1-8a5f-1ee0-430b" hidden="false" type="profile" targetId="5c17-e446-45f7-b2ef"/>
-                <infoLink name="⚙️ Bandada de Krootalcones" id="afac-31fc-3ea4-8fc4" hidden="false" type="profile" targetId="90a9-e56a-9415-a353"/>
-              </infoLinks>
-            </entryLink>
-          </entryLinks>
-        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="🛠️ Mejoras Sa&apos;cea" id="c84b-402a-b975-f472" hidden="true" collective="false" import="true" sortIndex="2">
+    <selectionEntryGroup name="🛠️ Mejoras Sa&apos;cea" id="c84b-402a-b975-f472" hidden="true" collective="false" import="false" sortIndex="2">
       <constraints>
         <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ca56-6f64-44bf-d61f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f0a6-f7e1-644e-d15d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -7933,34 +7910,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <entryLink import="true" name="🛠️ Camuflaje Adaptativo " hidden="false" id="09ce-6db6-2072-a44d" collective="false" targetId="ff9d-56bf-6c42-6d65" type="selectionEntry" sortIndex="2"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="🛠️ Cazadores de bestias" id="d727-807a-2df6-f4c2" hidden="true" collective="false" import="true" sortIndex="6">
-      <modifiers>
-        <modifier type="set" value="false" field="hidden">
-          <conditions>
-            <condition type="greaterThan" value="0" field="selections" scope="roster" childId="6a6a-aea4-72c9-1e46" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6d3f-92b9-3a31-029f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3200-3f67-25f6-6399" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-      </constraints>
-      <entryLinks>
-        <entryLink import="true" name="🛠️ Armas Raizgrabadas" hidden="false" id="69ac-9af7-0e45-4c0d" collective="false" targetId="ac95-96cb-7d2c-236d" type="selectionEntry" sortIndex="4">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="10b1-06fb-a20f-5690" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="🛠️ Glándula de Borthrod" hidden="true" id="d426-fc36-4a44-965c" collective="false" targetId="3c2f-48be-658c-b3ae" type="selectionEntry" sortIndex="2"/>
-        <entryLink import="true" name="🛠️ Bandada de Krootalcones" hidden="false" id="e234-1b1c-2608-785e" collective="false" targetId="e6cd-970a-c64f-278c" type="selectionEntry" sortIndex="3"/>
-        <entryLink import="true" name="🛠️ Cazador nómada" hidden="false" id="3e08-de1e-89f0-842d" collective="false" targetId="e7d3-f442-9d96-417e" type="selectionEntry" sortIndex="1"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup name="🛠️ Manada de caza Kroot" id="61ec-daf6-d907-b436" hidden="true" collective="false" import="true" sortIndex="5">
+    <selectionEntryGroup name="🛠️ Manada de caza Kroot" id="61ec-daf6-d907-b436" hidden="true" collective="false" import="false" sortIndex="5">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditions>
@@ -7982,7 +7932,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
                   <conditions>
                     <condition type="equalTo" value="1" field="selections" scope="parent" childId="10b1-06fb-a20f-5690" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <condition type="equalTo" value="1" field="selections" scope="parent" childId="4bb8-c71a-b817-a570" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="40b1-5632-80d4-4957" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="equalTo" value="1" field="selections" scope="parent" childId="bae2-130e-ba61-02a9" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -8004,12 +7954,6 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
     <rule id="8d6a-51d0-372f-1c4e" name="Destacamento Kauyon: Cazador Paciente" hidden="false">
       <description>■ A partir del turno 3, todas la armas de disparo tienen Fuego sostenido 1, Fuego sostenido 2 si disparan contra la unidad marcada.</description>
     </rule>
-    <rule id="9ab1-7f4f-6b5b-a114" name="Por el Bien Supremo" hidden="false">
-      <description>■ Por el bien supremo: Si tu facción del ejército es Imperio T&apos;au, al comienzo de tu fase de disparo puedes seleccionar unidades de tu ejército con esta habilidad para convertirlas en unidades observadoras.
-Durante tu fase de disparo, por cada unidad observadora de tu ejército que no haya sido seleccionada para disparar en esta fase y que sea apta para disparar (excluyendo las unidades Fortificación y las unidades con choque de batalla), selecciona una unidad enemiga que sea visible para marcarla como unidad detectada hasta el final de la fase. Cada unidad enemiga solo puede ser marcada como unidad detectada una vez por fase.
-Las unidades de tu ejército con la habilidad Por el bien común (excepto las unidades observadoras) son unidades guiadas mientras apuntan a una o más unidades detectadas.
-Hasta el final de la fase, cada vez que una miniatura de tu ejército en una unidad Guiada realice un ataque que tenga como objetivo una unidad Detectada, mejora la característica de Habilidad Balística de ese ataque en 1 y, si la unidad Detectada fue marcada por una unidad Observadora que tiene la palabra clave Marcador telemetrico, ese ataque tiene la habilidad [IGNORA COBERTURA].</description>
-    </rule>
     <rule id="2dc0-2fdc-d47e-c515" name="Destacamento Bork&apos;an: Artesania superior" hidden="false">
       <description>■ Añade 6&quot; a la característica de alcance de las armas a distancia equipadas por los modelos del Imperio T&apos;au de tu ejército.</description>
     </rule>
@@ -8020,13 +7964,14 @@ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una uni
       <description>■ Todas las unidades Imperio T’au de este destacamento ganan la regla &quot;Cobertura&quot; cuando se les ataca a distancia.
 ■ Las armas de las unidades IMPERIO T’AU INFANTERÍA ganan la regla &quot;Pistola&quot;.</description>
     </rule>
-    <rule name="Destacamento Cazadores de bestias: Mata bestias" id="a77d-2b30-36e5-02c8" hidden="false">
-      <description>■ EXPERTOS EN GRANDES PRESAS: Cada vez que una miniatura Kroot de tu ejército realice un ataque, suma 1 a la tirada para impactar si el blanco de ese ataque está por debajo de sus efectivos iniciales, y suma también 1 a la tirada para herir si el blanco del ataque está por debajo de la mitad de sus efectivos. Además si el ataque se realiza contra una unidad VEHÍCULO o MONSTRUO, esos ataques ganan la regla HERIDAS DEVASTADORAS.
-■ EXPERTOS EN ESCARAMUZAS: Las miniaturas Kroot de tu ejército tienen una salvación invulnerable de 6+ contra ataques de combate y una salvación invulnerable de 5+ contra ataques a distancia.</description>
-    </rule>
     <rule name="Destacamento Manada de caza Kroot: Cazadores expertos" id="133e-6888-4454-c93c" hidden="false">
       <description>■ EXPERTOS EN GRANDES PRESAS: Cada vez que una miniatura Kroot de tu ejército realice un ataque, suma 1 a la tirada para impactar si el blanco de ese ataque está por debajo de sus efectivos iniciales, y suma también 1 a la tirada para herir si el blanco del ataque está por debajo de la mitad de sus efectivos. 
 ■ EXPERTOS EN ESCARAMUZAS: Las miniaturas Kroot de tu ejército tienen una salvación invulnerable de 6+ contra ataques de combate y una salvación invulnerable de 5+ contra ataques a distancia.</description>
+    </rule>
+    <rule name="Por el Bien Supremo" id="1ebd-119d-b0e4-5c4a" hidden="false">
+      <description>■ Durante tu fase de disparo, por cada unidad observadora de tu ejército que no haya sido seleccionada para disparar en esta fase y que sea apta para disparar (excluyendo las unidades Fortificación y las unidades con acobardadas), selecciona una unidad enemiga que sea visible para marcarla como unidad marcada hasta el final de la fase. Cada unidad enemiga solo puede ser marcada como unidad detectada una vez por fase.
+■ Las unidades de tu ejército con la habilidad Por el bien común (excepto las unidades observadoras) son unidades guiadas mientras apuntan a una o más unidades detectadas.
+■ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una unidad Guiada realice un ataque que tenga como objetivo una unidad Detectada, mejora la característica de Habilidad Balística de ese ataque en 1 y, si la unidad Detectada fue marcada por una unidad Observadora que tiene la palabra clave Luz Marcadora, ese ataque tiene la habilidad [IGNORA COBERTURA].</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -12077,4 +12022,33 @@ Fortificación es 15.</characteristic>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
+  <forceEntries>
+    <forceEntry name="Ejercito Imperio T&apos;au" id="8696-0000-0cac-6116" hidden="false" import="false">
+      <categoryLinks>
+        <categoryLink name="Personajes epicos" hidden="false" id="f8f8-223c-1a72-8558" targetId="947d-359d-9d55-e6ee" primary="false"/>
+        <categoryLink name="Cuartel General" hidden="false" id="d1d1-4dfe-a38d-6380" targetId="9d48-1013-e052-2c37" primary="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="a43e-9f02-46bc-2aa7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Exoarmadura" hidden="false" id="47fe-c206-53b8-fc9e" targetId="bad9-a07f-c0b5-f0c3" primary="false"/>
+        <categoryLink name="Linea de Batalla" hidden="false" id="79a4-806b-dcec-e183" targetId="711e-42fc-72b9-adf9" primary="false"/>
+        <categoryLink name="Auxiliares" hidden="false" id="b64c-7dea-5150-27af" targetId="7a9a-09db-7f17-5528" primary="false"/>
+        <categoryLink name="Ataque rapido" hidden="false" id="2765-f9c4-e1ff-3aa9" targetId="3831-ed78-953d-4334" primary="false"/>
+        <categoryLink name="Tanques" hidden="false" id="517e-2017-aec8-d300" targetId="e047-6538-574c-5c7b" primary="false"/>
+        <categoryLink name="Transporte" hidden="false" id="eae6-15de-1bc9-0c27" targetId="4a85-0b23-4193-0e2d" primary="false"/>
+        <categoryLink name="Apoyo Aereo" hidden="false" id="c93b-4c87-8ceb-cce3" targetId="ba54-f1b0-d874-b992" primary="false"/>
+        <categoryLink name="Amo de la Guerra" hidden="false" id="50ee-7d65-5839-91b1" targetId="143d-9454-6757-8ef0" primary="false"/>
+        <categoryLink name="Fortificacion" hidden="false" id="be7f-3357-549b-521a" targetId="c1c8-af7d-e237-27a2" primary="false"/>
+        <categoryLink name="Equipo de combate" hidden="false" id="2052-16f4-8ccf-2182" targetId="4e67-8582-a837-f34a" primary="false"/>
+        <categoryLink name="Escuadras de renombre" hidden="false" id="f009-7070-5dfb-bcaa" targetId="d9a1-8aa8-f6ba-3799" primary="false"/>
+        <categoryLink name="Estratagemas" hidden="false" id="15b3-ffd2-7ab2-4e50" targetId="131d-5b36-afcc-6875" primary="false"/>
+        <categoryLink name="Tipo de juego" hidden="false" id="4b81-78d6-c688-ea45" targetId="584a-6bca-a178-ecdc" primary="false"/>
+        <categoryLink name="Destacamentos" hidden="false" id="9142-36a9-e45e-2cfd" targetId="6864-037b-1803-ecac" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Por el Bien Supremo" id="d760-782d-a21a-b593" hidden="false" type="rule" targetId="1ebd-119d-b0e4-5c4a"/>
+      </infoLinks>
+    </forceEntry>
+  </forceEntries>
 </catalogue>

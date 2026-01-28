@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="e820-fa69-d550-8b3f" name="Warhammer 40K 10ª por Jose Antonio" revision="10" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" page="github.com/Jagtau/Warhammer-40k">
+<gameSystem id="e820-fa69-d550-8b3f" name="Warhammer 40K 10ª por Jose Antonio" revision="16" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" page="github.com/Jagtau/Warhammer-40k">
   <costTypes>
     <costType id="a9a9-2915-69f6-d947" name=" Pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
@@ -74,7 +74,7 @@
     </categoryEntry>
     <categoryEntry id="9ac9-6d13-ce24-9b7f" name="Golpes sostenidos" hidden="false">
       <infoLinks>
-        <infoLink id="49e6-82dd-fb6b-d35e" name="Golpes sostenidos X" hidden="false" targetId="1d0b-4c2a-64ce-1e1a" type="rule"/>
+        <infoLink id="49e6-82dd-fb6b-d35e" name="Golpes sostenidos" hidden="false" targetId="1d0b-4c2a-64ce-1e1a" type="rule"/>
       </infoLinks>
     </categoryEntry>
     <categoryEntry id="1320-ef03-e5e6-3666" name="Pistola" hidden="false">
@@ -184,15 +184,9 @@
       </infoLinks>
     </categoryEntry>
     <categoryEntry id="1227-47da-963c-7ae4" name="Cubierta de disparo X" hidden="false">
-      <rules>
-        <rule id="f4f6-ec18-4902-20a0" name="Cubierta de disparo X" hidden="false">
-          <description>■ Cubierta de disparo x+: Cuando este 
-Transporte dispara, eliges un arma de 
-hasta x miniaturas embarcadas en él; 
-se considera que el Transporte está 
-también equipado con dichas armas</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink name="Cubierta de disparo X" id="48c9-cf25-c6b4-af00" hidden="false" type="rule" targetId="f677-107b-3ff1-308b"/>
+      </infoLinks>
     </categoryEntry>
     <categoryEntry id="8b79-15f1-01dc-4e89" name="Final violento" hidden="false">
       <infoLinks>
@@ -231,35 +225,6 @@ también equipado con dichas armas</description>
     <categoryEntry id="584a-6bca-a178-ecdc" name="Tipo de juego" hidden="false"/>
     <categoryEntry id="6864-037b-1803-ecac" name="Destacamentos" hidden="false"/>
   </categoryEntries>
-  <forceEntries>
-    <forceEntry id="8696-0000-0cac-6116" name="Ejercito Imperio T&apos;au" hidden="false">
-      <infoLinks>
-        <infoLink id="78ec-7813-c706-1c18" name="Por el Bien Supremo" hidden="false" targetId="8933-81ac-e02c-161e" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="f8f8-223c-1a72-8558" name="Personajes epicos" hidden="false" targetId="947d-359d-9d55-e6ee" primary="false"/>
-        <categoryLink id="d1d1-4dfe-a38d-6380" name="Cuartel General" hidden="false" targetId="9d48-1013-e052-2c37" primary="false">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a43e-9f02-46bc-2aa7" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="47fe-c206-53b8-fc9e" name="Exoarmadura" hidden="false" targetId="bad9-a07f-c0b5-f0c3" primary="false"/>
-        <categoryLink id="79a4-806b-dcec-e183" name="Linea de Batalla" hidden="false" targetId="711e-42fc-72b9-adf9" primary="false"/>
-        <categoryLink id="b64c-7dea-5150-27af" name="Auxiliares" hidden="false" targetId="7a9a-09db-7f17-5528" primary="false"/>
-        <categoryLink id="2765-f9c4-e1ff-3aa9" name="Ataque rapido" hidden="false" targetId="3831-ed78-953d-4334" primary="false"/>
-        <categoryLink id="517e-2017-aec8-d300" name="Tanques" hidden="false" targetId="e047-6538-574c-5c7b" primary="false"/>
-        <categoryLink id="eae6-15de-1bc9-0c27" name="Transporte" hidden="false" targetId="4a85-0b23-4193-0e2d" primary="false"/>
-        <categoryLink id="c93b-4c87-8ceb-cce3" name="Apoyo Aereo" hidden="false" targetId="ba54-f1b0-d874-b992" primary="false"/>
-        <categoryLink id="50ee-7d65-5839-91b1" name="Amo de la Guerra" hidden="false" targetId="143d-9454-6757-8ef0" primary="false"/>
-        <categoryLink id="be7f-3357-549b-521a" name="Fortificacion" hidden="false" targetId="c1c8-af7d-e237-27a2" primary="false"/>
-        <categoryLink id="2052-16f4-8ccf-2182" name="Equipo de combate" hidden="false" targetId="4e67-8582-a837-f34a" primary="false"/>
-        <categoryLink id="f009-7070-5dfb-bcaa" name="Escuadras de renombre" hidden="false" targetId="d9a1-8aa8-f6ba-3799" primary="false"/>
-        <categoryLink id="15b3-ffd2-7ab2-4e50" name="Estratagemas" hidden="false" targetId="131d-5b36-afcc-6875" primary="false"/>
-        <categoryLink id="4b81-78d6-c688-ea45" name="Tipo de juego" hidden="false" targetId="584a-6bca-a178-ecdc" primary="false"/>
-        <categoryLink id="9142-36a9-e45e-2cfd" name="Destacamentos" hidden="false" targetId="6864-037b-1803-ecac" primary="false"/>
-      </categoryLinks>
-    </forceEntry>
-  </forceEntries>
   <infoLinks>
     <infoLink id="db63-96bf-7ca1-af05" name="2. MISIONES" hidden="false" targetId="ac40-498a-d0c9-a5cf" type="rule"/>
     <infoLink id="135d-7243-8b55-4956" name="1. REUNIR TU EJERCITO" hidden="false" targetId="4b73-98bc-0fc8-aa77" type="rule"/>
@@ -392,11 +357,6 @@ también equipado con dichas armas.</description>
     </rule>
     <rule id="53fc-81d4-c25a-7458" name="Agente solitario" hidden="false">
       <description>■ A menos que sea parte de una unidad adjunta, esta unidad solo puede ser elegida como blanco de un ataque a distancia si la miniatura atacante está a 12&quot; o menos.</description>
-    </rule>
-    <rule id="8933-81ac-e02c-161e" name="Por el Bien Supremo" hidden="false">
-      <description>■ Durante tu fase de disparo, por cada unidad observadora de tu ejército que no haya sido seleccionada para disparar en esta fase y que sea apta para disparar (excluyendo las unidades Fortificación y las unidades con acobardadas), selecciona una unidad enemiga que sea visible para marcarla como unidad marcada hasta el final de la fase. Cada unidad enemiga solo puede ser marcada como unidad detectada una vez por fase.
-■ Las unidades de tu ejército con la habilidad Por el bien común (excepto las unidades observadoras) son unidades guiadas mientras apuntan a una o más unidades detectadas.
-■ Hasta el final de la fase, cada vez que una miniatura de tu ejército en una unidad Guiada realice un ataque que tenga como objetivo una unidad Detectada, mejora la característica de Habilidad Balística de ese ataque en 1 y, si la unidad Detectada fue marcada por una unidad Observadora que tiene la palabra clave Luz Marcadora, ese ataque tiene la habilidad [IGNORA COBERTURA].</description>
     </rule>
   </sharedRules>
 </gameSystem>
