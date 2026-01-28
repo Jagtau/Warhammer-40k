@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="04ec-96f3-d39d-5913" name="Ejercito Kroot" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="11" revision="15" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Jose Antonio Gallego">
+<catalogue library="false" id="04ec-96f3-d39d-5913" name="Ejercito Kroot" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="11" revision="16" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Jose Antonio Gallego">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="🇯🇪 Imperio Tau 10ª Edicion" id="1dd9-3eec-87ae-db6e" targetId="5ff1-c96b-3b4d-8231" importRootEntries="false"/>
   </catalogueLinks>
@@ -57,7 +57,7 @@
         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1418-73f8-7c4f-7a0b" includeChildSelections="false"/>
       </constraints>
     </entryLink>
-    <entryLink import="true" name="⭐🗡️Noonien Singh Khan " hidden="false" id="1859-9248-d7bc-b115" type="selectionEntry" targetId="125a-3f82-22e9-5341" sortIndex="1">
+    <entryLink import="true" name="⭐🗡️ Noonien Singh Khan " hidden="false" id="1859-9248-d7bc-b115" type="selectionEntry" targetId="125a-3f82-22e9-5341" sortIndex="1">
       <categoryLinks>
         <categoryLink targetId="9d48-1013-e052-2c37" id="bb4c-e9ec-08c8-8c5b" primary="false" name="Cuartel General"/>
         <categoryLink targetId="947d-359d-9d55-e6ee" id="fb95-7a50-9577-2d6c" primary="true" name="Personajes epicos"/>
@@ -167,6 +167,13 @@
         <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b3d0-ff00-5ddb-9529" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f5a3-7877-c737-cb60" includeChildSelections="false"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="greaterThan" value="0" field="selections" scope="roster" childId="11ea-4b7d-74d2-17ef" shared="true" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedSelectionEntries>
