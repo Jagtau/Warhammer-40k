@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="04ec-96f3-d39d-5913" name="Ejercito Kroot" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="11" revision="16" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Jose Antonio Gallego">
+<catalogue library="false" id="04ec-96f3-d39d-5913" name="Ejercito Kroot" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="11" revision="17" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Jose Antonio Gallego">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="🇯🇪 Imperio Tau 10ª Edicion" id="1dd9-3eec-87ae-db6e" targetId="5ff1-c96b-3b4d-8231" importRootEntries="false"/>
   </catalogueLinks>
@@ -141,6 +141,22 @@
             <entryLink import="true" name="🎲 Estratagemas Depredador Alpha" hidden="false" id="1fde-1eaf-e2c7-ca5b" type="selectionEntry" targetId="8036-a930-da89-f0fe"/>
           </entryLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="🔪 Cazadores consumados" hidden="false" id="6568-2ff9-94ee-4af8" collective="false">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e677-d026-244b-15c9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8be-97dd-18f1-b700" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <costs>
+            <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Instintos de cazador" id="4d1f-c9f2-0646-0e50" hidden="false" type="rule" targetId="9f86-99cd-66de-f10b"/>
+            <infoLink name="Expertos en escaramuzas" id="6131-fd8f-9b1d-b8b3" hidden="false" type="rule" targetId="0f90-b0e8-e213-f883"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="🎲 Estratagemas Cazadores consumados" hidden="false" id="3678-52de-0835-63c8" type="selectionEntry" targetId="5ad8-4e3e-50cc-05bc"/>
+          </entryLinks>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="🛠️ Mejoras Depredador Alpha" id="b44f-49b2-51c7-5b76" hidden="true" sortIndex="1">
@@ -171,6 +187,25 @@
         <modifier type="set" value="false" field="hidden">
           <conditions>
             <condition type="greaterThan" value="0" field="selections" scope="roster" childId="11ea-4b7d-74d2-17ef" shared="true" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="🛠️ Mejoras Cazadores consumados" id="e404-6b1b-a71f-1f5a" hidden="true" sortIndex="3">
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0a5e-0608-e718-6dc0" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2aa2-2219-d780-f67c" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="🛠️ Cazador nómada" hidden="false" id="a322-2108-4855-2697" type="selectionEntry" targetId="e7d3-f442-9d96-417e"/>
+        <entryLink import="true" name="🛠️ Glándula de Borthrod" hidden="false" id="9cb4-efc6-d09f-982c" type="selectionEntry" targetId="3c2f-48be-658c-b3ae"/>
+        <entryLink import="true" name="🛠️ Bandada de Krootalcones" hidden="false" id="1e41-de76-c468-a33d" type="selectionEntry" targetId="e6cd-970a-c64f-278c"/>
+        <entryLink import="true" name="🛠️ Armas Raizgrabadas" hidden="false" id="a748-c9a3-65d7-2a3a" type="selectionEntry" targetId="ac95-96cb-7d2c-236d"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="greaterThan" value="0" field="selections" scope="roster" childId="6568-2ff9-94ee-4af8" shared="true" includeChildSelections="true" includeChildForces="false"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -331,6 +366,14 @@
             <entryLink import="true" name="🛠️ Genética adquirida" hidden="false" id="4e06-c19c-006d-0e48" type="selectionEntry" targetId="b18a-31e1-21e3-7150"/>
             <entryLink import="true" name="🛠️ Hermanos de manada" hidden="false" id="41b2-a743-1e71-f525" type="selectionEntry" targetId="5642-5628-f74d-716c"/>
             <entryLink import="true" name="🛠️ Siempre al acecho" hidden="false" id="36c5-d7b7-7a16-8a23" type="selectionEntry" targetId="ec3e-96e6-9372-15ef"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="🛠️ Mejoras Cazadores consumados" hidden="false" id="86e5-3494-590c-eac0" type="selectionEntryGroup" targetId="e404-6b1b-a71f-1f5a">
+          <entryLinks>
+            <entryLink import="true" name="🛠️ Armas rituales" hidden="false" id="4975-a686-cf93-0d19" type="selectionEntry" targetId="d93c-f45e-01bc-7ae6"/>
+            <entryLink import="true" name="🛠️ Genética adquirida" hidden="false" id="d664-9982-52ed-369d" type="selectionEntry" targetId="b18a-31e1-21e3-7150"/>
+            <entryLink import="true" name="🛠️ Hermanos de manada" hidden="false" id="c1cf-a849-fbfe-1f94" type="selectionEntry" targetId="5642-5628-f74d-716c"/>
+            <entryLink import="true" name="🛠️ Siempre al acecho" hidden="false" id="da07-0340-121f-f4bc" type="selectionEntry" targetId="ec3e-96e6-9372-15ef"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -504,12 +547,27 @@
         <infoLink name="Armas rituales" id="2198-3a7f-a374-cd27" hidden="false" type="profile" targetId="f848-d05f-2ad8-d971"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="🎲 Estratagemas Cazadores consumados" hidden="false" id="5ad8-4e3e-50cc-05bc" sortIndex="52">
+      <infoLinks>
+        <infoLink name="SOLDADOS DE GUERRILLA" id="4adf-9e03-647f-0a57" hidden="false" type="profile" targetId="6979-d6c6-f057-0bf2"/>
+        <infoLink name="CAZADORES OCULTOS" id="052f-4cc7-388b-0654" hidden="false" type="profile" targetId="d9fe-ebd3-1651-66dd"/>
+        <infoLink name="ASALTO PROVOCADO" id="8bb1-ca94-cab8-8fd6" hidden="false" type="profile" targetId="746b-f853-1737-5e11"/>
+        <infoLink name="EXIBICIÓN DE AGILIDAD" id="a960-f764-5edf-132f" hidden="false" type="profile" targetId="20c1-85b6-27ba-8406"/>
+        <infoLink name="UNIRSE A LA CAZA" id="278b-00fb-ce99-b509" hidden="false" type="profile" targetId="8046-2508-14f1-41c5"/>
+        <infoLink name="TRAMPA BIEN PREPARADA" id="c9ae-a83a-a798-c702" hidden="false" type="profile" targetId="8394-51e2-30a7-8c74"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f5b5-2d21-f8f5-8324" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bb1-7d9a-269f-2fbf" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule name="Cazadores expertos" id="21d8-3528-0779-2602" hidden="false">
       <description>Al inicio de la batalla escoge una forma de cazar.
 ■ CAZA MAYOR: Todas las armas del ejercito KROOT ganan la regla IMPACTOS LETALES y HERIDAS DEVASTADORAS.
-■ CAZA MENOR: Todas las armas del ejercito KROOT ganan la regla SOSTENIDOS 1 y mejora su FP en 1.</description>
+■ CAZA MENOR: Todas las armas del ejercito KROOT ganan la regla SOSTENIDOS 1 y mejora su FP en 1.
+■ EXPERTOS CAZADORES: Cuando una miniatura Kroot ataca a un MONSTRUO/VEHÍCULO sus ataques tienen la regla HERIDAS DEVASTADORAS.</description>
     </rule>
     <rule name="Organización de manada" id="4e53-1ee4-71d4-ae90" hidden="false">
       <description>Al inicio de la Ronda selecciona una unidad para que sea tu PRESA, esta será tu PRESA hasta que muera. Una vez destruida la unidad enemiga podrás seleccionar otra unidad. 
@@ -520,6 +578,8 @@
       <description>■ Todos los personajes del ejército ganan la regla HERIDAS DEVASTADORAS y mejoran el daño y fuerza de sus armas de combate en 1.
 ■ Las unidades con SIGILO, mejoran su atributo de salvación en 1. El resto obtienen la regla SIGILO.</description>
     </rule>
+    <rule name="Expertos en escaramuzas" id="0f90-b0e8-e213-f883" hidden="false"/>
+    <rule name="Instintos de cazador" id="9f86-99cd-66de-f10b" hidden="false"/>
   </sharedRules>
   <forceEntries>
     <forceEntry name="Ejercito Kroot" id="ab30-768b-afb6-1862" hidden="false" import="false">
