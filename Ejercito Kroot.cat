@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="04ec-96f3-d39d-5913" name="Ejercito Kroot" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="11" revision="17" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Jose Antonio Gallego">
+<catalogue library="false" id="04ec-96f3-d39d-5913" name="Ejercito Kroot" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="11" revision="20" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Jose Antonio Gallego">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="🇯🇪 Imperio Tau 10ª Edicion" id="1dd9-3eec-87ae-db6e" targetId="5ff1-c96b-3b4d-8231" importRootEntries="false"/>
   </catalogueLinks>
@@ -165,10 +165,10 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b704-a8f8-c3f0-accc" includeChildSelections="false"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="🛠️ Evolución desbocada" hidden="false" id="0068-05dd-f242-4611" type="selectionEntry" targetId="54b4-0e08-ea64-0870"/>
-        <entryLink import="true" name="🛠️ Genética adquirida" hidden="false" id="9cd2-9515-c42d-60df" type="selectionEntry" targetId="b18a-31e1-21e3-7150"/>
-        <entryLink import="true" name="🛠️ Siempre al acecho" hidden="false" id="1f38-4ce2-9bb0-eca5" type="selectionEntry" targetId="ec3e-96e6-9372-15ef"/>
-        <entryLink import="true" name="🛠️ Hermanos de manada" hidden="false" id="ffae-2673-c14e-3eb0" type="selectionEntry" targetId="5642-5628-f74d-716c"/>
+        <entryLink import="true" name="🛠️ Rifle de caza" hidden="false" id="0068-05dd-f242-4611" type="selectionEntry" targetId="2915-fe42-fd33-c425"/>
+        <entryLink import="true" name="🛠️ Piel camaleónica" hidden="false" id="9cd2-9515-c42d-60df" type="selectionEntry" targetId="879d-bf2a-e48b-31e8"/>
+        <entryLink import="true" name="🛠️ Regeneración" hidden="false" id="1f38-4ce2-9bb0-eca5" type="selectionEntry" targetId="54b4-0e08-ea64-0870"/>
+        <entryLink import="true" name="🛠️ Evolución desembocada" hidden="false" id="ffae-2673-c14e-3eb0" type="selectionEntry" targetId="5642-5628-f74d-716c"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -190,6 +190,12 @@
           </conditions>
         </modifier>
       </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="🛠️ Armas rituales" hidden="false" id="5d32-43f0-978f-8847" type="selectionEntry" targetId="d93c-f45e-01bc-7ae6"/>
+        <entryLink import="true" name="🛠️ Capacidad de adaptación" hidden="false" id="9537-270c-572c-4723" type="selectionEntry" targetId="f227-e261-231b-e00a"/>
+        <entryLink import="true" name="🛠️ Genética adquirida" hidden="false" id="2790-0cfa-aca0-1e53" type="selectionEntry" targetId="b18a-31e1-21e3-7150"/>
+        <entryLink import="true" name="🛠️ Siempre al acecho" hidden="false" id="7db7-7f97-d6d2-afac" type="selectionEntry" targetId="ec3e-96e6-9372-15ef"/>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="🛠️ Mejoras Cazadores consumados" id="e404-6b1b-a71f-1f5a" hidden="true" sortIndex="3">
       <constraints>
@@ -262,10 +268,10 @@
         <infoLink name="Armas rituales" id="e8e2-bb16-f309-edc4" hidden="false" type="profile" targetId="f848-d05f-2ad8-d971"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="10"/>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="20"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🛠️ Genética adquirida" hidden="false" id="b18a-31e1-21e3-7150" sortIndex="32">
+    <selectionEntry type="upgrade" import="true" name="🛠️ Genética adquirida" hidden="false" id="b18a-31e1-21e3-7150" sortIndex="33">
       <infoLinks>
         <infoLink name="Genética adquirida" id="0b59-c4eb-aa4c-313f" hidden="false" type="profile" targetId="05d4-7de8-e36b-a88c"/>
       </infoLinks>
@@ -278,15 +284,15 @@
         <infoLink name="Siempre al acecho" id="a159-7412-3fc7-f088" hidden="false" type="profile" targetId="7149-d0ad-0913-4be2"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="15"/>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="20"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🛠️ Hermanos de manada" hidden="false" id="5642-5628-f74d-716c" sortIndex="33">
+    <selectionEntry type="upgrade" import="true" name="🛠️ Evolución desembocada" hidden="false" id="5642-5628-f74d-716c" sortIndex="35">
       <infoLinks>
-        <infoLink name="Hermanos de manada" id="f332-6e09-83aa-234a" hidden="false" type="profile" targetId="9aaf-aba3-7caf-dc52"/>
+        <infoLink name="Evolución desembocada" id="f332-6e09-83aa-234a" hidden="false" type="profile" targetId="04e2-a86b-83c8-90b4"/>
       </infoLinks>
       <costs>
-        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="30"/>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="35"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="⭐🗡️ Noonien Singh Khan " hidden="false" id="125a-3f82-22e9-5341" collective="false" sortIndex="1">
@@ -360,22 +366,8 @@
     <selectionEntry type="upgrade" import="true" name="🛠️ Mejoras" hidden="false" id="b4af-56bb-49d2-4d5c" sortIndex="30">
       <entryLinks>
         <entryLink import="true" name="🛠️ Mejoras Depredador Alpha" hidden="false" id="e5c3-eb45-5485-15a8" type="selectionEntryGroup" targetId="b44f-49b2-51c7-5b76"/>
-        <entryLink import="true" name="🛠️ Mejoras Manada de caza" hidden="false" id="be4c-4a15-3f1e-8976" type="selectionEntryGroup" targetId="2a2b-73a5-a4f8-4b5b">
-          <entryLinks>
-            <entryLink import="true" name="🛠️ Armas rituales" hidden="false" id="abbd-c0a5-aa51-221e" type="selectionEntry" targetId="d93c-f45e-01bc-7ae6"/>
-            <entryLink import="true" name="🛠️ Genética adquirida" hidden="false" id="4e06-c19c-006d-0e48" type="selectionEntry" targetId="b18a-31e1-21e3-7150"/>
-            <entryLink import="true" name="🛠️ Hermanos de manada" hidden="false" id="41b2-a743-1e71-f525" type="selectionEntry" targetId="5642-5628-f74d-716c"/>
-            <entryLink import="true" name="🛠️ Siempre al acecho" hidden="false" id="36c5-d7b7-7a16-8a23" type="selectionEntry" targetId="ec3e-96e6-9372-15ef"/>
-          </entryLinks>
-        </entryLink>
-        <entryLink import="true" name="🛠️ Mejoras Cazadores consumados" hidden="false" id="86e5-3494-590c-eac0" type="selectionEntryGroup" targetId="e404-6b1b-a71f-1f5a">
-          <entryLinks>
-            <entryLink import="true" name="🛠️ Armas rituales" hidden="false" id="4975-a686-cf93-0d19" type="selectionEntry" targetId="d93c-f45e-01bc-7ae6"/>
-            <entryLink import="true" name="🛠️ Genética adquirida" hidden="false" id="d664-9982-52ed-369d" type="selectionEntry" targetId="b18a-31e1-21e3-7150"/>
-            <entryLink import="true" name="🛠️ Hermanos de manada" hidden="false" id="c1cf-a849-fbfe-1f94" type="selectionEntry" targetId="5642-5628-f74d-716c"/>
-            <entryLink import="true" name="🛠️ Siempre al acecho" hidden="false" id="da07-0340-121f-f4bc" type="selectionEntry" targetId="ec3e-96e6-9372-15ef"/>
-          </entryLinks>
-        </entryLink>
+        <entryLink import="true" name="🛠️ Mejoras Manada de caza" hidden="false" id="be4c-4a15-3f1e-8976" type="selectionEntryGroup" targetId="2a2b-73a5-a4f8-4b5b"/>
+        <entryLink import="true" name="🛠️ Mejoras Cazadores consumados" hidden="false" id="86e5-3494-590c-eac0" type="selectionEntryGroup" targetId="e404-6b1b-a71f-1f5a"/>
       </entryLinks>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb34-02b9-ec7a-6517" includeChildSelections="false"/>
@@ -527,25 +519,37 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="55"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🛠️ Evolución desbocada" hidden="false" id="54b4-0e08-ea64-0870" sortIndex="35">
+    <selectionEntry type="upgrade" import="true" name="🛠️ Regeneración" hidden="false" id="54b4-0e08-ea64-0870" sortIndex="38">
       <infoLinks>
-        <infoLink name="Evolución desbocada" id="1c71-5cb7-a87d-3780" hidden="false" type="profile" targetId="04e2-a86b-83c8-90b4"/>
+        <infoLink name="Regeneración" id="1c71-5cb7-a87d-3780" hidden="false" type="profile" targetId="2d61-d185-7e06-aae9"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="25"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🛠️ Armas rituales" hidden="false" id="f227-e261-231b-e00a" sortIndex="36">
+    <selectionEntry type="upgrade" import="true" name="🛠️ Capacidad de adaptación" hidden="false" id="f227-e261-231b-e00a" sortIndex="32">
       <infoLinks>
-        <infoLink name="Armas rituales" id="b3e4-f02a-23d3-1acd" hidden="false" type="profile" targetId="f848-d05f-2ad8-d971"/>
+        <infoLink name="Capacidad de adaptación" id="b3e4-f02a-23d3-1acd" hidden="false" type="profile" targetId="9aaf-aba3-7caf-dc52"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="25"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🛠️ Armas rituales" hidden="false" id="879d-bf2a-e48b-31e8" sortIndex="37">
+    <selectionEntry type="upgrade" import="true" name="🛠️ Piel camaleónica" hidden="false" id="879d-bf2a-e48b-31e8" sortIndex="36">
       <infoLinks>
-        <infoLink name="Armas rituales" id="3b21-4fba-b18c-fd52" hidden="false" type="profile" targetId="f848-d05f-2ad8-d971"/>
+        <infoLink name="Piel camaleónica" id="3b21-4fba-b18c-fd52" hidden="false" type="profile" targetId="c32c-6db7-f27a-03a4"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="25"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🛠️ Armas rituales" hidden="false" id="2915-fe42-fd33-c425" sortIndex="38">
+    <selectionEntry type="upgrade" import="true" name="🛠️ Rifle de caza" hidden="false" id="2915-fe42-fd33-c425" sortIndex="37">
       <infoLinks>
-        <infoLink name="Armas rituales" id="2198-3a7f-a374-cd27" hidden="false" type="profile" targetId="f848-d05f-2ad8-d971"/>
+        <infoLink name="Rifle de caza" id="2198-3a7f-a374-cd27" hidden="false" type="profile" targetId="ae12-efbb-0cab-20e2"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="15"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="🎲 Estratagemas Cazadores consumados" hidden="false" id="5ad8-4e3e-50cc-05bc" sortIndex="52">
       <infoLinks>
@@ -677,9 +681,9 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo personajes Kroot infantería. Mientras lidere una unidad, no se podrá usar la estratagema fuego defensivo, contra esta unidad.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Hermanos de manada" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="9aaf-aba3-7caf-dc52">
+    <profile name="Capacidad de adaptación" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="9aaf-aba3-7caf-dc52">
       <characteristics>
-        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo personajes Kroot infantería. Cuando este personaje lidera una unidad, todas las unidades enemigas se consideran PRESA.</characteristic>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo personajes Kroot infantería. Cuando este personaje lidera una unidad, al inicio de la ronda esta unidad puede jugar según la regla de ejercito que eligió al principio de la batalla o cambiar a otra.</characteristic>
       </characteristics>
     </profile>
     <profile name="Armas rituales" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="f848-d05f-2ad8-d971">
@@ -692,9 +696,54 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo personajes Kroot. La unidad mejora suma 1 a los movimiento de mover/avanzar y carga.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Evolución desbocada" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="04e2-a86b-83c8-90b4">
+    <profile name="Evolución desembocada" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="04e2-a86b-83c8-90b4">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo personajes Kroot. El portador mejora sus atributos de Fuerza en 2 y Daño en 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Piel camaleónica" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="c32c-6db7-f27a-03a4">
+      <characteristics>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo personajes Kroot infantería. Personaje y unidad acompañante ganan INVULNERABLE de 5+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rifle de caza" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="ae12-efbb-0cab-20e2">
+      <characteristics>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo personajes Kroot. El portador gana HERIDAS DEVASTADORAS y Antinfanteria 4+ para una de sus armas a distancia.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Regeneración" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="2d61-d185-7e06-aae9">
+      <characteristics>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo personajes Kroot infantería. Una vez por batalla, si este personaje es eliminado no lo retires de las mesa, al final de la fase en la cual murió puede volver a levantarse con todas sus heridas a 3+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="REPLIEGUE TACTICO " typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas" hidden="false" id="60be-a324-6f55-150a">
+      <characteristics>
+        <characteristic name="CP" typeId="d6ce-92be-7b44-541d">1</characteristic>
+        <characteristic name="Tipo" typeId="d7c0-0526-e25c-f3ab">ESTRATAGEMA MANADA DE CAZA KROOT - TACTICA DE BATALLA</characteristic>
+        <characteristic name="Cuando" typeId="50e1-3654-5678-d305">Fase de movimiento enemiga.</characteristic>
+        <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad KROOT de tu ejercito.</characteristic>
+        <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Cuando una unidad enemiga termina un movimiento normal, de avanzar o de retroceder a 9&quot; o menos de la unidad de esta miniatura, si no hay unidades enemigas en la zona de amenaza de la unidad de esta miniatura, esta puede hacer un movimiento normal de hasta 1D3+1.</characteristic>
+        <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="GRANADAS TRAMPA" typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas" hidden="false" id="ad38-34d7-a4ea-6a24">
+      <characteristics>
+        <characteristic name="CP" typeId="d6ce-92be-7b44-541d">1</characteristic>
+        <characteristic name="Tipo" typeId="d7c0-0526-e25c-f3ab">ESTRATAGEMA MANADA DE CAZA KROOT - EQUIPO</characteristic>
+        <characteristic name="Cuando" typeId="50e1-3654-5678-d305">En tu Fase de disparo.</characteristic>
+        <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad KROOT de tu ejercito equipada con un lanzador de maraña.</characteristic>
+        <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Cuando una unidad enemiga es impactada por esta arma, resta 1 a su atributo de movimiento y carga hasta el final de su siguiente turno.</characteristic>
+        <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="GRANADA DE PUAS" typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas" hidden="false" id="24ee-c634-a08f-a64b">
+      <characteristics>
+        <characteristic name="CP" typeId="d6ce-92be-7b44-541d">1</characteristic>
+        <characteristic name="Tipo" typeId="d7c0-0526-e25c-f3ab">ESTRATAGEMA MANADA DE CAZA KROOT - EQUIPO</characteristic>
+        <characteristic name="Cuando" typeId="50e1-3654-5678-d305">En tu Fase de disparo.</characteristic>
+        <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad KROOT de tu ejercito con la clave GRANADAS y un a unidad enemiga a 8 UM.</characteristic>
+        <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">La unidad enemiga tendrá un -1 a impactar en combate.</characteristic>
+        <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
