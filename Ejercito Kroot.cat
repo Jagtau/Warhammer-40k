@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="04ec-96f3-d39d-5913" name="Ejercito Kroot" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="11" revision="20" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Jose Antonio Gallego">
+<catalogue library="false" id="04ec-96f3-d39d-5913" name="Ejercito Kroot" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="11" revision="22" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Jose Antonio Gallego">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="🇯🇪 Imperio Tau 10ª Edicion" id="1dd9-3eec-87ae-db6e" targetId="5ff1-c96b-3b4d-8231" importRootEntries="false"/>
   </catalogueLinks>
@@ -123,7 +123,14 @@
             <infoLink name="Organización de manada" id="2705-b39a-c2f9-a87b" hidden="false" type="rule" targetId="4e53-1ee4-71d4-ae90"/>
           </infoLinks>
           <entryLinks>
-            <entryLink import="true" name="🎲 Estratagemas Manada de Caza Kroot" hidden="false" id="87db-236f-0837-beb1" type="selectionEntry" targetId="65aa-96af-707f-ffaa"/>
+            <entryLink import="true" name="🎲 Estratagemas Manada de Caza Kroot" hidden="false" id="87db-236f-0837-beb1" type="selectionEntry" targetId="65aa-96af-707f-ffaa">
+              <infoLinks>
+                <infoLink name="Armas rituales" id="428d-8746-63fd-401b" hidden="false" type="profile" targetId="f848-d05f-2ad8-d971"/>
+                <infoLink name="Capacidad de adaptación" id="7cbf-d54c-3b0b-cc64" hidden="false" type="profile" targetId="9aaf-aba3-7caf-dc52"/>
+                <infoLink name="Genética adquirida" id="d8f1-c655-d38b-4ea0" hidden="false" type="profile" targetId="05d4-7de8-e36b-a88c"/>
+                <infoLink name="Siempre al acecho" id="cf03-e8b7-cb3b-d461" hidden="false" type="profile" targetId="7149-d0ad-0913-4be2"/>
+              </infoLinks>
+            </entryLink>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="🦕 Depredador Alpha" hidden="false" id="f062-cbf5-7ce5-498e" collective="false">
@@ -138,7 +145,14 @@
             <infoLink name="Buscadores de trofeos" id="0808-1070-f6a9-e80d" hidden="false" type="rule" targetId="a2ec-023d-2d20-a8ea"/>
           </infoLinks>
           <entryLinks>
-            <entryLink import="true" name="🎲 Estratagemas Depredador Alpha" hidden="false" id="1fde-1eaf-e2c7-ca5b" type="selectionEntry" targetId="8036-a930-da89-f0fe"/>
+            <entryLink import="true" name="🎲 Estratagemas Depredador Alpha" hidden="false" id="1fde-1eaf-e2c7-ca5b" type="selectionEntry" targetId="8036-a930-da89-f0fe">
+              <infoLinks>
+                <infoLink name="Evolución desembocada" id="5dfe-d039-abc9-4ebf" hidden="false" type="profile" targetId="04e2-a86b-83c8-90b4"/>
+                <infoLink name="Piel camaleónica" id="6c42-f29e-8b16-e561" hidden="false" type="profile" targetId="c32c-6db7-f27a-03a4"/>
+                <infoLink name="Rifle de caza" id="2a7f-1890-f835-7d6c" hidden="false" type="profile" targetId="ae12-efbb-0cab-20e2"/>
+                <infoLink name="Regeneración" id="0cc9-5922-4c34-7eb6" hidden="false" type="profile" targetId="2d61-d185-7e06-aae9"/>
+              </infoLinks>
+            </entryLink>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="🔪 Cazadores consumados" hidden="false" id="6568-2ff9-94ee-4af8" collective="false">
@@ -237,12 +251,12 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="🎲 Estratagemas Manada de Caza Kroot" hidden="false" id="65aa-96af-707f-ffaa" sortIndex="51">
       <infoLinks>
-        <infoLink name="ASALTO PROVOCADO" id="658b-1bcf-8255-6018" hidden="false" type="profile" targetId="746b-f853-1737-5e11"/>
-        <infoLink name="CAZADORES OCULTOS" id="efe0-2c06-8b3d-5b77" hidden="false" type="profile" targetId="d9fe-ebd3-1651-66dd"/>
-        <infoLink name="EXIBICIÓN DE AGILIDAD" id="b69f-3d26-1d57-b3c1" hidden="false" type="profile" targetId="20c1-85b6-27ba-8406"/>
-        <infoLink name="SOLDADOS DE GUERRILLA" id="ea3b-a8cd-19cd-fce1" hidden="false" type="profile" targetId="6979-d6c6-f057-0bf2"/>
-        <infoLink name="TRAMPA BIEN PREPARADA" id="8efa-8375-7488-ffe7" hidden="false" type="profile" targetId="8394-51e2-30a7-8c74"/>
-        <infoLink name="UNIRSE A LA CAZA" id="b595-b76c-204f-0bcb" hidden="false" type="profile" targetId="8046-2508-14f1-41c5"/>
+        <infoLink name="ORDEN DE CARGA" id="658b-1bcf-8255-6018" hidden="false" type="profile" targetId="cf4e-63ae-b4d4-39df"/>
+        <infoLink name="GRANADA DE PUAS" id="efe0-2c06-8b3d-5b77" hidden="false" type="profile" targetId="24ee-c634-a08f-a64b"/>
+        <infoLink name="GRANADAS TRAMPA" id="b69f-3d26-1d57-b3c1" hidden="false" type="profile" targetId="ad38-34d7-a4ea-6a24"/>
+        <infoLink name="PREPARAR TRAMPA " id="ea3b-a8cd-19cd-fce1" hidden="false" type="profile" targetId="9143-2440-5985-c0c2"/>
+        <infoLink name="EMBOSCADA PLANIFICADA " id="8efa-8375-7488-ffe7" hidden="false" type="profile" targetId="ce19-70e1-3056-fbea"/>
+        <infoLink name="REPLIEGUE TACTICO " id="b595-b76c-204f-0bcb" hidden="false" type="profile" targetId="60be-a324-6f55-150a"/>
       </infoLinks>
       <constraints>
         <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="47e7-c4ab-a915-128e" includeChildSelections="false"/>
@@ -568,19 +582,20 @@
   </sharedSelectionEntries>
   <sharedRules>
     <rule name="Cazadores expertos" id="21d8-3528-0779-2602" hidden="false">
-      <description>Al inicio de la batalla escoge una forma de cazar.
-■ CAZA MAYOR: Todas las armas del ejercito KROOT ganan la regla IMPACTOS LETALES y HERIDAS DEVASTADORAS.
-■ CAZA MENOR: Todas las armas del ejercito KROOT ganan la regla SOSTENIDOS 1 y mejora su FP en 1.
+      <description>■  Las unidades carnívoras Kroot obtienen la CLAVE BATTLELINE.
+Al inicio de la batalla escoge una forma de cazar.
+■ CAZA MAYOR: Todas las armas del ejército ganan ANTIVEHICULO/MONSTRUO 5+. 
+■ CAZA MENOR: Todas las armas del ejército ganan Antinfanteria 5+. 
 ■ EXPERTOS CAZADORES: Cuando una miniatura Kroot ataca a un MONSTRUO/VEHÍCULO sus ataques tienen la regla HERIDAS DEVASTADORAS.</description>
     </rule>
     <rule name="Organización de manada" id="4e53-1ee4-71d4-ae90" hidden="false">
-      <description>Al inicio de la Ronda selecciona una unidad para que sea tu PRESA, esta será tu PRESA hasta que muera. Una vez destruida la unidad enemiga podrás seleccionar otra unidad. 
-■ PRESA: Todos los ataques realizados contra esta unidad, tendrán la regla, IMPACTOS CRÍTICOS 5+.
-■ Todas las unidades del ejército ganan invulnerable 5+</description>
+      <description>■ Inicio de cada ronda de batalla, selecciona hasta 2 unidades enemigas como tu PRESA. Al inicio de cada ronda de batalla, si tienes menos de 2 PRESAS (porque una o ambas fueron destruidas), puedes seleccionar nuevas unidades enemigas como PRESA hasta volver a tener 2. Las PRESAS que no hayan sido destruidas siguen siendo tus PRESAS (no se reemplazan).
+■ PRESA: Todos los ataques realizados contra esta unidad tendrán la regla, HERIDAS DEVASTADORAS .
+■ Todas las unidades del ejército ganan invulnerable 6+ y COBERTURA en campo abierto.</description>
     </rule>
     <rule name="Buscadores de trofeos" id="a2ec-023d-2d20-a8ea" hidden="false">
-      <description>■ Todos los personajes del ejército ganan la regla HERIDAS DEVASTADORAS y mejoran el daño y fuerza de sus armas de combate en 1.
-■ Las unidades con SIGILO, mejoran su atributo de salvación en 1. El resto obtienen la regla SIGILO.</description>
+      <description>■ Todos los personajes del ejército ganan la regla HERIDAS DEVASTADORAS, PRECISION en combate y mejoran el Ataques y FP de sus armas de combate en 1.
+■ Todas las unidades reciben la regla SIGILO, las que ya tenían esta regla, repiten los 1s en sus tiradas de salvación.</description>
     </rule>
     <rule name="Expertos en escaramuzas" id="0f90-b0e8-e213-f883" hidden="false"/>
     <rule name="Instintos de cazador" id="9f86-99cd-66de-f10b" hidden="false"/>
@@ -743,6 +758,36 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <characteristic name="Cuando" typeId="50e1-3654-5678-d305">En tu Fase de disparo.</characteristic>
         <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad KROOT de tu ejercito con la clave GRANADAS y un a unidad enemiga a 8 UM.</characteristic>
         <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">La unidad enemiga tendrá un -1 a impactar en combate.</characteristic>
+        <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="EMBOSCADA PLANIFICADA " typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas" hidden="false" id="ce19-70e1-3056-fbea">
+      <characteristics>
+        <characteristic name="CP" typeId="d6ce-92be-7b44-541d">1</characteristic>
+        <characteristic name="Tipo" typeId="d7c0-0526-e25c-f3ab">ESTRATAGEMA MANADA DE CAZA KROOT - TACTICA DE BATALLA</characteristic>
+        <characteristic name="Cuando" typeId="50e1-3654-5678-d305">Al final del turno enemigo.</characteristic>
+        <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad Kroot de tu ejercito que este completamente a 9 UM de un borde de la mesa y que no esté en zona de amenaza.</characteristic>
+        <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Retira esta unidad de la mesa y llevaba a la Reserva estratégica.</characteristic>
+        <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="PREPARAR TRAMPA " typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas" hidden="false" id="9143-2440-5985-c0c2">
+      <characteristics>
+        <characteristic name="CP" typeId="d6ce-92be-7b44-541d">1</characteristic>
+        <characteristic name="Tipo" typeId="d7c0-0526-e25c-f3ab">ESTRATAGEMA MANADA DE CAZA KROOT - ARDID ESTRATÉGICO</characteristic>
+        <characteristic name="Cuando" typeId="50e1-3654-5678-d305">En tu fase de movimiento.</characteristic>
+        <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad amiga Kroot que este controlado un objetivo. Podrá colocar una trampa en dicho objetivo.</characteristic>
+        <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">Cuando una unidad enemiga entre dentro de la zona de control del objetivo, la trampa se activará, lanza 6d6 a 4+ herida mortal y retirar la trampa.</characteristic>
+        <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="ORDEN DE CARGA" typeId="2f0b-fc03-aa60-1ff6" typeName="Estratagemas" hidden="false" id="cf4e-63ae-b4d4-39df">
+      <characteristics>
+        <characteristic name="CP" typeId="d6ce-92be-7b44-541d">1</characteristic>
+        <characteristic name="Tipo" typeId="d7c0-0526-e25c-f3ab">ESTRATAGEMA MANADA DE CAZA KROOT - TACTICA DE BATALLA</characteristic>
+        <characteristic name="Cuando" typeId="50e1-3654-5678-d305">En tu fase de carga.</characteristic>
+        <characteristic name="Blanco" typeId="7d66-bedd-72bf-2c55">Una unidad KROOT de tu ejercito.</characteristic>
+        <characteristic name="Efecto" typeId="e95d-3aab-012d-3bea">La unidad Kroot seleccionada puede cargar, aunque haya avanzado en la fase de movimiento anterior.</characteristic>
         <characteristic name="Restricciones" typeId="35b1-0c4e-e590-08d3">-</characteristic>
       </characteristics>
     </profile>
