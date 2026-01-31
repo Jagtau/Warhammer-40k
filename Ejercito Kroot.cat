@@ -116,9 +116,6 @@
         <categoryLink name="Avanzadilla" hidden="false" id="30b9-f589-b2fc-aafb" targetId="de61-4131-8bd1-40c4" primary="false"/>
         <categoryLink name="Auxiliares" hidden="false" id="664d-6c59-4331-7a05" targetId="7a9a-09db-7f17-5528" primary="true"/>
       </categoryLinks>
-      <costs>
-        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
-      </costs>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
