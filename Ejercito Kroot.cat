@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="04ec-96f3-d39d-5913" name="Ejercito Kroot" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="11" revision="23" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Jose Antonio Gallego">
+<catalogue library="false" id="04ec-96f3-d39d-5913" name="Ejercito Kroot" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="11" revision="24" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Jose Antonio Gallego">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="🇯🇪 Imperio Tau 10ª Edicion" id="1dd9-3eec-87ae-db6e" targetId="5ff1-c96b-3b4d-8231" importRootEntries="false"/>
   </catalogueLinks>
@@ -597,12 +597,6 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="135"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="🧿 Cañón Pesado Kroot Acoplado" hidden="false" id="32ce-cbc0-0cc4-c430" collective="false" targetId="ced2-55a4-efb6-3c53" type="selectionEntry">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5cbd-3437-6039-e868" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36fc-3a27-de55-116f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </entryLink>
         <entryLink import="true" name="⚔️ Mordisco y garras Gran Knarloc" hidden="false" id="2194-c405-2e43-a31d" collective="false" targetId="8690-3840-cadb-2f5a" type="selectionEntry">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c490-14ad-934b-c938" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -613,6 +607,28 @@
       <infoLinks>
         <infoLink name="Habilidades Gran Knarloc" id="8d9f-930c-3fa0-9cca" hidden="false" type="infoGroup" targetId="e88d-bd9b-e0ce-0160"/>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Armas" id="d900-f8f7-f5a8-e77c" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="🧿 Cañón pesado Kroot Acoplado" hidden="false" id="ce25-a9b0-500a-6901" collective="false" targetId="ced2-55a4-efb6-3c53" type="selectionEntry">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="993f-1c38-174f-11eb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49b2-97be-5be2-caa6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="🧿 Cañón de maraña Pesado Kroot" hidden="false" id="2c4f-29b3-4bb9-c4da" collective="false" targetId="e093-096c-9503-1003" type="selectionEntry">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="4b33-f054-a3be-130b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc2d-d605-af8c-6df6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bf0d-bd8a-63fc-24ac" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e83-d494-9e60-5c94" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>

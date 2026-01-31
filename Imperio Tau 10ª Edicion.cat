@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5ff1-c96b-3b4d-8231" name="🇯🇪 Imperio Tau 10ª Edicion" revision="52" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" library="false" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" page="github.com/Jagtau/Warhammer-40k">
+<catalogue id="5ff1-c96b-3b4d-8231" name="🇯🇪 Imperio Tau 10ª Edicion" revision="53" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" library="false" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" page="github.com/Jagtau/Warhammer-40k">
   <readme>Este destacamento se caracteriza por...</readme>
   <categoryEntries>
     <categoryEntry id="ce5f-a8b6-69b9-f84a" name="Por el Bien Supremo" hidden="false">
@@ -973,7 +973,7 @@
     </selectionEntry>
     <selectionEntry id="f39a-f8b9-7913-b5d3" name="🧿 Cañón rotativo pesado" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="496f-7dd5-22cf-02fb" name="🧿 Cañón Rotativo Pesado" hidden="false" targetId="29f9-3147-2b5f-43ec" type="profile"/>
+        <infoLink id="496f-7dd5-22cf-02fb" name="🧿 Cañón rotativo Pesado" hidden="false" targetId="29f9-3147-2b5f-43ec" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
@@ -3351,7 +3351,7 @@
     </selectionEntry>
     <selectionEntry id="8ea3-78b9-c636-c721" name="🧿 Cañón rotativo de alta cadencia" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="b77e-6e49-8cd9-a2c9" name="🧿 Cañón Rotativo de alta cadencia" hidden="false" targetId="48bb-16de-8b8f-ef56" type="profile"/>
+        <infoLink id="b77e-6e49-8cd9-a2c9" name="🧿 Cañón rotativo de alta cadencia" hidden="false" targetId="48bb-16de-8b8f-ef56" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="066d-7a7e-2094-a352" name="Golpes sostenidos" hidden="false" targetId="9ac9-6d13-ce24-9b7f" primary="false"/>
@@ -4002,7 +4002,7 @@
     </selectionEntry>
     <selectionEntry id="82fa-41af-5445-27b4" name="🧿 Cañón rotativo acoplado" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="9eef-64d5-17ed-a5a8" name="🧿 Cañón Rotativo acoplado" hidden="false" targetId="80ae-f838-a970-9123" type="profile"/>
+        <infoLink id="9eef-64d5-17ed-a5a8" name="🧿 Cañón rotativo acoplado" hidden="false" targetId="80ae-f838-a970-9123" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
@@ -6133,8 +6133,8 @@
     </selectionEntry>
     <selectionEntry id="29d9-7125-9e5e-247d" name="🧿 Cañón rotativo DW-02" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="f447-3420-ee2b-bf83" name="🧿 Cañón Rotativo DW-02" hidden="false" targetId="43fb-0a5c-9814-d27a" type="profile"/>
-        <infoLink id="e3ed-18e2-36a5-1a5a" name="🧿 Cañón Rotativo DW-02 Acelerado" hidden="false" targetId="628b-6e46-b9b6-781b" type="profile"/>
+        <infoLink id="f447-3420-ee2b-bf83" name="🧿 Cañón rotativo DW-02" hidden="false" targetId="43fb-0a5c-9814-d27a" type="profile"/>
+        <infoLink id="e3ed-18e2-36a5-1a5a" name="🧿 Cañón rotativo DW-02 Acelerado" hidden="false" targetId="628b-6e46-b9b6-781b" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
@@ -7216,12 +7216,6 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="135"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="🧿 Cañón Pesado Kroot Acoplado" hidden="false" id="e63a-1bf4-3918-4a55" collective="false" targetId="ced2-55a4-efb6-3c53" type="selectionEntry">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d04a-eadb-ce8d-6bd9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5756-bcca-77b2-25c1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-        </entryLink>
         <entryLink import="true" name="⚔️ Mordisco y garras Gran Knarloc" hidden="false" id="188c-6a2c-7b4e-61f4" collective="false" targetId="8690-3840-cadb-2f5a" type="selectionEntry">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="66b3-1774-67b1-da14" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -7232,8 +7226,30 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
       <infoLinks>
         <infoLink name="Habilidades Gran Knarloc" id="637d-1fe0-8738-20ad" hidden="false" type="infoGroup" targetId="e88d-bd9b-e0ce-0160"/>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Armas" id="db5f-b580-3c60-bc7e" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="🧿 Cañón pesado Kroot Acoplado" hidden="false" id="e63a-1bf4-3918-4a55" collective="false" targetId="ced2-55a4-efb6-3c53" type="selectionEntry">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d04a-eadb-ce8d-6bd9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5756-bcca-77b2-25c1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="🧿 Cañón de maraña Pesado Kroot" hidden="false" id="4134-1214-eedd-4823" collective="false" targetId="e093-096c-9503-1003" type="selectionEntry">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7a7c-e513-7d7e-2444" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b881-e192-b9b3-c206" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9f67-18d0-849a-453b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fde7-3eb4-ce44-c744" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="🧿 Cañón Pesado Kroot Acoplado" hidden="false" id="ced2-55a4-efb6-3c53" collective="true">
+    <selectionEntry type="upgrade" import="true" name="🧿 Cañón pesado Kroot Acoplado" hidden="false" id="ced2-55a4-efb6-3c53" collective="true">
       <infoLinks>
         <infoLink name="🧿 Cañón Pesado Kroot acoplado" id="bc11-52f2-c497-2027" hidden="false" targetId="a60c-f020-8535-0350" type="profile"/>
       </infoLinks>
@@ -7249,6 +7265,18 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
       <infoLinks>
         <infoLink name="⚔️ Mordisco y garras" id="544d-9556-3337-f007" hidden="false" targetId="e1eb-fe22-fffb-d5e5" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="🧿 Cañón de maraña Pesado Kroot" hidden="false" id="e093-096c-9503-1003" collective="true">
+      <infoLinks>
+        <infoLink name="🧿 Cañón de maraña pesado" id="21d2-4ef7-bf9d-7a4c" hidden="false" targetId="0402-3642-e533-a2ef" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="20ac-3566-be7d-9898" id="2cf3-8903-ed43-df80" primary="false" name="Pesada"/>
+        <categoryLink targetId="ef0e-80bf-68d6-f7aa" id="876c-759b-4db3-3e36" primary="false" name="Area"/>
+      </categoryLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
@@ -8299,7 +8327,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6"/>
       </characteristics>
     </profile>
-    <profile id="29f9-3147-2b5f-43ec" name="🧿 Cañón Rotativo Pesado" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
+    <profile id="29f9-3147-2b5f-43ec" name="🧿 Cañón rotativo Pesado" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
       <modifiers>
         <modifier type="increment" field="e4ae-0518-0d3b-c353" value="6">
           <conditions>
@@ -9066,7 +9094,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Fusion 2.</characteristic>
       </characteristics>
     </profile>
-    <profile id="48bb-16de-8b8f-ef56" name="🧿 Cañón Rotativo de alta cadencia" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
+    <profile id="48bb-16de-8b8f-ef56" name="🧿 Cañón rotativo de alta cadencia" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
       <modifiers>
         <modifier type="increment" field="e4ae-0518-0d3b-c353" value="6">
           <conditions>
@@ -9384,7 +9412,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">El portador es elegible para disparar en un turno en el que retrocedió pero entonces pierde la clave Humo.</characteristic>
       </characteristics>
     </profile>
-    <profile id="80ae-f838-a970-9123" name="🧿 Cañón Rotativo acoplado" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
+    <profile id="80ae-f838-a970-9123" name="🧿 Cañón rotativo acoplado" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
       <modifiers>
         <modifier type="increment" field="e4ae-0518-0d3b-c353" value="6">
           <conditions>
@@ -10933,7 +10961,7 @@ Fortificación es 15.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Despliegue rápido, Líder.</characteristic>
       </characteristics>
     </profile>
-    <profile id="43fb-0a5c-9814-d27a" name="🧿 Cañón Rotativo DW-02" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
+    <profile id="43fb-0a5c-9814-d27a" name="🧿 Cañón rotativo DW-02" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
       <modifiers>
         <modifier type="increment" field="e4ae-0518-0d3b-c353" value="6">
           <conditions>
@@ -10951,7 +10979,7 @@ Fortificación es 15.</characteristic>
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Heridas devastadoras.</characteristic>
       </characteristics>
     </profile>
-    <profile id="628b-6e46-b9b6-781b" name="🧿 Cañón Rotativo DW-02 Acelerado" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
+    <profile id="628b-6e46-b9b6-781b" name="🧿 Cañón rotativo DW-02 Acelerado" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
       <modifiers>
         <modifier type="increment" field="e4ae-0518-0d3b-c353" value="6">
           <conditions>
@@ -11830,6 +11858,24 @@ Fortificación es 15.</characteristic>
         <characteristic name="Daño" typeId="fa75-4365-1282-3357">3</characteristic>
         <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425">Ataques extras.</characteristic>
       </characteristics>
+    </profile>
+    <profile name="🧿 Cañón de maraña pesado" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia" hidden="false" id="0402-3642-e533-a2ef">
+      <characteristics>
+        <characteristic name="Alcance" typeId="e4ae-0518-0d3b-c353">36</characteristic>
+        <characteristic name="A" typeId="a7b5-7554-a4cd-c9da">1D6+3</characteristic>
+        <characteristic name="HP" typeId="f87c-17c1-487f-10c9">4+</characteristic>
+        <characteristic name="F" typeId="cdca-f714-9112-1791">7</characteristic>
+        <characteristic name="FP" typeId="1ec5-9580-9457-aa9e">-1</characteristic>
+        <characteristic name="Daño" typeId="7be3-eefa-4fb2-6767">2</characteristic>
+        <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Area, Pesada.</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="increment" value="6" field="e4ae-0518-0d3b-c353">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="c81a-683a-be7c-bc0a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
   </sharedProfiles>
   <sharedInfoGroups>
