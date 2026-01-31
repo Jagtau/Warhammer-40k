@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="04ec-96f3-d39d-5913" name="Ejercito Kroot" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="11" revision="22" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Jose Antonio Gallego">
+<catalogue library="false" id="04ec-96f3-d39d-5913" name="Ejercito Kroot" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="11" revision="23" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Jose Antonio Gallego">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="🇯🇪 Imperio Tau 10ª Edicion" id="1dd9-3eec-87ae-db6e" targetId="5ff1-c96b-3b4d-8231" importRootEntries="false"/>
   </catalogueLinks>
@@ -105,6 +105,16 @@
     <entryLink import="true" name="💀 Destacamentos" hidden="false" id="83f0-6460-a93c-9f1c" type="selectionEntry" targetId="36b1-af41-7d84-ad6a" sortIndex="13">
       <categoryLinks>
         <categoryLink targetId="6864-037b-1803-ecac" id="e2dd-6295-fac7-f372" primary="true" name="Destacamentos"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="🗡️ Auxiliares Gran Knarloc" hidden="false" id="28db-f5ae-0801-eef3" collective="false" targetId="757f-c23f-aedf-90eb" type="selectionEntry" sortIndex="10">
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="0720-8759-410d-a9d3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="c26e-7df1-1cb8-e191" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Avanzadilla" hidden="false" id="30b9-f589-b2fc-aafb" targetId="de61-4131-8bd1-40c4" primary="false"/>
+        <categoryLink name="Auxiliares" hidden="false" id="664d-6c59-4331-7a05" targetId="7a9a-09db-7f17-5528" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -578,6 +588,28 @@
         <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f5b5-2d21-f8f5-8324" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bb1-7d9a-269f-2fbf" includeChildSelections="false"/>
       </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="🗡️ Auxiliares Gran Knarloc" hidden="false" id="757f-c23f-aedf-90eb" collective="false" sortIndex="10">
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="100"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="🧿 Cañón Kroot Acoplado" hidden="false" id="32ce-cbc0-0cc4-c430" collective="false" targetId="ced2-55a4-efb6-3c53" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5cbd-3437-6039-e868" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36fc-3a27-de55-116f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="⚔️ Mordisco y garras Gran Knarloc" hidden="false" id="2194-c405-2e43-a31d" collective="false" targetId="8690-3840-cadb-2f5a" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c490-14ad-934b-c938" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cd1-6dfc-3d58-1c14" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Habilidades Gran Knarloc" id="8d9f-930c-3fa0-9cca" hidden="false" type="infoGroup" targetId="e88d-bd9b-e0ce-0160"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>

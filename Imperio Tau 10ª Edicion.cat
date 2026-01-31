@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5ff1-c96b-3b4d-8231" name="🇯🇪 Imperio Tau 10ª Edicion" revision="51" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" library="false" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" page="github.com/Jagtau/Warhammer-40k">
+<catalogue id="5ff1-c96b-3b4d-8231" name="🇯🇪 Imperio Tau 10ª Edicion" revision="52" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" library="false" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" page="github.com/Jagtau/Warhammer-40k">
   <readme>Este destacamento se caracteriza por...</readme>
   <categoryEntries>
     <categoryEntry id="ce5f-a8b6-69b9-f84a" name="Por el Bien Supremo" hidden="false">
@@ -710,6 +710,23 @@
         <categoryLink targetId="9d48-1013-e052-2c37" id="88af-d0e1-0b8c-a470" primary="false" name="Cuartel General"/>
         <categoryLink targetId="947d-359d-9d55-e6ee" id="89cc-33d8-a159-a650" primary="true" name="Personajes epicos"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink name="🗡️ Auxiliares Gran Knarloc" hidden="true" id="39a7-1fa6-2b6d-921d" collective="false" targetId="cd15-90aa-a2e6-eb16" type="selectionEntry" sortIndex="36">
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="d80e-b165-c5be-2d4c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="03bd-601f-a684-fbf8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Avanzadilla" hidden="false" id="fd05-8004-115b-df3a" targetId="de61-4131-8bd1-40c4" primary="false"/>
+        <categoryLink name="Auxiliares" hidden="false" id="d751-e30b-ffad-0213" targetId="7a9a-09db-7f17-5528" primary="true"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="0fdd-d22f-88ba-7e89" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -7194,6 +7211,48 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="55"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="🗡️ Auxiliares Gran Knarloc" hidden="false" id="cd15-90aa-a2e6-eb16" collective="false">
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="100"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="🧿 Cañón Kroot Acoplado" hidden="false" id="e63a-1bf4-3918-4a55" collective="false" targetId="ced2-55a4-efb6-3c53" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d04a-eadb-ce8d-6bd9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5756-bcca-77b2-25c1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="⚔️ Mordisco y garras Gran Knarloc" hidden="false" id="188c-6a2c-7b4e-61f4" collective="false" targetId="8690-3840-cadb-2f5a" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="66b3-1774-67b1-da14" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="527b-a7b9-2d8e-3f7a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Habilidades Gran Knarloc" id="637d-1fe0-8738-20ad" hidden="false" type="infoGroup" targetId="e88d-bd9b-e0ce-0160"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="🧿 Cañón Pesado Kroot Acoplado" hidden="false" id="ced2-55a4-efb6-3c53" collective="true">
+      <infoLinks>
+        <infoLink name="🧿 Cañón Pesado Kroot acoplado" id="bc11-52f2-c497-2027" hidden="false" targetId="a60c-f020-8535-0350" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Fuego rapido" hidden="false" id="3620-26ae-c4e6-3581" targetId="4e04-9580-80a3-c208" primary="false"/>
+        <categoryLink targetId="8817-a6a5-3854-ce14" id="f32d-212f-9929-f9bd" primary="false" name="Acoplado"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="⚔️ Mordisco y garras Gran Knarloc" hidden="false" id="8690-3840-cadb-2f5a" collective="true">
+      <infoLinks>
+        <infoLink name="⚔️ Mordisco y garras" id="544d-9556-3337-f007" hidden="false" targetId="e1eb-fe22-fffb-d5e5" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="8abe-1748-2103-be52" name="1er. Anclaje XV88" hidden="false" collective="false" import="false" defaultSelectionEntryId="1e22-c9ac-75f7-ff17">
@@ -8932,7 +8991,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <characteristic name="A" typeId="a7b5-7554-a4cd-c9da">2</characteristic>
         <characteristic name="HP" typeId="f87c-17c1-487f-10c9">4+</characteristic>
         <characteristic name="F" typeId="cdca-f714-9112-1791">7</characteristic>
-        <characteristic name="FP" typeId="1ec5-9580-9457-aa9e">0</characteristic>
+        <characteristic name="FP" typeId="1ec5-9580-9457-aa9e">-1</characteristic>
         <characteristic name="Daño" typeId="7be3-eefa-4fb2-6767">2</characteristic>
         <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Fuego rapido 2.</characteristic>
       </characteristics>
@@ -9164,6 +9223,13 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <characteristic name="Claves de Faccion" typeId="1a0f-befe-700f-bf89">Imperio T&apos;au.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Líder, Avanzadilla 7&quot;, Infiltración, Sigilo.</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="Ejercito Kroot" field="1a0f-befe-700f-bf89">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="ab30-768b-afb6-1862" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile id="7f42-7ebf-f53d-7214" name="⚙️ Raiz de honor" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
@@ -9662,6 +9728,13 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <characteristic name="Claves de Faccion" typeId="1a0f-befe-700f-bf89">Imperio T’au.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Avanzadilla 7&quot;, Sigilo.</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="Ejercito Kroot" field="1a0f-befe-700f-bf89">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="ab30-768b-afb6-1862" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile id="807a-9f34-377b-dce0" name="⚙️ Tecnicas de campo" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
@@ -9680,6 +9753,13 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <characteristic name="Claves de Faccion" typeId="1a0f-befe-700f-bf89">Imperio T’au.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Avanzadilla 7&quot;.</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="Ejercito Kroot" field="1a0f-befe-700f-bf89">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="ab30-768b-afb6-1862" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile id="8e2a-f655-7277-bf3b" name="⚙️ Compañeros de manada kroot" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
@@ -9696,8 +9776,15 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <characteristic name="OC" typeId="0c04-a9e6-92f8-1500">0</characteristic>
         <characteristic name="Claves" typeId="df34-a886-74ff-3d91">Bestias, Kroot, Mastines de Guerra.</characteristic>
         <characteristic name="Claves de Faccion" typeId="1a0f-befe-700f-bf89">Imperio T’au.</characteristic>
-        <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Avanzadilla 7&quot;, Sigilo.</characteristic>
+        <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Avanzadgranilla 7&quot;, Sigilo.</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="Ejercito Kroot" field="1a0f-befe-700f-bf89">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="ab30-768b-afb6-1862" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile id="586c-bda5-a950-5372" name="⚙️ Mastines cazadores" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
@@ -10444,6 +10531,13 @@ distancia, suma 1 a la tirada para herir.</characteristic>
         <characteristic name="Claves de Faccion" typeId="1a0f-befe-700f-bf89">Imperio T’au.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Infiltración, Sigilo.</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="Ejercito Kroot" field="1a0f-befe-700f-bf89">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="ab30-768b-afb6-1862" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile id="a104-f49e-2bc1-7ee0" name="🧿 Desollador dvorgita" hidden="false" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia">
       <modifiers>
@@ -10971,6 +11065,13 @@ Fortificación es 15.</characteristic>
         <characteristic name="Claves de Faccion" typeId="1a0f-befe-700f-bf89"/>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e"/>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="Ejercito Kroot" field="1a0f-befe-700f-bf89">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="ab30-768b-afb6-1862" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile id="4c83-20b9-8910-499b" name="⚔️ Puños Rampagers" hidden="false" typeId="1bda-9ac8-4f3f-5644" typeName="⚔️ Armas CaC">
       <characteristics>
@@ -11186,6 +11287,13 @@ Fortificación es 15.</characteristic>
         <characteristic name="Claves de Faccion" typeId="1a0f-befe-700f-bf89">Imperio T&apos;au.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Líder, Avanzadilla 7&quot;, Infiltración, Sigilo.</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="Ejercito Kroot" field="1a0f-befe-700f-bf89">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="ab30-768b-afb6-1862" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile id="609f-6e09-c55d-1d9b" name="⚙️ Buscar rastros" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
@@ -11209,6 +11317,13 @@ Fortificación es 15.</characteristic>
         <characteristic name="Claves de Faccion" typeId="1a0f-befe-700f-bf89">Imperio T&apos;au.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Líder, Avanzadilla 7&quot;, Infiltración, Sigilo.</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="Ejercito Kroot" field="1a0f-befe-700f-bf89">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="ab30-768b-afb6-1862" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile id="9285-792f-bd2d-85e0" name="⚙️ Matanza ritual" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
@@ -11340,6 +11455,13 @@ Fortificación es 15.</characteristic>
         <characteristic name="Claves de Faccion" typeId="1a0f-befe-700f-bf89">Imperio T&apos;au.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Agente solitario, Avanzadilla 7&quot;, Sigilo.</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="Ejercito Kroot" field="1a0f-befe-700f-bf89">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="ab30-768b-afb6-1862" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile id="aebb-6a17-9490-43fc" name="⚙️ Drone de vigilancia" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
@@ -11602,6 +11724,13 @@ Fortificación es 15.</characteristic>
         <characteristic name="Claves de Faccion" typeId="1a0f-befe-700f-bf89">Imperio T&apos;au.</characteristic>
         <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Líder, Avanzadilla 7&quot;.</characteristic>
       </characteristics>
+      <modifiers>
+        <modifier type="set" value="Ejercito Kroot" field="1a0f-befe-700f-bf89">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="ab30-768b-afb6-1862" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </profile>
     <profile name="⚙️ Acechante de las sombras" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="2689-cde4-ffba-de29">
       <characteristics>
@@ -11636,6 +11765,70 @@ Fortificación es 15.</characteristic>
     <profile name="⚙️ Armas Raizgrabadas" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="e72b-6aa3-12d6-4939">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Solo miniatura GUERRAMORFO KROOT. Todas las armas con las que esté equipado el portador tienen las habilidades [PRECISIÓN] y [HERIDAS DEVASTADORAS].</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="🧿 Cañón Pesado Kroot acoplado" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia" hidden="false" id="a60c-f020-8535-0350">
+      <characteristics>
+        <characteristic name="Alcance" typeId="e4ae-0518-0d3b-c353">48</characteristic>
+        <characteristic name="A" typeId="a7b5-7554-a4cd-c9da">2</characteristic>
+        <characteristic name="HP" typeId="f87c-17c1-487f-10c9">4+</characteristic>
+        <characteristic name="F" typeId="cdca-f714-9112-1791">10</characteristic>
+        <characteristic name="FP" typeId="1ec5-9580-9457-aa9e">-2</characteristic>
+        <characteristic name="Daño" typeId="7be3-eefa-4fb2-6767">2</characteristic>
+        <characteristic name="Habilidades" typeId="235b-08ef-340c-91f6">Fuego rapido 2, Acoplado.</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="increment" value="6" field="e4ae-0518-0d3b-c353">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="c81a-683a-be7c-bc0a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="Gran Knarloc" typeId="c2c6-a46d-ef42-f715" typeName="Unidad" hidden="false" id="a742-1c30-a474-6bcf">
+      <characteristics>
+        <characteristic name="M" typeId="769e-3c58-ac2b-1cbb">9 UM</characteristic>
+        <characteristic name="R" typeId="0795-ca99-d9a2-d067">8</characteristic>
+        <characteristic name="S" typeId="a6da-8548-5cf0-8670">4+</characteristic>
+        <characteristic name="H" typeId="8db7-bd04-4335-003b">11</characteristic>
+        <characteristic name="LD" typeId="7ac0-e127-0165-bd2d">7+</characteristic>
+        <characteristic name="OC" typeId="0c04-a9e6-92f8-1500">3</characteristic>
+        <characteristic name="Claves" typeId="df34-a886-74ff-3d91">Monstruo, Kroot; Gran Knarloc</characteristic>
+        <characteristic name="Claves de Faccion" typeId="1a0f-befe-700f-bf89">Imperio T’au.</characteristic>
+        <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Avanzadilla 7&quot;.</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="Ejercito Kroot" field="1a0f-befe-700f-bf89">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="ab30-768b-afb6-1862" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="⚙️ Piel endurecida" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="65e4-2cc6-bec3-8507">
+      <characteristics>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">La piel del Knarloc es tan dura que proporciona un No Hay Dolor de 5+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="⚙️ Gran zancada" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="8e3a-2dc2-0321-d593">
+      <characteristics>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cada vez que este modelo avanza no tires un dado para ver cuanto avanza, en vez de eso añade 6 UM a su atributo de movimiento.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="⚙️ Carga atronadora" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="0965-8af5-0e8f-2ab9">
+      <characteristics>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Cuando esta unidad termina un movimiento de carga, elige una unidad enemiga en su zona de amenaza, y tira un D6: A 3+, esa unidad enemiga sufre 1D3+1 heridas mortales. Si alguna miniatura enemiga es eliminada debido a esas heridas mortales, la unidad enemiga debe hacer un chequeo de acobardamiento.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="⚔️ Mordisco y garras" typeId="1bda-9ac8-4f3f-5644" typeName="⚔️ Armas CaC" hidden="false" id="e1eb-fe22-fffb-d5e5">
+      <characteristics>
+        <characteristic name="Alcance" typeId="7f9c-7a9b-11a0-4040">Cac</characteristic>
+        <characteristic name="A" typeId="dac0-5ded-e8c5-6855">5</characteristic>
+        <characteristic name="HA" typeId="669f-d2b6-0fd0-9964">3+</characteristic>
+        <characteristic name="F" typeId="7017-08c2-c604-a2cd">10</characteristic>
+        <characteristic name="FP" typeId="1631-1a54-f8f4-7b6d">-2</characteristic>
+        <characteristic name="Daño" typeId="fa75-4365-1282-3357">3</characteristic>
+        <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425">Ataques extras.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -12019,6 +12212,14 @@ Fortificación es 15.</characteristic>
         <infoLink name="⚙️ Acechante de las sombras" id="40cc-d92b-8546-590a" hidden="false" targetId="2689-cde4-ffba-de29" type="profile"/>
         <infoLink name="Noonien Singh Khan " id="eade-efbf-0d68-bddd" hidden="false" targetId="fd20-0da8-ea6b-5db6" type="profile"/>
         <infoLink name="⚙️ Lider Kroot montado" id="d54d-b911-14dd-5a65" hidden="false" targetId="71cc-b77c-b404-3a75" type="profile"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup name="Habilidades Gran Knarloc" id="e88d-bd9b-e0ce-0160" hidden="false">
+      <infoLinks>
+        <infoLink name="⚙️ Piel endurecida" id="fef6-5f11-0fdc-74f6" hidden="false" targetId="65e4-2cc6-bec3-8507" type="profile"/>
+        <infoLink name="Gran Knarloc" id="2823-ad21-ff19-7db0" hidden="false" targetId="a742-1c30-a474-6bcf" type="profile"/>
+        <infoLink name="⚙️ Gran zancada" id="0705-3f95-feb6-e55a" hidden="false" type="profile" targetId="8e3a-2dc2-0321-d593"/>
+        <infoLink name="⚙️ Carga atronadora" id="56ad-ce3b-e059-168e" hidden="false" type="profile" targetId="0965-8af5-0e8f-2ab9"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
