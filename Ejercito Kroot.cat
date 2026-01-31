@@ -116,6 +116,9 @@
         <categoryLink name="Avanzadilla" hidden="false" id="30b9-f589-b2fc-aafb" targetId="de61-4131-8bd1-40c4" primary="false"/>
         <categoryLink name="Auxiliares" hidden="false" id="664d-6c59-4331-7a05" targetId="7a9a-09db-7f17-5528" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+      </costs>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
@@ -591,10 +594,10 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="🗡️ Auxiliares Gran Knarloc" hidden="false" id="757f-c23f-aedf-90eb" collective="false" sortIndex="10">
       <costs>
-        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="100"/>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="135"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="🧿 Cañón Kroot Acoplado" hidden="false" id="32ce-cbc0-0cc4-c430" collective="false" targetId="ced2-55a4-efb6-3c53" type="selectionEntry">
+        <entryLink import="true" name="🧿 Cañón Pesado Kroot Acoplado" hidden="false" id="32ce-cbc0-0cc4-c430" collective="false" targetId="ced2-55a4-efb6-3c53" type="selectionEntry">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5cbd-3437-6039-e868" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36fc-3a27-de55-116f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>

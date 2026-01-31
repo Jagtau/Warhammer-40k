@@ -7213,10 +7213,10 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="🗡️ Auxiliares Gran Knarloc" hidden="false" id="cd15-90aa-a2e6-eb16" collective="false">
       <costs>
-        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="100"/>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="135"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="🧿 Cañón Kroot Acoplado" hidden="false" id="e63a-1bf4-3918-4a55" collective="false" targetId="ced2-55a4-efb6-3c53" type="selectionEntry">
+        <entryLink import="true" name="🧿 Cañón Pesado Kroot Acoplado" hidden="false" id="e63a-1bf4-3918-4a55" collective="false" targetId="ced2-55a4-efb6-3c53" type="selectionEntry">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d04a-eadb-ce8d-6bd9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5756-bcca-77b2-25c1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
