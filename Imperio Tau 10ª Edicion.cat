@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5ff1-c96b-3b4d-8231" name="🇯🇪 Imperio Tau 10ª Edicion" revision="53" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" library="false" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" page="github.com/Jagtau/Warhammer-40k">
+<catalogue id="5ff1-c96b-3b4d-8231" name="🇯🇪 Imperio Tau 10ª Edicion" revision="57" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" library="false" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" page="github.com/Jagtau/Warhammer-40k">
   <readme>Este destacamento se caracteriza por...</readme>
   <categoryEntries>
     <categoryEntry id="ce5f-a8b6-69b9-f84a" name="Por el Bien Supremo" hidden="false">
@@ -58,7 +58,7 @@
         <categoryLink id="517b-648f-e7a5-4a05" name="Auxiliares" hidden="false" targetId="7a9a-09db-7f17-5528" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0068-39ab-027c-e2c8" name="🗡️ Auxiliares Aguijones alados Vespid" hidden="false" collective="false" import="false" targetId="ªq" type="selectionEntry" sortIndex="36">
+    <entryLink id="0068-39ab-027c-e2c8" name="🗡️ Auxiliares Aguijones alados Vespid" hidden="false" collective="false" import="false" targetId="ªq" type="selectionEntry" sortIndex="37">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d35a-9b09-21b4-4efd" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d328-3d29-a33d-5da0" type="max"/>
@@ -68,7 +68,7 @@
         <categoryLink id="ff35-9b56-2b78-e79c" name="Auxiliares" hidden="false" targetId="7a9a-09db-7f17-5528" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b9ee-0027-5380-0d09" name="☠️ Tanque TX7 Cabezamartillo" hidden="false" collective="false" import="false" targetId="cc12-5218-5a55-3445" type="selectionEntry" sortIndex="37">
+    <entryLink id="b9ee-0027-5380-0d09" name="☠️ Tanque TX7 Cabezamartillo" hidden="false" collective="false" import="false" targetId="cc12-5218-5a55-3445" type="selectionEntry" sortIndex="38">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0149-5768-7454-0130" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68d5-e169-9b62-71ce" type="max"/>
@@ -727,6 +727,17 @@
           </conditions>
         </modifier>
       </modifiers>
+    </entryLink>
+    <entryLink import="false" name="🗡️ Auxiliares Caballería Knarloc " hidden="false" id="8f5b-7255-5ad7-e364" collective="false" targetId="4b4d-39a3-24e8-60c3" type="selectionEntry" sortIndex="35">
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="b982-20e8-3c11-f3e3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="0d77-fcb6-7acc-737a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Avanzadilla" hidden="false" id="214d-983e-6f73-43dc" targetId="de61-4131-8bd1-40c4" primary="false"/>
+        <categoryLink name="Auxiliares" hidden="false" id="5499-6b0e-dba1-d604" targetId="7a9a-09db-7f17-5528" primary="true"/>
+        <categoryLink targetId="217a-289f-8499-1ebb" id="3330-5168-5b36-0598" primary="false" name="Sigilo"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -6961,9 +6972,9 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="95"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="⚔️ Lanza explosiva kroot" hidden="false" id="5c74-a45d-fa5a-1ba8" collective="false">
+    <selectionEntry type="upgrade" import="true" name="⚔️ Lanza explosiva Kroot" hidden="false" id="5c74-a45d-fa5a-1ba8" collective="false">
       <infoLinks>
-        <infoLink name="⚔️ Lanza explosiva kroot" id="47d4-8636-af98-fdd8" hidden="false" targetId="bff1-4d07-683e-dafe" type="profile"/>
+        <infoLink name="⚔️ Lanza de caza Kroot" id="47d4-8636-af98-fdd8" hidden="false" targetId="3dc1-cc16-1344-50e0" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
@@ -7268,6 +7279,9 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="eb58-b5bf-030f-1beb" id="26b4-f201-8556-905d" primary="false" name="Ataques adicionales"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="🧿 Cañón de maraña Pesado Kroot" hidden="false" id="e093-096c-9503-1003" collective="true">
       <infoLinks>
@@ -7280,6 +7294,70 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="🗡️ Auxiliares Caballería Knarloc " hidden="false" id="4b4d-39a3-24e8-60c3" collective="false">
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="75"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Caballería Knarloc" hidden="false" id="781f-239c-e1e1-defb" collective="false">
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="ffc4-c54b-ea89-2e3e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7f4e-baf0-c47b-de12" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="🧿 Rifle Kroot " hidden="false" id="c4c8-df2f-8ae6-031a" collective="false" targetId="4778-0ac8-7b8b-1655" type="selectionEntry" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="babb-ad59-0045-4a4d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91f7-5b38-7734-b633" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="⚔️ Arma Kroot Cac" hidden="false" id="31f3-7837-37a2-21a2" collective="false" targetId="3968-e8f5-61a3-62a6" type="selectionEntry" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="234f-5a23-ebfc-f43f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b87-ace4-c705-1bfc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="⚔️ Lanza de caza Kroot" hidden="false" id="0389-48f8-49a8-a691" collective="false" targetId="fcee-5d98-a938-22bf" type="selectionEntry" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af12-741e-0e31-4732" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5613-942b-966a-de6b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="⚔️ Garras y espolones caballeria Knarloc" hidden="false" id="a847-1c36-4a14-0566" collective="false" targetId="a9fd-06d3-22cf-96d0" type="selectionEntry" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9837-4faf-790d-5a94" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8091-8dac-60cc-9756" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Habilidades Caballería Knarloc" id="21a3-7309-ac1f-2ab8" hidden="false" type="infoGroup" targetId="6b8f-4d64-e4dc-4a9f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="⚔️ Lanza de caza Kroot" hidden="false" id="fcee-5d98-a938-22bf" collective="false">
+      <infoLinks>
+        <infoLink name="⚔️ Lanza de caza Kroot" id="7d5d-0726-f4cf-5216" hidden="false" targetId="3dc1-cc16-1344-50e0" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="cca0-4163-eeae-0d62" id="a823-7bf2-1186-bdf3" primary="false" name="Lanza"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="⚔️ Garras y espolones Knarloc" hidden="false" id="a9fd-06d3-22cf-96d0" collective="false">
+      <infoLinks>
+        <infoLink name="⚔️ Garras y espolones Knarloc" id="9485-e452-9490-2e98" hidden="false" targetId="c476-da14-af83-9c69" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="eb58-b5bf-030f-1beb" id="6961-1995-72ac-0e71" primary="false" name="Ataques adicionales"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -11729,7 +11807,7 @@ Fortificación es 15.</characteristic>
         </modifier>
       </modifiers>
     </profile>
-    <profile name="⚔️ Lanza explosiva kroot" typeId="1bda-9ac8-4f3f-5644" typeName="⚔️ Armas CaC" hidden="false" id="bff1-4d07-683e-dafe">
+    <profile name="⚔️ Lanza explosiva Kroot" typeId="1bda-9ac8-4f3f-5644" typeName="⚔️ Armas CaC" hidden="false" id="bff1-4d07-683e-dafe">
       <characteristics>
         <characteristic name="Alcance" typeId="7f9c-7a9b-11a0-4040">Cac</characteristic>
         <characteristic name="A" typeId="dac0-5ded-e8c5-6855">4</characteristic>
@@ -11856,7 +11934,7 @@ Fortificación es 15.</characteristic>
         <characteristic name="F" typeId="7017-08c2-c604-a2cd">10</characteristic>
         <characteristic name="FP" typeId="1631-1a54-f8f4-7b6d">-2</characteristic>
         <characteristic name="Daño" typeId="fa75-4365-1282-3357">3</characteristic>
-        <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425">Ataques extras.</characteristic>
+        <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425">Ataques adicionales.</characteristic>
       </characteristics>
     </profile>
     <profile name="🧿 Cañón de maraña pesado" typeId="b138-5f8b-dbca-bdab" typeName="🧿 Armas a distancia" hidden="false" id="0402-3642-e533-a2ef">
@@ -11876,6 +11954,58 @@ Fortificación es 15.</characteristic>
           </conditions>
         </modifier>
       </modifiers>
+    </profile>
+    <profile name="Caballería Knarloc" typeId="c2c6-a46d-ef42-f715" typeName="Unidad" hidden="false" id="2d58-91e8-f7fc-6fa5">
+      <characteristics>
+        <characteristic name="M" typeId="769e-3c58-ac2b-1cbb">10 UM</characteristic>
+        <characteristic name="R" typeId="0795-ca99-d9a2-d067">5</characteristic>
+        <characteristic name="S" typeId="a6da-8548-5cf0-8670">5+</characteristic>
+        <characteristic name="H" typeId="8db7-bd04-4335-003b">4</characteristic>
+        <characteristic name="LD" typeId="7ac0-e127-0165-bd2d">7+</characteristic>
+        <characteristic name="OC" typeId="0c04-a9e6-92f8-1500">1</characteristic>
+        <characteristic name="Claves" typeId="df34-a886-74ff-3d91">Montada, Kroot; Caballería Knarloc</characteristic>
+        <characteristic name="Claves de Faccion" typeId="1a0f-befe-700f-bf89">Imperio T’au.</characteristic>
+        <characteristic name="Basica" typeId="687c-0b84-1471-8d8e">Avanzadilla 7&quot;, Sigilo.</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="set" value="Ejercito Kroot" field="1a0f-befe-700f-bf89">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="ab30-768b-afb6-1862" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </profile>
+    <profile name="⚙️ Caballeria hostigadora" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="e282-3b3a-494a-e83d">
+      <characteristics>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Si al final del turno enemigo esta unidad está completamente a 9 UM o menos de un borde de la mesa y no esta en la zona de amenaza de una unidad enemiga, puedes retirarla a las reserva estratégica.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="⚔️ Lanza de caza Kroot" typeId="1bda-9ac8-4f3f-5644" typeName="⚔️ Armas CaC" hidden="false" id="3dc1-cc16-1344-50e0">
+      <characteristics>
+        <characteristic name="Alcance" typeId="7f9c-7a9b-11a0-4040">Cac</characteristic>
+        <characteristic name="A" typeId="dac0-5ded-e8c5-6855">1</characteristic>
+        <characteristic name="HA" typeId="669f-d2b6-0fd0-9964">3+</characteristic>
+        <characteristic name="F" typeId="7017-08c2-c604-a2cd">5</characteristic>
+        <characteristic name="FP" typeId="1631-1a54-f8f4-7b6d">0</characteristic>
+        <characteristic name="Daño" typeId="fa75-4365-1282-3357">1</characteristic>
+        <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425">Lanza.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="⚔️ Garras y espolones Knarloc" typeId="1bda-9ac8-4f3f-5644" typeName="⚔️ Armas CaC" hidden="false" id="c476-da14-af83-9c69">
+      <characteristics>
+        <characteristic name="Alcance" typeId="7f9c-7a9b-11a0-4040">Cac</characteristic>
+        <characteristic name="A" typeId="dac0-5ded-e8c5-6855">3</characteristic>
+        <characteristic name="HA" typeId="669f-d2b6-0fd0-9964">3+</characteristic>
+        <characteristic name="F" typeId="7017-08c2-c604-a2cd">6</characteristic>
+        <characteristic name="FP" typeId="1631-1a54-f8f4-7b6d">-1</characteristic>
+        <characteristic name="Daño" typeId="fa75-4365-1282-3357">1</characteristic>
+        <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425">Ataques adicionales.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="⚙️ Carga de caballería Knarloc" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="5516-7de9-f8a8-9dd6">
+      <characteristics>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Siempre que esta unidad carga, suma 1 al FP y Daño de sus lanzas de caza Kroot.</characteristic>
+      </characteristics>
     </profile>
   </sharedProfiles>
   <sharedInfoGroups>
@@ -12266,6 +12396,13 @@ Fortificación es 15.</characteristic>
         <infoLink name="Gran Knarloc" id="2823-ad21-ff19-7db0" hidden="false" targetId="a742-1c30-a474-6bcf" type="profile"/>
         <infoLink name="⚙️ Gran zancada" id="0705-3f95-feb6-e55a" hidden="false" type="profile" targetId="8e3a-2dc2-0321-d593"/>
         <infoLink name="⚙️ Carga atronadora" id="56ad-ce3b-e059-168e" hidden="false" type="profile" targetId="0965-8af5-0e8f-2ab9"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup name="Habilidades Caballería Knarloc" id="6b8f-4d64-e4dc-4a9f" hidden="false">
+      <infoLinks>
+        <infoLink name="⚙️ Caballeria hostigadora" id="caca-ba2f-8ca5-b62e" hidden="false" targetId="e282-3b3a-494a-e83d" type="profile"/>
+        <infoLink name="Caballería Knarloc" id="22e7-bd29-7e43-0051" hidden="false" targetId="2d58-91e8-f7fc-6fa5" type="profile"/>
+        <infoLink name="⚙️ Carga de caballería Knarloc" id="716e-a856-65dc-7c49" hidden="false" type="profile" targetId="5516-7de9-f8a8-9dd6"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
