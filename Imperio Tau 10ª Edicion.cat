@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5ff1-c96b-3b4d-8231" name="🇯🇪 Imperio Tau 10ª Edicion" revision="57" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" library="false" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" page="github.com/Jagtau/Warhammer-40k">
+<catalogue id="5ff1-c96b-3b4d-8231" name="🇯🇪 Imperio Tau 10ª Edicion" revision="59" battleScribeVersion="2.03" authorName="Jose Antonio" authorContact="Jag" library="false" gameSystemId="e820-fa69-d550-8b3f" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" page="github.com/Jagtau/Warhammer-40k">
   <readme>Este destacamento se caracteriza por...</readme>
   <categoryEntries>
     <categoryEntry id="ce5f-a8b6-69b9-f84a" name="Por el Bien Supremo" hidden="false">
@@ -47,7 +47,7 @@
         <categoryLink id="0a27-3549-25b7-2b72" name="Exoarmadura" hidden="false" targetId="bad9-a07f-c0b5-f0c3" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e7c7-f766-46f6-c31b" name="🗡️ Auxiliares Mastines Kroot" hidden="false" collective="false" import="false" targetId="1027-df76-5c62-cf84" type="selectionEntry" sortIndex="35">
+    <entryLink id="e7c7-f766-46f6-c31b" name="🗡️ Mastines Kroot" hidden="false" collective="false" import="false" targetId="1027-df76-5c62-cf84" type="selectionEntry" sortIndex="35">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d650-8b77-bee7-8059" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cb4-fbf8-1b8d-92a1" type="max"/>
@@ -58,7 +58,7 @@
         <categoryLink id="517b-648f-e7a5-4a05" name="Auxiliares" hidden="false" targetId="7a9a-09db-7f17-5528" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0068-39ab-027c-e2c8" name="🗡️ Auxiliares Aguijones alados Vespid" hidden="false" collective="false" import="false" targetId="ªq" type="selectionEntry" sortIndex="37">
+    <entryLink id="0068-39ab-027c-e2c8" name="🗡️ Aguijones alados Vespid" hidden="false" collective="false" import="false" targetId="ªq" type="selectionEntry" sortIndex="37">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d35a-9b09-21b4-4efd" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d328-3d29-a33d-5da0" type="max"/>
@@ -95,7 +95,7 @@
         </profile>
       </profiles>
     </entryLink>
-    <entryLink id="4a7b-9f78-2833-8d86" name="🗡️ Auxiliares Carnivoros Kroot" hidden="false" collective="false" import="false" targetId="d065-76d2-87eb-05af" type="selectionEntry" sortIndex="32">
+    <entryLink id="4a7b-9f78-2833-8d86" name="🗡️ Carnivoros Kroot" hidden="false" collective="false" import="false" targetId="d065-76d2-87eb-05af" type="selectionEntry" sortIndex="32">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5711-9647-8623-5a20" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="006e-f704-ca84-b5ca" type="max"/>
@@ -106,7 +106,7 @@
         <categoryLink id="d0f5-1ef0-0327-9a12" name="Auxiliares" hidden="false" targetId="7a9a-09db-7f17-5528" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9980-01a2-ea79-ec34" name="🗡️ Auxiliares Jinetes Krootox " hidden="false" collective="false" import="false" targetId="2045-282c-1819-cf17" type="selectionEntry" sortIndex="33">
+    <entryLink id="9980-01a2-ea79-ec34" name="🗡️ Jinetes Krootox " hidden="false" collective="false" import="false" targetId="2045-282c-1819-cf17" type="selectionEntry" sortIndex="33">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8af3-7350-9843-4f63" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a729-c54c-933e-735d" type="max"/>
@@ -617,7 +617,7 @@
         <entryLink import="true" name="💀 Señor de la Guerra" hidden="false" id="c2ff-e793-d032-2c6a" collective="false" targetId="29b5-6069-3130-bdbd" type="selectionEntry" sortIndex="1"/>
       </entryLinks>
     </entryLink>
-    <entryLink id="67a7-2390-a7f4-fdd1" name="🗡️ Auxiliares Rampagers Krootox" hidden="false" collective="false" import="false" targetId="d2b8-c3f2-f88d-4f8a" type="selectionEntry" sortIndex="34">
+    <entryLink id="67a7-2390-a7f4-fdd1" name="🗡️  Rampagers Krootox" hidden="false" collective="false" import="false" targetId="d2b8-c3f2-f88d-4f8a" type="selectionEntry" sortIndex="34">
       <constraints>
         <constraint field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2f1-260d-48d8-8161" type="min"/>
         <constraint field="selections" scope="roster" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="640a-e8de-338d-654e" type="max"/>
@@ -626,6 +626,9 @@
         <categoryLink id="be06-87c4-478d-cb3c" name="Avanzadilla" hidden="false" targetId="de61-4131-8bd1-40c4" primary="false"/>
         <categoryLink id="4115-d012-e238-2951" name="Auxiliares" hidden="false" targetId="7a9a-09db-7f17-5528" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="85"/>
+      </costs>
     </entryLink>
     <entryLink id="8243-8ffd-08ee-83cb" name="🔎 Tipo de Juego" hidden="false" collective="false" import="true" targetId="a0cc-3abb-940c-a16e" type="selectionEntry" sortIndex="51">
       <categoryLinks>
@@ -710,8 +713,15 @@
         <categoryLink targetId="9d48-1013-e052-2c37" id="88af-d0e1-0b8c-a470" primary="false" name="Cuartel General"/>
         <categoryLink targetId="947d-359d-9d55-e6ee" id="89cc-33d8-a159-a650" primary="true" name="Personajes epicos"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="0fdd-d22f-88ba-7e89" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
-    <entryLink name="🗡️ Auxiliares Gran Knarloc" hidden="true" id="39a7-1fa6-2b6d-921d" collective="false" targetId="cd15-90aa-a2e6-eb16" type="selectionEntry" sortIndex="36">
+    <entryLink name="🗡️ Gran Knarloc" hidden="true" id="39a7-1fa6-2b6d-921d" collective="false" targetId="cd15-90aa-a2e6-eb16" type="selectionEntry" sortIndex="36">
       <constraints>
         <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="d80e-b165-c5be-2d4c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="03bd-601f-a684-fbf8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -728,7 +738,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="false" name="🗡️ Auxiliares Caballería Knarloc " hidden="false" id="8f5b-7255-5ad7-e364" collective="false" targetId="4b4d-39a3-24e8-60c3" type="selectionEntry" sortIndex="35">
+    <entryLink import="false" name="🗡️ Caballería Knarloc " hidden="false" id="8f5b-7255-5ad7-e364" collective="false" targetId="4b4d-39a3-24e8-60c3" type="selectionEntry" sortIndex="35">
       <constraints>
         <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="b982-20e8-3c11-f3e3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="0d77-fcb6-7acc-737a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -739,9 +749,26 @@
         <categoryLink targetId="217a-289f-8499-1ebb" id="3330-5168-5b36-0598" primary="false" name="Sigilo"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="🗡️ Gran Knarloc de suministros" hidden="true" id="1fcc-63cb-1dce-38f6" collective="false" targetId="c89e-cb20-1cdd-626b" type="selectionEntry" sortIndex="36">
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="edde-6def-1a19-21fc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="17d1-f5b3-4b70-36c2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Avanzadilla" hidden="false" id="897f-f6bc-4d74-4390" targetId="de61-4131-8bd1-40c4" primary="false"/>
+        <categoryLink name="Auxiliares" hidden="false" id="7255-6197-327e-d7ea" targetId="7a9a-09db-7f17-5528" primary="true"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="roster" childId="0fdd-d22f-88ba-7e89" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="fee5-44ce-9525-a83b" name="🎖️ Filoardiente" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="fee5-44ce-9525-a83b" name="🎖️ Filoardiente" hidden="false" collective="false" import="true" type="model" sortIndex="122">
       <infoLinks>
         <infoLink id="8878-f335-62fc-3741" name="Habilidades Filoardiente" hidden="false" targetId="56a6-c373-40be-49aa" type="infoGroup"/>
       </infoLinks>
@@ -812,7 +839,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="10b1-06fb-a20f-5690" name="🎖️ 🗡️ Lider Guerramorfo Kroot " hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="10b1-06fb-a20f-5690" name="🎖️ 🗡️ Lider Guerramorfo Kroot " hidden="false" collective="false" import="true" type="model" sortIndex="126">
       <infoLinks>
         <infoLink id="72b6-e306-6143-ab73" name="Habilidades Guerramorfo" hidden="false" targetId="e404-5a4e-f5e0-36b4" type="infoGroup"/>
       </infoLinks>
@@ -915,7 +942,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8ad2-3aea-525e-24af" name="🤖 Exoarmadura XV104 Cataclismo" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="8ad2-3aea-525e-24af" name="🤖 Exoarmadura XV104 Cataclismo" hidden="false" collective="false" import="true" type="model" sortIndex="156">
       <constraints>
         <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="422c-7fae-f486-e811" type="max"/>
       </constraints>
@@ -1157,7 +1184,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ªq" name="🗡️ Auxiliares Aguijones alados Vespid" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ªq" name="🗡️ Aguijones alados Vespid" hidden="false" collective="false" import="true" type="unit" sortIndex="178">
       <infoLinks>
         <infoLink id="89c9-afd9-c733-47c3" name="Habilidades Vespid" hidden="false" targetId="d52f-7e2a-5b92-01ae" type="infoGroup"/>
       </infoLinks>
@@ -1364,7 +1391,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1027-df76-5c62-cf84" name="🗡️ Auxiliares Mastines Kroot" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1027-df76-5c62-cf84" name="🗡️ Mastines Kroot" hidden="false" collective="false" import="true" type="unit" sortIndex="172">
       <infoLinks>
         <infoLink id="f48f-d6a9-2574-583b" name="Habilidades Mastinnes" hidden="false" targetId="41b3-ae6c-d936-38ff" type="infoGroup"/>
       </infoLinks>
@@ -1393,9 +1420,6 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <costs>
-            <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="40"/>
-          </costs>
         </selectionEntry>
         <selectionEntry id="bf23-68c4-c671-d8c0" name="2on. Equipo Mastin" hidden="false" collective="false" import="true" type="upgrade" sortIndex="2">
           <constraints>
@@ -1427,7 +1451,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="40"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b835-64a9-b8d9-64d7" name="🧿 Colmillos desgarradores" hidden="false" collective="true" import="true" type="upgrade">
@@ -1438,7 +1462,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cc12-5218-5a55-3445" name="☠️ Tanque TX7 Cabezamartillo" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="cc12-5218-5a55-3445" name="☠️ Tanque TX7 Cabezamartillo" hidden="false" collective="false" import="true" type="model" sortIndex="200">
       <infoLinks>
         <infoLink id="bdd5-307c-3a79-210e" name="Habilidades Cabezamartillo" hidden="false" targetId="1fee-873d-77c4-163f" type="infoGroup"/>
       </infoLinks>
@@ -1516,15 +1540,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9142-cdc6-8ef2-fefc" name="🧿 2x Cañón rotativo acelerado" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="7084-8ad1-a968-0496" name="🧿 Cañón rotativo acelerado" hidden="false" targetId="b2e2-67e8-cb11-cd66" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d065-76d2-87eb-05af" name="🗡️ Auxiliares Carnivoros Kroot" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d065-76d2-87eb-05af" name="🗡️ Carnivoros Kroot" hidden="false" collective="false" import="true" type="unit" sortIndex="170">
       <infoLinks>
         <infoLink id="c7db-c8f1-4c41-c885" name="Habilidades Kroot" hidden="false" targetId="0d25-6677-ee7c-d665" type="infoGroup"/>
       </infoLinks>
@@ -1541,7 +1557,7 @@
                 <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7430-345a-8871-ca84" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="9643-89fe-f435-449b" name="3. Carnivoros Kroots Rifle" hidden="false" collective="false" import="true" type="model" sortIndex="3">
+                <selectionEntry id="9643-89fe-f435-449b" name="Carnivoros Kroots Rifle" hidden="false" collective="false" import="true" type="model" sortIndex="3">
                   <modifiers>
                     <modifier type="decrement" field="6384-b636-ea86-58b1" value="1">
                       <repeats>
@@ -1571,7 +1587,7 @@
                     <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="711c-ace7-ee12-f03e" name="2. Carnivoros Kroots Lanzador" hidden="false" collective="false" import="true" type="model" sortIndex="2">
+                <selectionEntry id="711c-ace7-ee12-f03e" name="Carnivoros Kroots Lanzador" hidden="false" collective="false" import="true" type="model" sortIndex="2">
                   <constraints>
                     <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5d0-b808-fb43-a06e" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="928d-0b1b-6e1e-6fbd" type="max"/>
@@ -1594,7 +1610,7 @@
                     <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="4dfd-e475-469e-be50" name="1. Pua Larga" hidden="false" collective="false" import="true" type="model" sortIndex="1">
+                <selectionEntry id="4dfd-e475-469e-be50" name="Pua Larga" hidden="false" collective="false" import="true" type="model" sortIndex="1">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="716f-c9c4-5e90-d51d" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5d7-3f21-f6ac-fe79" type="max"/>
@@ -1636,9 +1652,6 @@
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <costs>
-            <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="65"/>
-          </costs>
         </selectionEntry>
         <selectionEntry id="b036-f787-c702-591b" name="2on. Equipo Kroot" hidden="false" collective="false" import="true" type="upgrade" sortIndex="2">
           <constraints>
@@ -1714,10 +1727,10 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="65"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2045-282c-1819-cf17" name="🗡️ Auxiliares Jinetes Krootox " hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2045-282c-1819-cf17" name="🗡️ Jinetes Krootox " hidden="false" collective="false" import="true" type="unit" sortIndex="173">
       <modifiers>
         <modifier type="increment" field="a9a9-2915-69f6-d947" value="10">
           <conditions>
@@ -1821,7 +1834,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d28e-688f-c8f1-1ebe" name="🪖 Equipo Strike" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d28e-688f-c8f1-1ebe" name="🪖 Equipo Strike" hidden="false" collective="false" import="true" type="unit" sortIndex="141">
       <infoLinks>
         <infoLink id="ac91-ffa9-43eb-7b92" name="Habilidades Strike" hidden="false" targetId="1330-c342-7987-0454" type="infoGroup"/>
       </infoLinks>
@@ -2005,7 +2018,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="70"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8de6-f4d1-d00a-a2f6" name="🪖 Equipo Breacher" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8de6-f4d1-d00a-a2f6" name="🪖 Equipo Breacher" hidden="false" collective="false" import="true" type="unit" sortIndex="140">
       <infoLinks>
         <infoLink id="ee1f-14b7-c771-1630" name="Habilidades Breachers" hidden="false" targetId="a070-2114-2fbd-4198" type="infoGroup"/>
       </infoLinks>
@@ -2115,7 +2128,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9b50-ac51-a8dd-30a7" name="🤖 Exoarmaduras XV25 Mimeticas" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9b50-ac51-a8dd-30a7" name="🤖 Exoarmaduras XV25 Mimeticas" hidden="false" collective="false" import="true" type="unit" sortIndex="153">
       <infoLinks>
         <infoLink id="7d4f-c8ce-ffba-68b0" name="Habilidades XV25 Mimeticas" hidden="false" targetId="03c5-60b2-d405-1dae" type="infoGroup"/>
       </infoLinks>
@@ -2244,7 +2257,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e99b-ef66-3ca6-37cf" name="☠️ Tanque TX78 Mont&apos;ka Shas" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e99b-ef66-3ca6-37cf" name="☠️ Tanque TX78 Mont&apos;ka Shas" hidden="false" collective="false" import="true" type="model" sortIndex="201">
       <infoLinks>
         <infoLink id="4f50-8f35-652a-d857" name="Habilidades Mont&apos;ka Shas" hidden="false" targetId="e090-076c-9d7f-74ab" type="infoGroup"/>
       </infoLinks>
@@ -2302,7 +2315,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b1db-a7e8-332c-77f0" name="🚄 Transporte TY7 Mantarraya" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="b1db-a7e8-332c-77f0" name="🚄 Transporte TY7 Mantarraya" hidden="false" collective="false" import="true" type="model" sortIndex="230">
       <infoLinks>
         <infoLink id="c187-d5d5-55fa-a866" name="Habilidades Mantarraya" hidden="false" targetId="e2bc-81ab-a3b6-2bde" type="infoGroup"/>
       </infoLinks>
@@ -2427,7 +2440,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="65aa-dfe0-84dd-04f4" name="⚡ Equipo de Exploradores" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="65aa-dfe0-84dd-04f4" name="⚡ Equipo de Exploradores" hidden="false" collective="false" import="true" type="unit" sortIndex="190">
       <infoLinks>
         <infoLink id="32e6-7460-3aec-8a5a" name="Habilidades Exploradores" hidden="false" targetId="50bc-9b3b-5544-9cd3" type="infoGroup"/>
       </infoLinks>
@@ -2663,7 +2676,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e2aa-7d2b-bf14-8a33" name="⚡ Escuadron TX4 Pirañas" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e2aa-7d2b-bf14-8a33" name="⚡ Escuadron TX4 Pirañas" hidden="false" collective="false" import="true" type="unit" sortIndex="191">
       <infoLinks>
         <infoLink id="dd49-c432-f7b5-af92" name="Habilidades Pirañas" hidden="false" targetId="8d71-4f23-8727-59f7" type="infoGroup"/>
       </infoLinks>
@@ -2808,7 +2821,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff75-0603-abba-00de" name="⭐ Shas&apos;la T&apos;au Sha&apos;ng" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="ff75-0603-abba-00de" name="⭐ Shas&apos;la T&apos;au Sha&apos;ng" hidden="false" collective="false" import="true" type="model" sortIndex="106">
       <infoLinks>
         <infoLink id="ae4d-f89b-3581-b139" name="Habilidades Sha&apos;ng" hidden="false" targetId="eea1-1515-27e8-1aae" type="infoGroup"/>
       </infoLinks>
@@ -2879,7 +2892,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="140"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5194-a395-fff3-e951" name="🤖 Exoarmadura XV95 Fantasmal" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5194-a395-fff3-e951" name="🤖 Exoarmadura XV95 Fantasmal" hidden="false" collective="false" import="true" type="model" sortIndex="155">
       <infoLinks>
         <infoLink id="7192-be46-a804-2669" name="Habilidades XV95 Fantasma" hidden="false" targetId="290c-0af6-1bf7-3aa9" type="infoGroup"/>
       </infoLinks>
@@ -2986,7 +2999,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="59cf-1b1e-ea95-da06" name="⭐ Aun&apos;Va" hidden="true" collective="false" import="true" type="unit">
+    <selectionEntry id="59cf-1b1e-ea95-da06" name="⭐ Aun&apos;Va" hidden="true" collective="false" import="true" type="unit" sortIndex="101">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3040,7 +3053,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="65"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0656-03b4-2f90-5496" name="⭐ Aun&apos;Shi" hidden="true" collective="false" import="true" type="model">
+    <selectionEntry id="0656-03b4-2f90-5496" name="⭐ Aun&apos;Shi" hidden="true" collective="false" import="true" type="model" sortIndex="100">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3070,7 +3083,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ba2-4a61-b5cd-539d" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="0e41-61ec-7a6e-512d" name="🗡️ Auxiliares Carnivoros Kroot" hidden="false" collective="false" import="true" targetId="d065-76d2-87eb-05af" type="selectionEntry" sortIndex="1">
+            <entryLink id="0e41-61ec-7a6e-512d" name="🗡️ Carnivoros Kroot" hidden="false" collective="false" import="true" targetId="d065-76d2-87eb-05af" type="selectionEntry" sortIndex="1">
               <constraints>
                 <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25fd-2657-c40b-0b6e" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d81d-dc5b-882d-3382" type="max"/>
@@ -3092,7 +3105,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="60"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f414-555c-0f5b-7f43" name="🎖️ Etereo" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="f414-555c-0f5b-7f43" name="🎖️ Etereo" hidden="false" collective="false" import="true" type="model" sortIndex="120">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -3151,7 +3164,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="50"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="998a-7486-8677-3c69" name="🎖️ Comandante T&apos;au" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="998a-7486-8677-3c69" name="🎖️ Comandante T&apos;au" hidden="false" collective="false" import="true" type="model" sortIndex="121">
       <selectionEntryGroups>
         <selectionEntryGroup id="680b-31bf-c807-6c81" name="Equipacion" hidden="false" collective="false" import="true" sortIndex="4">
           <constraints>
@@ -3196,7 +3209,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fbf5-a0e6-5cc1-56df" name="⭐ Comandante O&apos;Shovah" hidden="false" collective="false" import="false" type="model">
+    <selectionEntry id="fbf5-a0e6-5cc1-56df" name="⭐ Comandante O&apos;Shovah" hidden="false" collective="false" import="false" type="model" sortIndex="104">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -3240,7 +3253,7 @@
       </costs>
       <comment>Farsight</comment>
     </selectionEntry>
-    <selectionEntry id="562f-2820-3efc-633e" name="🤖 Exoarmadura XV88 Apocalipsis" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="562f-2820-3efc-633e" name="🤖 Exoarmadura XV88 Apocalipsis" hidden="false" collective="false" import="true" type="unit" sortIndex="154">
       <modifiers>
         <modifier type="set" field="a9a9-2915-69f6-d947" value="170">
           <conditions>
@@ -3388,7 +3401,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="17f3-c626-613b-5d0b" name="✈️ Caza AX3 Tiburon Lanza" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="17f3-c626-613b-5d0b" name="✈️ Caza AX3 Tiburon Lanza" hidden="false" collective="false" import="true" type="model" sortIndex="211">
       <infoLinks>
         <infoLink id="bc4d-b759-e2c7-d11b" name="Habilidades Tiburon Lanza" hidden="false" targetId="7349-ad90-fc5c-5b65" type="infoGroup"/>
       </infoLinks>
@@ -3462,7 +3475,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5e7f-f904-5b2b-00f7" name="✈️ Bombardero AX39 Tiburon Solar" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5e7f-f904-5b2b-00f7" name="✈️ Bombardero AX39 Tiburon Solar" hidden="false" collective="false" import="true" type="model" sortIndex="210">
       <infoLinks>
         <infoLink id="69f2-b8c9-3044-90b5" name="Habilidades Tiburon Solar" hidden="false" targetId="a634-10f6-8d80-0ba9" type="infoGroup"/>
       </infoLinks>
@@ -3496,7 +3509,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="160"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="baf3-12e6-dd44-4763" name="🎖️ Ojo de fuego" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="baf3-12e6-dd44-4763" name="🎖️ Ojo de fuego" hidden="false" collective="false" import="true" type="model" sortIndex="123">
       <infoLinks>
         <infoLink id="5700-d6a7-e39d-0e9a" name="Habilidades Ojo de Fuego" hidden="false" targetId="8ec5-db9d-9c51-7326" type="infoGroup"/>
       </infoLinks>
@@ -3615,7 +3628,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aaf9-7b9d-173f-1024" name="⭐ Comandante O&apos;Shaserra" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="aaf9-7b9d-173f-1024" name="⭐ Comandante O&apos;Shaserra" hidden="false" collective="false" import="true" type="model" sortIndex="103">
       <infoLinks>
         <infoLink id="8bc1-cacc-92b0-fcec" name="Habilidades O&apos;Shaserra" hidden="false" targetId="98ff-d878-463a-5a7b" type="infoGroup"/>
       </infoLinks>
@@ -3786,7 +3799,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d8c-4d61-84b9-9dc7" name="🤖 Exoarmaduras XV8 Crisis Forja Solar" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6d8c-4d61-84b9-9dc7" name="🤖 Exoarmaduras XV8 Crisis Forja Solar" hidden="false" collective="false" import="true" type="unit" sortIndex="152">
       <infoLinks>
         <infoLink id="c41a-0775-b1b1-1027" name="Habilidades XV8 Crisis Forja Solar" hidden="false" targetId="79d4-d90b-f4d9-f39e" type="infoGroup"/>
       </infoLinks>
@@ -3894,7 +3907,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ca4c-af15-6054-1baa" name="⚡ Escuadron TX3 Tetras" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ca4c-af15-6054-1baa" name="⚡ Escuadron TX3 Tetras" hidden="false" collective="false" import="true" type="unit" sortIndex="192">
       <infoLinks>
         <infoLink id="68c0-d147-fb16-3cef" name="Habilidades Tetra" hidden="false" targetId="5b17-4844-f996-803a" type="infoGroup"/>
       </infoLinks>
@@ -3935,9 +3948,6 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <costs>
-            <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="80"/>
-          </costs>
         </selectionEntry>
         <selectionEntry id="6b2e-0acc-ee33-0755" name="2on. Equipo Tetras" hidden="false" collective="false" import="true" type="model" sortIndex="2">
           <constraints>
@@ -3981,7 +3991,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="80"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d448-6bef-f979-5131" name="🧿 Rifle de induccion" hidden="false" collective="true" import="true" type="upgrade">
@@ -4208,7 +4218,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e813-a50a-2ed7-27a7" name="✈️ Caza AX52 Barracuda" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e813-a50a-2ed7-27a7" name="✈️ Caza AX52 Barracuda" hidden="false" collective="false" import="true" type="model" sortIndex="214">
       <infoLinks>
         <infoLink id="deea-6d6a-fcdb-59c3" name="Habilidades Barracuda" hidden="false" targetId="078d-8321-3788-5c7a" type="infoGroup"/>
       </infoLinks>
@@ -4316,7 +4326,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d804-245e-a165-44b5" name="⭐ Shi&apos;vre" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d804-245e-a165-44b5" name="⭐ Shi&apos;vre" hidden="false" collective="false" import="true" type="model" sortIndex="109">
       <infoLinks>
         <infoLink id="d8c5-aa59-8baa-0bbd" name="Habilidades Shi&apos;vre" hidden="false" targetId="6681-d328-85a0-fb26" type="infoGroup"/>
       </infoLinks>
@@ -4458,7 +4468,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2547-6bc1-0633-f89d" name="🏰 KV128 Ciclon " hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="2547-6bc1-0633-f89d" name="🏰 KV128 Ciclon " hidden="false" collective="false" import="true" type="model" sortIndex="220">
       <infoLinks>
         <infoLink id="dc1e-caa1-7ced-8f1d" name="Habilidades KV128 Ciclon" hidden="false" targetId="6eaa-361f-f578-e6f8" type="infoGroup"/>
       </infoLinks>
@@ -4584,7 +4594,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="360"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="070c-122c-f32f-6d5a" name="⚡ Escuadron de Drones DX6 Remoras" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="070c-122c-f32f-6d5a" name="⚡ Escuadron de Drones DX6 Remoras" hidden="false" collective="false" import="true" type="unit" sortIndex="193">
       <infoLinks>
         <infoLink id="c31f-21f4-86ab-1583" name="Habilidades Remoras" hidden="false" targetId="5e7d-2602-3c9d-a150" type="infoGroup"/>
       </infoLinks>
@@ -4639,7 +4649,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aa85-cb9b-5e4a-34a3" name="🤖 Exoarmadura XV107 R&apos;Varna" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="aa85-cb9b-5e4a-34a3" name="🤖 Exoarmadura XV107 R&apos;Varna" hidden="false" collective="false" import="true" type="model" sortIndex="157">
       <constraints>
         <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2513-9bfd-a741-dfd2" type="max"/>
       </constraints>
@@ -4693,7 +4703,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3589-6b2d-213c-63f5" name="🤖 Exoarmadura XV109 Y&apos;Vahra " hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3589-6b2d-213c-63f5" name="🤖 Exoarmadura XV109 Y&apos;Vahra " hidden="false" collective="false" import="true" type="model" sortIndex="158">
       <constraints>
         <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e0b-133e-3863-211b" type="max"/>
       </constraints>
@@ -4780,7 +4790,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="77d0-1b1d-b305-5118" name="🗡️ Acechantes Kroot" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="77d0-1b1d-b305-5118" name="🗡️ Acechantes Kroot" hidden="false" collective="false" import="true" type="unit" sortIndex="171">
       <infoLinks>
         <infoLink id="4e95-2b23-1e5c-cbc6" name="Habilidades Acechantes" hidden="false" targetId="b424-d898-4d9e-bcaa" type="infoGroup"/>
       </infoLinks>
@@ -5003,7 +5013,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="941b-00a4-d64e-11c4" name="🛡️ Linea de defensa rompeolas" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="941b-00a4-d64e-11c4" name="🛡️ Linea de defensa rompeolas" hidden="false" collective="false" import="true" type="model" sortIndex="241">
       <infoLinks>
         <infoLink id="62e4-e4f3-f109-e963" name="Habilidades linea de defensa rompeolas" hidden="false" targetId="865f-85fc-cb4a-ceae" type="infoGroup"/>
         <infoLink id="b233-e647-c4c1-9e79" name="Línea de defensa Rompeolas" hidden="false" targetId="f074-2dad-b37e-9aee" type="profile">
@@ -5038,7 +5048,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="85"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c3f3-a433-38ea-d853" name="🛡️ Dronepuerto rompeolas" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="c3f3-a433-38ea-d853" name="🛡️ Dronepuerto rompeolas" hidden="false" collective="false" import="true" type="model" sortIndex="240">
       <infoLinks>
         <infoLink id="fdae-1aed-3c5b-1ed2" name="Habilidades dronepuerto rompeolas" hidden="false" targetId="4e61-5fba-ef0e-8fc4" type="infoGroup"/>
       </infoLinks>
@@ -5046,7 +5056,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="85"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="955f-791f-37d5-834a" name="🛡️ Torreta rompeolas " hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="955f-791f-37d5-834a" name="🛡️ Torreta rompeolas " hidden="false" collective="false" import="true" type="model" sortIndex="242">
       <infoLinks>
         <infoLink id="ba85-aea1-23b2-c042" name="Habilidades torreta rompeolas" hidden="false" targetId="a4e1-8f55-ea7a-1727" type="infoGroup"/>
       </infoLinks>
@@ -5065,7 +5075,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cb0f-1541-8c2f-eecb" name="🏰 KX139 Ta&apos;Unar Supremacia" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="cb0f-1541-8c2f-eecb" name="🏰 KX139 Ta&apos;Unar Supremacia" hidden="false" collective="false" import="true" type="model" sortIndex="221">
       <infoLinks>
         <infoLink id="4881-cb0b-2ea5-c264" name="Habilidades KX139 Ta&apos;unar" hidden="false" targetId="623f-16eb-00cf-053a" type="infoGroup"/>
       </infoLinks>
@@ -5228,7 +5238,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="69aa-9c88-7e36-800c" name="✈️ Caza AX10 Tiburon Tigre" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="69aa-9c88-7e36-800c" name="✈️ Caza AX10 Tiburon Tigre" hidden="false" collective="false" import="true" type="model" sortIndex="212">
       <infoLinks>
         <infoLink id="039b-2314-88f9-8fa4" name="Habilidades AX10 Tigre" hidden="false" targetId="29b4-4a0a-902b-33ed" type="infoGroup"/>
       </infoLinks>
@@ -5284,7 +5294,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="315"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="187b-1f8d-fe9f-d6c4" name="✈️ Caza Tiburon Tigre" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="187b-1f8d-fe9f-d6c4" name="✈️ Caza Tiburon Tigre" hidden="false" collective="false" import="true" type="model" sortIndex="213">
       <infoLinks>
         <infoLink id="1b72-6bf4-e015-9dc1" name="Habilidades Tigre" hidden="false" targetId="e785-26ab-993b-6a97" type="infoGroup"/>
       </infoLinks>
@@ -5380,7 +5390,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="325"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="24f7-a935-9665-799d" name="⭐ Comandante O&apos;Kei&apos;ka" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="24f7-a935-9665-799d" name="⭐ Comandante O&apos;Kei&apos;ka" hidden="false" collective="false" import="true" type="model" sortIndex="102">
       <categoryLinks>
         <categoryLink id="13b7-af9b-6faa-50c6" name="Cuartel General" hidden="false" targetId="9d48-1013-e052-2c37" primary="false"/>
       </categoryLinks>
@@ -5442,7 +5452,7 @@
       </costs>
       <comment>Dawnstrike</comment>
     </selectionEntry>
-    <selectionEntry id="e384-752b-0b4e-6ebc" name="🤖 Exoarmaduras XV8 Crisis Cuchillo Igneo" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e384-752b-0b4e-6ebc" name="🤖 Exoarmaduras XV8 Crisis Cuchillo Igneo" hidden="false" collective="false" import="true" type="unit" sortIndex="151">
       <infoLinks>
         <infoLink id="a20d-96de-12ad-9518" name="Habilidades XV8 Crisis Cuchillo Igneo" hidden="false" targetId="dbee-7bad-342f-c945" type="infoGroup"/>
       </infoLinks>
@@ -5650,7 +5660,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="120"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c937-229d-51d0-da8d" name="🤖 Exoarmaduras XV8 Crisis Siegaestrellas" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c937-229d-51d0-da8d" name="🤖 Exoarmaduras XV8 Crisis Siegaestrellas" hidden="false" collective="false" import="true" type="unit" sortIndex="150">
       <infoLinks>
         <infoLink id="2b1e-e014-bb8b-2ea0" name="Habilidades XV8 Crisis Siegaestrellas" hidden="false" targetId="e537-5b23-f58d-7cd7" type="infoGroup"/>
       </infoLinks>
@@ -5983,7 +5993,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4bb8-c71a-b817-a570" name="🎖️ 🗡️ Lider Carnemorfo Kroot " hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="4bb8-c71a-b817-a570" name="🎖️ 🗡️ Lider Carnemorfo Kroot " hidden="false" collective="false" import="true" type="model" sortIndex="125">
       <infoLinks>
         <infoLink id="51df-8731-2cde-97a9" name="Habilidades Carnemorfo" hidden="false" targetId="a2b1-19aa-21a1-7eb0" type="infoGroup"/>
       </infoLinks>
@@ -5997,7 +6007,7 @@
         </entryLink>
         <entryLink id="ee86-e273-5028-cac1" name="⚔️ Cuchillas rituales" hidden="false" collective="false" import="true" targetId="6c15-fd65-a7d7-3eb9" type="selectionEntry" sortIndex="2">
           <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dafc-babb-9233-6ae2" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dafc-babb-9233-6ae2" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4185-0b27-c94e-8f7f" type="max"/>
           </constraints>
         </entryLink>
@@ -6008,7 +6018,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="45"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d2b8-c3f2-f88d-4f8a" name="🗡️ Auxiliares Rampagers Krootox" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d2b8-c3f2-f88d-4f8a" name="🗡️  Rampagers Krootox" hidden="false" collective="false" import="true" type="unit" sortIndex="174">
       <infoLinks>
         <infoLink id="1129-75ad-a2c8-ec75" name="Habilidades Krootox" hidden="false" targetId="42fe-2812-3f94-5e24" type="infoGroup"/>
       </infoLinks>
@@ -6049,9 +6059,6 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
-          <costs>
-            <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="85"/>
-          </costs>
         </selectionEntry>
         <selectionEntry id="0f33-35a6-0411-5a02" name="2on. Equipo Rampagers" hidden="false" collective="false" import="true" type="upgrade" sortIndex="2">
           <constraints>
@@ -6102,20 +6109,20 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="85"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0fdd-d22f-88ba-7e89" name="🎞️ Legendario" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0fdd-d22f-88ba-7e89" name="🎞️ Legendario" hidden="false" collective="false" import="true" type="upgrade" sortIndex="261">
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c948-fcc7-08f9-dd58" name="⚖️ Equilibrado" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c948-fcc7-08f9-dd58" name="⚖️ Equilibrado" hidden="false" collective="false" import="true" type="upgrade" sortIndex="260">
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a0cc-3abb-940c-a16e" name="🔎 Tipo de Juego" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a0cc-3abb-940c-a16e" name="🔎 Tipo de Juego" hidden="false" collective="false" import="true" type="upgrade" sortIndex="250">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbc7-c6e1-9ba5-55f4" type="max"/>
       </constraints>
@@ -6180,7 +6187,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ecfe-4334-6718-11a2" name="💀 Destacamentos" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ecfe-4334-6718-11a2" name="💀 Destacamentos" hidden="false" collective="false" import="true" type="upgrade" sortIndex="251">
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
@@ -6193,7 +6200,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry id="d7e0-ef92-55b5-df2f" name="⭐ Shas’vre Ohr&apos;tu" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d7e0-ef92-55b5-df2f" name="⭐ Shas’vre Ohr&apos;tu" hidden="false" collective="false" import="true" type="model" sortIndex="107">
       <infoLinks>
         <infoLink id="24d8-2e8a-fbbc-f1b6" name="Habilidades Shas&apos;vre Ohr&apos;tu" hidden="false" targetId="e7b4-df48-acaa-d32f" type="infoGroup"/>
       </infoLinks>
@@ -6350,14 +6357,6 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4a2b-4480-e6c9-4dc9" name="🧿 2x Sistemas de misiles inteligentes " hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="76b6-2aff-2215-a7cc" name="🧿 Sistema de Misiles Inteligentes " hidden="false" targetId="4f5c-62e5-3e5d-7c6d" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="3968-e8f5-61a3-62a6" name="⚔️ Arma Kroot Cac" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="8abd-f27b-efaa-246c" name="⚔️ Arma Kroot Cac" hidden="false" targetId="b13a-c94a-99f5-a302" type="profile"/>
@@ -6433,6 +6432,9 @@
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="84be-fa65-0ea2-9efb" id="56db-9615-f18a-b6df" primary="false" name="Impactos Letales"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="2d5d-d36a-d6bd-5598" name="🧿 Trabuco Kroot" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -6450,7 +6452,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0caa-effb-d134-53d7" name="🎖️ 🗡️ Lanza Solitaria Kroot" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="0caa-effb-d134-53d7" name="🎖️ 🗡️ Lanza Solitaria Kroot" hidden="false" collective="false" import="true" type="model" sortIndex="124">
       <infoLinks>
         <infoLink id="1f1c-3593-54e5-a65a" name="Habilidades Solitaria" hidden="false" targetId="a54a-05e5-d0c2-f8bb" type="infoGroup"/>
       </infoLinks>
@@ -6592,14 +6594,6 @@
     <selectionEntry id="5b74-0c7e-eed9-3c4f" name="🧿 Acelerador lineal" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="030c-602a-cdfc-7ef7" name="🧿 Acelerador lineal" hidden="false" targetId="0d8e-cdff-a6bc-eea6" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9df4-1b49-6926-a361" name="🧿 2x Cañón rotativo" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="c682-aa19-1375-c40e" name="🧿 Cañón Rotativo" hidden="false" targetId="b4fd-6044-d30a-4ffe" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
@@ -6789,7 +6783,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="10"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="⭐ Comandante O&apos;Tora&apos;ka " hidden="false" id="7227-0711-3410-fed3" collective="false">
+    <selectionEntry type="model" import="true" name="⭐ Comandante O&apos;Tora&apos;ka " hidden="false" id="7227-0711-3410-fed3" collective="false" sortIndex="105">
       <categoryLinks>
         <categoryLink name="Cuartel General" hidden="false" id="1208-7d20-2ab5-fefa" targetId="9d48-1013-e052-2c37" primary="false"/>
       </categoryLinks>
@@ -6878,7 +6872,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="⭐ Shas’vre Vash’an" hidden="false" id="ac7f-b5c8-71be-a06d" collective="false">
+    <selectionEntry type="model" import="true" name="⭐ Shas’vre Vash’an" hidden="false" id="ac7f-b5c8-71be-a06d" collective="false" sortIndex="108">
       <infoLinks>
         <infoLink name="Habilidades Shas’vre Vash’an" id="da44-c591-8610-bb39" hidden="false" targetId="9a26-90e8-e4e1-41f9" type="infoGroup"/>
       </infoLinks>
@@ -6929,7 +6923,7 @@
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="⭐🗡️ Noonien Singh Khan " hidden="false" id="cc22-413a-907f-61cb" collective="false">
+    <selectionEntry type="model" import="true" name="⭐🗡️ Noonien Singh Khan " hidden="false" id="cc22-413a-907f-61cb" collective="false" sortIndex="110">
       <infoLinks>
         <infoLink name="Habilidades Khan" id="f19c-4780-be45-5838" hidden="false" targetId="9a63-793f-3811-1755" type="infoGroup"/>
       </infoLinks>
@@ -6943,7 +6937,7 @@
             <categoryLink name="Ataques adicionales" hidden="false" id="4373-c1c1-951e-75f9" targetId="eb58-b5bf-030f-1beb" primary="false"/>
           </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="⚔️ Lanza explosiva kroot" hidden="false" id="6240-b522-5fff-59df" collective="false" targetId="5c74-a45d-fa5a-1ba8" type="selectionEntry" sortIndex="3">
+        <entryLink import="true" name="⚔️ Lanza explosiva Kroot" hidden="false" id="6240-b522-5fff-59df" collective="false" targetId="5c74-a45d-fa5a-1ba8" type="selectionEntry" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c8e0-c804-1caa-a9d6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efa8-dfce-01ba-8191" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -7197,7 +7191,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="🎖️ 🗡️ Lider Rastromorfo Kroot " hidden="false" id="bae2-130e-ba61-02a9" collective="false">
+    <selectionEntry type="model" import="true" name="🎖️ 🗡️ Lider Rastromorfo Kroot " hidden="false" id="bae2-130e-ba61-02a9" collective="false" sortIndex="127">
       <infoLinks>
         <infoLink name="Habilidades Rastromorfo" id="1bb8-fb1a-9555-99bd" hidden="false" targetId="185e-f073-6f97-3c42" type="infoGroup"/>
       </infoLinks>
@@ -7222,7 +7216,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="55"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="🗡️ Auxiliares Gran Knarloc" hidden="false" id="cd15-90aa-a2e6-eb16" collective="false">
+    <selectionEntry type="unit" import="true" name="🗡️ Gran Knarloc" hidden="false" id="cd15-90aa-a2e6-eb16" collective="false" sortIndex="176">
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="135"/>
       </costs>
@@ -7295,7 +7289,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="🗡️ Auxiliares Caballería Knarloc " hidden="false" id="4b4d-39a3-24e8-60c3" collective="false">
+    <selectionEntry type="unit" import="true" name="🗡️ Caballería Knarloc " hidden="false" id="4b4d-39a3-24e8-60c3" collective="false" sortIndex="175">
       <costs>
         <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="75"/>
       </costs>
@@ -7324,7 +7318,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5613-942b-966a-de6b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="⚔️ Garras y espolones caballeria Knarloc" hidden="false" id="a847-1c36-4a14-0566" collective="false" targetId="a9fd-06d3-22cf-96d0" type="selectionEntry" sortIndex="3">
+            <entryLink import="true" name="⚔️ Garras y espolones Knarloc" hidden="false" id="a847-1c36-4a14-0566" collective="false" targetId="a9fd-06d3-22cf-96d0" type="selectionEntry" sortIndex="3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9837-4faf-790d-5a94" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8091-8dac-60cc-9756" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -7358,6 +7352,61 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
       <categoryLinks>
         <categoryLink targetId="eb58-b5bf-030f-1beb" id="6961-1995-72ac-0e71" primary="false" name="Ataques adicionales"/>
       </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="🗡️ Gran Knarloc de suministros" hidden="false" id="c89e-cb20-1cdd-626b" collective="false" sortIndex="177">
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="100"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="⚔️ Mordisco y garras Gran Knarloc" hidden="false" id="4982-8162-fea1-e947" collective="false" targetId="8690-3840-cadb-2f5a" type="selectionEntry" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8809-3850-436b-2936" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0618-5884-0c53-6584" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="⚙️ Arnés de carga" hidden="false" id="a5a4-a245-1895-7f7a" targetId="2e39-5a7f-ccd6-1899" type="selectionEntry" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="135b-c1c4-7727-e0b2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f13-8512-4cd7-4099" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Habilidades Gran Knarloc" id="b656-2410-7b84-4d90" hidden="false" type="infoGroup" targetId="e88d-bd9b-e0ce-0160"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Carnivoros Kroot" hidden="false" id="0b6d-deb3-2993-e99e" collective="false" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9b41-c7ef-ff26-34bf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d908-986b-b9f6-baca" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="🧿 Rifle Kroot " hidden="false" id="7612-0326-ee4e-f11f" collective="true" targetId="4778-0ac8-7b8b-1655" type="selectionEntry" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="43b5-458b-38d7-a59c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="560c-2d83-72d7-d7f0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="⚔️ Arma Kroot Cac" hidden="false" id="e211-b1b2-eca0-8352" collective="true" targetId="3968-e8f5-61a3-62a6" type="selectionEntry" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2967-acdb-6058-fbe7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b31-229f-eb35-ae46" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="⚙️ Arnés de carga" hidden="false" id="2e39-5a7f-ccd6-1899" collective="false">
+      <infoLinks>
+        <infoLink name="⚙️ Arnés de carga" id="a545-baec-5aac-6716" hidden="false" targetId="f922-78c6-aa88-0830" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Pts" typeId="a9a9-2915-69f6-d947" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -7757,7 +7806,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a031-e2c5-6f7f-1532" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="6eb5-7bc4-d515-6ae5" name="🗡️ Auxiliares Carnivoros Kroot" hidden="false" collective="false" import="true" targetId="d065-76d2-87eb-05af" type="selectionEntry" sortIndex="2">
+        <entryLink id="6eb5-7bc4-d515-6ae5" name="🗡️ Carnivoros Kroot" hidden="false" collective="false" import="true" targetId="d065-76d2-87eb-05af" type="selectionEntry" sortIndex="2">
           <constraints>
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8624-50ae-71ab-d4d8" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0583-46be-9460-7da3" type="max"/>
@@ -7783,7 +7832,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="🗡️ Auxiliares Rampagers Krootox" hidden="true" id="9675-2b7c-c3b6-117a" type="selectionEntry" targetId="d2b8-c3f2-f88d-4f8a" sortIndex="3">
+        <entryLink import="true" name="🗡️  Rampagers Krootox" hidden="true" id="9675-2b7c-c3b6-117a" type="selectionEntry" targetId="d2b8-c3f2-f88d-4f8a" sortIndex="3">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -7792,7 +7841,7 @@ Si la unidad enemiga es un monstruo/vehículo hasta el final de la fase, cada ve
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="🗡️ Auxiliares Jinetes Krootox " hidden="true" id="bfb5-e866-beac-1416" type="selectionEntry" targetId="2045-282c-1819-cf17">
+        <entryLink import="true" name="🗡️ Jinetes Krootox " hidden="true" id="bfb5-e866-beac-1416" type="selectionEntry" targetId="2045-282c-1819-cf17">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -11373,7 +11422,7 @@ Fortificación es 15.</characteristic>
         <characteristic name="F" typeId="7017-08c2-c604-a2cd">5</characteristic>
         <characteristic name="FP" typeId="1631-1a54-f8f4-7b6d">-1</characteristic>
         <characteristic name="Daño" typeId="fa75-4365-1282-3357">2</characteristic>
-        <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425"/>
+        <characteristic name="Tipo" typeId="fee3-86e3-31ce-d425">Impactos letales.</characteristic>
       </characteristics>
     </profile>
     <profile id="cbbd-fc01-6e62-a1ed" name="⚙️ Lider Comandante" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
@@ -11541,7 +11590,7 @@ Fortificación es 15.</characteristic>
     </profile>
     <profile id="f6e3-9428-d175-8a24" name="⚙️ Atacar y desvanecerse" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
       <characteristics>
-        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">En tu fase de disparo, después de que esta miniatura haya disparado, si no hay unidades enemigas en su zona de amenaza, puede efectuar un movimiento normal de hasta 6&quot;. Si lo hace, hasta el final del turno, esta miniatura no puede ser elegida para declarar una carga.</characteristic>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Las unidades a 6 UM de esta miniatura repiten los 1 para impactar y para Herir.</characteristic>
       </characteristics>
     </profile>
     <profile id="c0ac-e5a7-c955-1141" name="⚙️ Exploración avanzada" hidden="false" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades">
@@ -12005,6 +12054,11 @@ Fortificación es 15.</characteristic>
     <profile name="⚙️ Carga de caballería Knarloc" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="5516-7de9-f8a8-9dd6">
       <characteristics>
         <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">Siempre que esta unidad carga, suma 1 al FP y Daño de sus lanzas de caza Kroot.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="⚙️ Arnés de carga" typeId="3fc2-16e2-c5c9-b68a" typeName="⚙️ Habilidades" hidden="false" id="f922-78c6-aa88-0830">
+      <characteristics>
+        <characteristic name="Descripcion" typeId="9913-944e-33a7-23a8">La unidades Kroot a 6 UM de esta unidad repiten los 1 para impactar y los 1 para Herir.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
